@@ -5,7 +5,7 @@
 ## 스터디원
 
 <a href="https://github.com/frontend-article-study/frontend-article-study-2/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=frontend-article-study/frontend-article-study-2" />
+  <img src="https://contrib.rocks/image?repo=jhsung23/frontend-article-study-2" />
 </a>
 
 ## 스터디 목적
