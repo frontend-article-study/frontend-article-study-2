@@ -142,3 +142,8 @@ class ConcreteObserver implements Observer {
 ## 가상 스테이션 설계하기
 
 <img width="336" alt="image" src="https://github.com/eileenjang/design-pattern/assets/82510378/3fa2beac-0d3f-4e1c-bb5d-4c0ceb6c8851">
+
+### 참고한 Reference
+
+- https://www.yes24.com/Product/Goods/108192370
+- https://inpa.tistory.com/entry/GOF-%F0%9F%92%A0-%EC%98%B5%EC%A0%80%EB%B2%84Observer-%ED%8C%A8%ED%84%B4-%EC%A0%9C%EB%8C%80%EB%A1%9C-%EB%B0%B0%EC%9B%8C%EB%B3%B4%EC%9E%90
