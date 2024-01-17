@@ -2,7 +2,7 @@
 
 우선! React Query가 Tanstack Query 로 이름을 변경했습니다!
 
-React Querysms React Application에서 서버의 상태를 불러오고, 캐싱하며, **지속적으로 동기화**하고 업데이트하는 작업을 도와주는 라이브러리 입니다. Hook을 사용하여 React Component 내부에서 자연스럽게 서버의 데이터를 사용할 수 있는 방법을 제안합니다.
+React Query는 React Application에서 서버의 상태를 불러오고, 캐싱하며, **지속적으로 동기화**하고 업데이트하는 작업을 도와주는 라이브러리 입니다. Hook을 사용하여 React Component 내부에서 자연스럽게 서버의 데이터를 사용할 수 있는 방법을 제안합니다.
 
 ### server state의 특징
 
@@ -22,7 +22,7 @@ React Querysms React Application에서 서버의 상태를 불러오고, 캐싱�
 ## 특징
 
 ### 캐싱
-: 특정 데이터의 복사본을 젖아하여 이후 동일한 데이터의 재접근 속도를 높힘
+: 특정 데이터의 복사본을 저장하여 이후 동일한 데이터의 재접근 속도를 높힘
 
 **그래서 언제 데이터를 갱신해주는데?**
 
@@ -58,6 +58,7 @@ cacheTime, //default: 5분 (60 * 5 * 1000)
 - 즉, 캐싱된 데이터를 계속 보여주는게 아니라 fetch 하는 동안 임시로 보여준다.
 
 > **Q. 그럼 각각 어느정도로 설정해줘야 좋은걸까..?**
+>
 > A. 일단..목적에 따라 다를것...
 >
 > 사용자가 자주 업데이트되는 데이터를 보여주는 페이지, 최신 정보를 유지하길 원한다면 **짧은 staleTime**
@@ -72,7 +73,9 @@ cacheTime, //default: 5분 (60 * 5 * 1000)
 : 프로젝트의 규모가 커지고 관리해야할 데이터가 넘치다 보면, Client에서 관리하는 데이터와 Server에서 관리하는 데이터가 분리될 필요성을 느끼게 됩니다.
 
 > Client Data: 모달 관련 데이터, 페이지 관련 데이터...
+>
 > Server Data: 사용자 정보, 비즈니스 로직 관련 정보...
+>
 > **비동기 API 호출을 통해 불러오는 데이터**들을 Server 데이터라고 할 수 있습니다!
 
 기존의 Redux,Recoil 등과 같은 **전역 상태 관리 라이브러리**들은 Client와 Server 데이터를 완벽히 분리해 관리에 용이하도록 충분한 기능이 지원된다고 보기 어렵습니다.
@@ -122,8 +125,6 @@ const { data, isLoading } = useQueries(
 `onSuccess` 와 `onError` 함수를 통해 fetch 성공과 실패에 대한 분기를 간단하게 구현할 수 있게 됩니다!
 
 ## 사용해보기!
-
-그전에 예시코드에서 사용될 훅들에 대해서 이해하고 가도록 하겠습니다.
 
 ### useQuery
 
@@ -234,20 +235,22 @@ function App() {
 useMutation 훅을 사용해 mutation을 생성합니다. mutation은 newTodo 객체를 인자로 받아, axios.post 함수를 사용해 '/todos' 경로에 POST 요청을 보냅니다.
 
 mutation 상태에 따라 다른 UI를 렌더링합니다.
-	- `isPending`
+
+	
+ - `isPending`
     	
-        - `'Adding todo...'` 
-        - 진행중 메시지
+     - 'Adding todo...'
+     - 진행중 메시지
         
-    - isError
+- `isError`
     
-    	- `<div>An error occurred: {mutation.error.message}</div>`
-        - 오류 메시지
+  - `<div>An error occurred: {mutation.error.message}</div>`
+  - 오류 메시지
         
-    - isSuccess
+- `isSuccess`
     
-    	- <div>Todo added!</div>
-        - 성공 메시지
+   - <div>Todo added!</div>
+   - 성공 메시지
         
 'Create Todo' 버튼을 클릭하면, mutation의 mutate 메서드를 호출해 새로운 할 일을 추가합니다.
 id로 현재시간, title로 'Do Laundry'인 새로운 할 일을 추가해주게 됩니다.
