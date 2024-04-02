@@ -148,7 +148,7 @@
 | 김재환 | [React는 Uncontrolled Component를 어떻게 받아들일까?](https://github.com/jhsung23/frontend-article-study-2/blob/main/jaehwan/uncontrolled-controlled/uncontrolled-controlled.md) |
 | 김진솔 | [MFA(Micro Frontend Architecture)](https://github.com/jhsung23/frontend-article-study-2/blob/main/jinsoul/Frontend-Micro-Architecture/Frontend-Micro.Architecture.md)            |
 | 성지현 | [barrel 패턴](https://github.com/jhsung23/frontend-article-study-2/blob/main/jihyun/barrel-pattern/barrel-pattern.md)                                                            |
-| 황창민 | yarn berry                                                                                                                                                                       |
+| 황창민 | [yarn berry ](https://github.com/frontend-article-study/frontend-article-study-2/blob/main/changmin/yarn%20berry%20%EB%8F%84%EC%9E%85%EA%B8%B0.md)                               |
 
 <!--
 표 템플릿
