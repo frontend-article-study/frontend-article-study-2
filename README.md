@@ -128,11 +128,11 @@
 
 #### 24/03/13
 
-| 발표자 | 발표 내용                                                                                                                                                 |
-| ------ | --------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 김진솔 | [React의 렌더링](https://github.com/jhsung23/frontend-article-study-2/blob/main/jinsoul/React-Deep-Dive-Book/3.React-Rendering/assets/React-Rendering.md) |
-| 성지현 | [Next.js로 SSG 구현하기](https://github.com/jhsung23/frontend-article-study-2/blob/main/jihyun/ssg/ssg.md)                                                |
-| 이현지 | Next parallel/intercepting routes 로 모달창 만들기                                                                                                        |
+| 발표자 | 발표 내용                                                                                                                                                                                                                                                   |
+| ------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 김진솔 | [React의 렌더링](https://github.com/jhsung23/frontend-article-study-2/blob/main/jinsoul/React-Deep-Dive-Book/3.React-Rendering/assets/React-Rendering.md)                                                                                                   |
+| 성지현 | [Next.js로 SSG 구현하기](https://github.com/jhsung23/frontend-article-study-2/blob/main/jihyun/ssg/ssg.md)                                                                                                                                                  |
+| 이현지 | [Next parallel/intercepting routes 로 모달창 만들기](https://github.com/frontend-article-study/frontend-article-study-2/blob/main/hyeonzii/modal-with-pararell-intersecting-routing/Next%20parallel%20/%20intercepting%20routes%20로%20모달창%20만들기!.md) |
 
 #### 24/03/20
 
@@ -148,7 +148,17 @@
 | 김재환 | [React는 Uncontrolled Component를 어떻게 받아들일까?](https://github.com/jhsung23/frontend-article-study-2/blob/main/jaehwan/uncontrolled-controlled/uncontrolled-controlled.md) |
 | 김진솔 | [MFA(Micro Frontend Architecture)](https://github.com/jhsung23/frontend-article-study-2/blob/main/jinsoul/Frontend-Micro-Architecture/Frontend-Micro.Architecture.md)            |
 | 성지현 | [barrel 패턴](https://github.com/jhsung23/frontend-article-study-2/blob/main/jihyun/barrel-pattern/barrel-pattern.md)                                                            |
-| 황창민 | [yarn berry ](https://github.com/frontend-article-study/frontend-article-study-2/blob/main/changmin/yarn%20berry%20%EB%8F%84%EC%9E%85%EA%B8%B0.md)                               |
+| 황창민 | [yarn berry](https://github.com/frontend-article-study/frontend-article-study-2/blob/main/changmin/yarn%20berry%20%EB%8F%84%EC%9E%85%EA%B8%B0.md)                                |
+
+#### 24/04/03
+
+| 발표자 | 발표 내용                                                                                                                                                          |
+| ------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| 김민주 | [이미지 최적화 - Lazy Loading](https://github.com/frontend-article-study/frontend-article-study-2/blob/main/minju/lazy-loading/lazy-loading.md)                    |
+| 김재환 | [Vite에 관하여](https://github.com/frontend-article-study/frontend-article-study-2/blob/main/jaehwan/vite-moduleSystem/vite-moduleSystem.md)                       |
+| 김진솔 | [Bundler](https://github.com/frontend-article-study/frontend-article-study-2/blob/main/jinsoul/Bundler/Bundler.md)                                                 |
+| 성지현 | [Immer는 어떻게 불변성을 유지하는걸까?](https://github.com/jhsung23/frontend-article-study-2/blob/main/jihyun/immer/Immer는%20어떻게%20불변성을%20유지하는걸까.md) |
+| 이현지 | [함수](https://github.com/frontend-article-study/frontend-article-study-2/blob/main/hyeonzii/function/함수.md)                                                     |
 
 <!--
 표 템플릿
@@ -157,7 +167,6 @@
 | 김민주 | []() |
 | 김재환 | []() |
 | 김진솔 | []() |
-| 사공지은 | []() |
 | 성지현 | []() |
 | 이현지 | []() |
 | 황창민 | []() |
