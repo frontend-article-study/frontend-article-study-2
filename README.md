@@ -160,6 +160,14 @@
 | 성지현 | [Immer는 어떻게 불변성을 유지하는걸까?](https://github.com/jhsung23/frontend-article-study-2/blob/main/jihyun/immer/Immer는%20어떻게%20불변성을%20유지하는걸까.md) |
 | 이현지 | [함수](https://github.com/frontend-article-study/frontend-article-study-2/blob/main/hyeonzii/function/함수.md)                                                     |
 
+#### 24/04/17
+
+| 발표자 | 발표 내용                                                                                                                                     |
+| ------ | --------------------------------------------------------------------------------------------------------------------------------------------- |
+| 김진솔 | [HOC (고차 컴포넌트)](https://github.com/frontend-article-study/frontend-article-study-2/blob/main/jinsoul/React-Deep-Dive-Book/4.HOC/HOC.md) |
+| 성지현 | [glob](https://github.com/frontend-article-study/frontend-article-study-2/blob/main/jihyun/glob/Glob%20패턴.md)                               |
+| 황창민 | [React Compiler & React 19]()                                                                                                                 |
+
 <!--
 표 템플릿
 | 발표자 | 발표 내용 |
