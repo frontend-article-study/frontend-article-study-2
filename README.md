@@ -166,7 +166,14 @@
 | ------ | --------------------------------------------------------------------------------------------------------------------------------------------- |
 | 김진솔 | [HOC (고차 컴포넌트)](https://github.com/frontend-article-study/frontend-article-study-2/blob/main/jinsoul/React-Deep-Dive-Book/4.HOC/HOC.md) |
 | 성지현 | [glob](https://github.com/frontend-article-study/frontend-article-study-2/blob/main/jihyun/glob/Glob%20패턴.md)                               |
-| 황창민 | [React Compiler & React 19]()                                                                                                                 |
+| 황창민 | React Compiler & React 19                                                                                                                     |
+
+#### 24/04/24
+
+| 발표자 | 발표 내용                                                                                                                                                                           |
+| ------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 김재환 | [React와 Vue의 비교](https://github.com/frontend-article-study/frontend-article-study-2/blob/main/jaehwan/React와%20vue의%20비교.md)                                                |
+| 성지현 | [소프트웨어의 버전을 표기하는 방법 - 시맨틱 버저닝](https://github.com/frontend-article-study/frontend-article-study-2/blob/main/jihyun/semantic-versioning/semantic-versioning.md) |
 
 <!--
 표 템플릿
