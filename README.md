@@ -184,6 +184,14 @@
 | 성지현 | [런타임과 제로 런타임 CSS](https://github.com/frontend-article-study/frontend-article-study-2/blob/main/jihyun/runtime-and-zero-runtime/runtime-and-zero-runtime.md)      |
 | 이현지 | [리액트 상태관리 라이브러리](https://github.com/frontend-article-study/frontend-article-study-2/blob/main/hyeonzii/react-state-library/리액트%20상태관리%20라이브러리.md) |
 
+#### 24/05/22
+
+| 발표자 | 발표 내용                                                                                                                                                                                                                                             |
+| ------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 김민주 | [XSS와 dangerouslySetInnerHTML](https://github.com/frontend-article-study/frontend-article-study-2/blob/main/minju/XSS-and-dangerouslySetInnerHTML/XSS-and-dangerouslySetInnerHTML.md)                                                                |
+| 김재환 | [실행 컨텍스트의 용어 변경으로 인한 문제 (전편)](<https://github.com/frontend-article-study/frontend-article-study-2/blob/main/jaehwan/실행%20컨텍스트의%20용어%20변경으로%20인한%20문제/실행%20컨텍스트의%20용어%20변경으로%20인한%20문제(전편).md>) |
+| 성지현 | [코어 웹 바이탈](https://github.com/frontend-article-study/frontend-article-study-2/blob/main/jihyun/core-web-vitals/core-web-vitals.md)                                                                                                              |
+
 <!--
 표 템플릿
 | 발표자 | 발표 내용 |
@@ -193,5 +201,4 @@
 | 김진솔 | []() |
 | 성지현 | []() |
 | 이현지 | []() |
-| 황창민 | []() |
 -->
