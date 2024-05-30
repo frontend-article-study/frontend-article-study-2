@@ -192,6 +192,13 @@
 | 김재환 | [실행 컨텍스트의 용어 변경으로 인한 문제 (전편)](<https://github.com/frontend-article-study/frontend-article-study-2/blob/main/jaehwan/실행%20컨텍스트의%20용어%20변경으로%20인한%20문제/실행%20컨텍스트의%20용어%20변경으로%20인한%20문제(전편).md>) |
 | 성지현 | [코어 웹 바이탈](https://github.com/frontend-article-study/frontend-article-study-2/blob/main/jihyun/core-web-vitals/core-web-vitals.md)                                                                                                              |
 
+#### 24/05/29
+
+| 발표자 | 발표 내용                                                                                                                               |
+| ------ | --------------------------------------------------------------------------------------------------------------------------------------- |
+| 김진솔 | 타입스크립트 제네릭                                                                                                                     |
+| 성지현 | [옵저버 패턴](https://github.com/frontend-article-study/frontend-article-study-2/blob/main/jihyun/observer-pattern/Observer-pattern.md) |
+
 <!--
 표 템플릿
 | 발표자 | 발표 내용 |
