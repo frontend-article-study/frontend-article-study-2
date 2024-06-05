@@ -194,10 +194,10 @@
 
 #### 24/05/29
 
-| 발표자 | 발표 내용                                                                                                                               |
-| ------ | --------------------------------------------------------------------------------------------------------------------------------------- |
-| 김진솔 | 타입스크립트 제네릭                                                                                                                     |
-| 성지현 | [옵저버 패턴](https://github.com/frontend-article-study/frontend-article-study-2/blob/main/jihyun/observer-pattern/Observer-pattern.md) |
+| 발표자 | 발표 내용                                                                                                                                       |
+| ------ | ----------------------------------------------------------------------------------------------------------------------------------------------- |
+| 김진솔 | [타입스크립트 제네릭](https://github.com/frontend-article-study/frontend-article-study-2/blob/main/jinsoul/TypeScript/02-Generic/02-Generic.md) |
+| 성지현 | [옵저버 패턴](https://github.com/frontend-article-study/frontend-article-study-2/blob/main/jihyun/observer-pattern/Observer-pattern.md)         |
 
 <!--
 표 템플릿
