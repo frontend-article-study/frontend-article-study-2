@@ -199,13 +199,24 @@
 | 김진솔 | [타입스크립트 제네릭](https://github.com/frontend-article-study/frontend-article-study-2/blob/main/jinsoul/TypeScript/02-Generic/02-Generic.md) |
 | 성지현 | [옵저버 패턴](https://github.com/frontend-article-study/frontend-article-study-2/blob/main/jihyun/observer-pattern/Observer-pattern.md)         |
 
+#### 24/06/05
+
+| 발표자 | 발표 내용                                                                                                                                                                      |
+| ------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| 박병규 | [SEO](https://github.com/frontend-article-study/frontend-article-study-2/blob/main/byeongkyu/seo.md)                                                                           |
+| 성지현 | [리액트 디자인 패턴](https://github.com/frontend-article-study/frontend-article-study-2/blob/main/jihyun/react-design-pattern/react-design-pattern.md)                         |
+| 이현지 | [TanStack Router 공식문서 보기](https://github.com/frontend-article-study/frontend-article-study-2/blob/main/hyeonzii/tanstack-router/TanStack%20Router!%20공식문서%20보기.md) |
+
 <!--
 표 템플릿
 | 발표자 | 발표 내용 |
 | ------ | --------- |
 | 김민주 | []() |
+| 김용현 | []() |
 | 김재환 | []() |
 | 김진솔 | []() |
+| 박병규 | []() |
 | 성지현 | []() |
 | 이현지 | []() |
+| 한혜선 | []() |
 -->
