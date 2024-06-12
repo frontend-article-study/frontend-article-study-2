@@ -207,6 +207,16 @@
 | 성지현 | [리액트 디자인 패턴](https://github.com/frontend-article-study/frontend-article-study-2/blob/main/jihyun/react-design-pattern/react-design-pattern.md)                         |
 | 이현지 | [TanStack Router 공식문서 보기](https://github.com/frontend-article-study/frontend-article-study-2/blob/main/hyeonzii/tanstack-router/TanStack%20Router!%20공식문서%20보기.md) |
 
+#### 24/06/12
+
+| 발표자 | 발표 내용                                                                                                                                                         |
+| ------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 김재환 | [WebRTC](https://github.com/frontend-article-study/frontend-article-study-2/blob/main/jaehwan/WebRTC/WebRTC.md)                                                   |
+| 김진솔 | [타입 추론, 호환, 별칭, 단언](https://github.com/frontend-article-study/frontend-article-study-2/blob/main/jinsoul/TypeScript/03-Typing/assets/03-Typing.md)      |
+| 박병규 | [Jest](https://github.com/frontend-article-study/frontend-article-study-2/blob/main/byeongkyu/Jest.md)                                                            |
+| 성지현 | [FOUT/FOIT와 폰트 최적화](https://github.com/frontend-article-study/frontend-article-study-2/blob/main/jihyun/font-optimization/FOUT%20FOIT와%20폰트%20최적화.md) |
+| 한혜선 | [React 19 기능 요약](https://github.com/frontend-article-study/frontend-article-study-2/blob/main/hyeseon/react%20v19%20기능%20요약.md)                           |
+
 <!--
 표 템플릿
 | 발표자 | 발표 내용 |
