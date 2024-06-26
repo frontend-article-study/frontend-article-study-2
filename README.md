@@ -217,6 +217,14 @@
 | 성지현 | [FOUT/FOIT와 폰트 최적화](https://github.com/frontend-article-study/frontend-article-study-2/blob/main/jihyun/font-optimization/FOUT%20FOIT와%20폰트%20최적화.md) |
 | 한혜선 | [React 19 기능 요약](https://github.com/frontend-article-study/frontend-article-study-2/blob/main/hyeseon/react%20v19%20기능%20요약.md)                           |
 
+#### 24/06/26
+
+| 발표자 | 발표 내용                                                                                                            |
+| ------ | -------------------------------------------------------------------------------------------------------------------- |
+| 박병규 | [ECMA2023](https://github.com/frontend-article-study/frontend-article-study-2/blob/main/byeongkyu/ECMA2023.md)       |
+| 성지현 | [INP](https://github.com/frontend-article-study/frontend-article-study-2/blob/main/jihyun/inp/inp.md)                |
+| 이현지 | [이벤트 객체](https://github.com/frontend-article-study/frontend-article-study-2/blob/main/hyeonzii/event/이벤트.md) |
+
 <!--
 표 템플릿
 | 발표자 | 발표 내용 |
