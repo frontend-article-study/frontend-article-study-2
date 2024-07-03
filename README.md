@@ -231,7 +231,7 @@
 | ------ | --------- |
 | 김민주 | []() |
 | 김용현 | []() |
-| 김재환 | [[Next14 Conf] How Next.js is delivering React’s vision for the future]() |
+| 김재환 | [[Next14 Conf] How Next.js is delivering React’s vision for the future](https://github.com/frontend-article-study/frontend-article-study-2/blob/main/jaehwan/%5BNext14%20Conf%5D%20How%20Next.js%20is%20delivering%20React%E2%80%99s%20vision%20for%20the%20future.md) |
 | 김진솔 | []() |
 | 박병규 | []() |
 | 성지현 | []() |
