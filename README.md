@@ -227,16 +227,14 @@
 
 #### 24/07/03
 
-| 발표자 | 발표 내용 |
-| ------ | --------- |
-| 김민주 | []() |
-| 김용현 | []() |
-| 김재환 | [[Next14 Conf] How Next.js is delivering React’s vision for the future](https://github.com/frontend-article-study/frontend-article-study-2/blob/main/jaehwan/%5BNext14%20Conf%5D%20How%20Next.js%20is%20delivering%20React%E2%80%99s%20vision%20for%20the%20future.md) |
-| 김진솔 | []() |
-| 박병규 | []() |
-| 성지현 | []() |
-| 이현지 | []() |
-| 한혜선 | []() |
+| 발표자 | 발표 내용                                                                                                                                                                                                                                                      |
+| ------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 김재환 | [[Next14 Conf] How Next.js is delivering React’s vision for the future](https://github.com/frontend-article-study/frontend-article-study-2/blob/main/jaehwan/%5BNext14%20Conf%5D%20How%20Next.js%20is%20delivering%20React’s%20vision%20for%20the%20future.md) |
+| 김진솔 | [타입스크립트 5.5 훑어보기](https://github.com/frontend-article-study/frontend-article-study-2/blob/main/jinsoul/TypeScript/04-TypeScript-v5.5/assets/04-TypeScript-v5.5.md#타입스크립트-55-훑어보기)                                                          |
+| 성지현 | [requestAnimationFrame (1)]()                                                                                                                                                                                                                                  |
+| 이현지 | [Promise와 async await](https://github.com/frontend-article-study/frontend-article-study-2/blob/main/hyeonzii/promise-async-await/Promise와%20async%20await.md)                                                                                                |
+| 한혜선 | [React Suspense](https://github.com/frontend-article-study/frontend-article-study-2/blob/main/hyeseon/react%20Suspense.md)                                                                                                                                     |
+
 <!--
 표 템플릿
 | 발표자 | 발표 내용 |
