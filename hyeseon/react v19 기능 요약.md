@@ -108,7 +108,7 @@ function Form({ formAction }) {
 ```
 
 ### <div id="useFormStatus">useFormStatus</div>
-useFormState를 호출하여, 폼이 마지막으로 제출 됐을 때 액션의 반환값에 접근 할 수 있습니다. 
+useFormStatus 호출하여, 폼이 마지막으로 제출 됐을 때 액션의 반환값에 접근 할 수 있습니다. 
 ```
 const { pending, data, method, action } = useFormStatus();
 ```
