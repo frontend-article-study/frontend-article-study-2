@@ -225,6 +225,18 @@
 | 성지현 | [INP](https://github.com/frontend-article-study/frontend-article-study-2/blob/main/jihyun/inp/inp.md)                |
 | 이현지 | [이벤트 객체](https://github.com/frontend-article-study/frontend-article-study-2/blob/main/hyeonzii/event/이벤트.md) |
 
+#### 24/07/03
+
+| 발표자 | 발표 내용 |
+| ------ | --------- |
+| 김민주 | []() |
+| 김용현 | []() |
+| 김재환 | [[Next14 Conf] How Next.js is delivering React’s vision for the future]() |
+| 김진솔 | []() |
+| 박병규 | []() |
+| 성지현 | []() |
+| 이현지 | []() |
+| 한혜선 | []() |
 <!--
 표 템플릿
 | 발표자 | 발표 내용 |
