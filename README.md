@@ -235,6 +235,13 @@
 | 이현지 | [Promise와 async await](https://github.com/frontend-article-study/frontend-article-study-2/blob/main/hyeonzii/promise-async-await/Promise와%20async%20await.md)                                                                                                |
 | 한혜선 | [React Suspense](https://github.com/frontend-article-study/frontend-article-study-2/blob/main/hyeseon/react%20Suspense.md)                                                                                                                                     |
 
+#### 24/07/10
+
+| 발표자 | 발표 내용                                                                                                                                                                        |
+| ---- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| 성지현 | [requestAnimationFrame (2)](https://github.com/frontend-article-study/frontend-article-study-2/blob/main/jihyun/raf/requestAnimationFrame.md#requestanimationframe이-등장한-이유) |
+
+
 <!--
 표 템플릿
 | 발표자 | 발표 내용 |
