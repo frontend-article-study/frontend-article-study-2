@@ -19,13 +19,13 @@
 
 ## OAuth 2.0 Overview
 ![](https://velog.velcdn.com/images/kyuuu_ul/post/d12d984c-f5a0-4ec7-a7e4-ebac2036490e/image.png)
-- Resource Owner
+- Resource Owner:
 해당 플랫폼에서 리소스를 소유하고 있는 사용자( 이용 유저 )
-- Authorization Server
+- Authorization Server:
 외부 플랫폼 리소스에 접근할 수 있는지 인증을 하는 서버
-- Resource Server
+- Resource Server:
 구글, 카카오, 네이버와 같이 보호되는 리소스를 가지는 서버
-- Client
+- Client:
 우리가 개발하려는 서비스
 
 ### 1. 로그인 요청
