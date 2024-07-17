@@ -227,26 +227,33 @@
 
 #### 24/07/03
 
-| 발표자 | 발표 내용                                                                                                                                                                                                                                                      |
-| ------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 발표자 | 발표 내용                                                                                                                                                                                                                                                        |
+| ------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | 김재환 | [\[Next14 Conf\] How Next.js is delivering React’s vision for the future](https://github.com/frontend-article-study/frontend-article-study-2/blob/main/jaehwan/%5BNext14%20Conf%5D%20How%20Next.js%20is%20delivering%20React’s%20vision%20for%20the%20future.md) |
-| 김진솔 | [타입스크립트 5.5 훑어보기](https://github.com/frontend-article-study/frontend-article-study-2/blob/main/jinsoul/TypeScript/04-TypeScript-v5.5/assets/04-TypeScript-v5.5.md#타입스크립트-55-훑어보기)                                                          |
-| 성지현 | [requestAnimationFrame (1)](https://github.com/frontend-article-study/frontend-article-study-2/blob/main/jihyun/raf/requestAnimationFrame.md)                                                                                                                                                                                                                                  |
-| 이현지 | [Promise와 async await](https://github.com/frontend-article-study/frontend-article-study-2/blob/main/hyeonzii/promise-async-await/Promise와%20async%20await.md)                                                                                                |
-| 한혜선 | [React Suspense](https://github.com/frontend-article-study/frontend-article-study-2/blob/main/hyeseon/react%20Suspense.md)                                                                                                                                     |
+| 김진솔 | [타입스크립트 5.5 훑어보기](https://github.com/frontend-article-study/frontend-article-study-2/blob/main/jinsoul/TypeScript/04-TypeScript-v5.5/assets/04-TypeScript-v5.5.md#타입스크립트-55-훑어보기)                                                            |
+| 성지현 | [requestAnimationFrame (1)](https://github.com/frontend-article-study/frontend-article-study-2/blob/main/jihyun/raf/requestAnimationFrame.md)                                                                                                                    |
+| 이현지 | [Promise와 async await](https://github.com/frontend-article-study/frontend-article-study-2/blob/main/hyeonzii/promise-async-await/Promise와%20async%20await.md)                                                                                                  |
+| 한혜선 | [React Suspense](https://github.com/frontend-article-study/frontend-article-study-2/blob/main/hyeseon/react%20Suspense.md)                                                                                                                                       |
 
 #### 24/07/10
 
-| 발표자 | 발표 내용                                                                                                                                                                        |
-| ---- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| 발표자 | 발표 내용                                                                                                                                                                         |
+| ------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | 성지현 | [requestAnimationFrame (2)](https://github.com/frontend-article-study/frontend-article-study-2/blob/main/jihyun/raf/requestAnimationFrame.md#requestanimationframe이-등장한-이유) |
 
+#### 24/07/17
+
+| 발표자 | 발표 내용                                                                                                                                                                         |
+| ------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 김재환 | [\[Next14 Conf\] 서드파티 성능 최적화](https://github.com/frontend-article-study/frontend-article-study-2/blob/main/jaehwan/%5BNext14%20Conf%5D%20서드%20파티%20로딩%20최적화.md) |
+| 박병규 | [OAuth 2.0](https://github.com/frontend-article-study/frontend-article-study-2/blob/main/byeongkyu/OAuth%202.0.md)                                                                |
+| 성지현 | [requestIdleCallback](https://github.com/frontend-article-study/frontend-article-study-2/blob/main/jihyun/ric/requestIdleCallback.md)                                             |
+| 한혜선 | [CSS Flex](https://github.com/frontend-article-study/frontend-article-study-2/blob/main/hyeseon/CSS%20Flex/index.md)                                                              |
 
 <!--
 표 템플릿
 | 발표자 | 발표 내용 |
 | ------ | --------- |
-| 김민주 | []() |
 | 김용현 | []() |
 | 김재환 | []() |
 | 김진솔 | []() |
