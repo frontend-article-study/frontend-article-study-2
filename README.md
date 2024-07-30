@@ -250,6 +250,13 @@
 | 성지현 | [requestIdleCallback](https://github.com/frontend-article-study/frontend-article-study-2/blob/main/jihyun/ric/requestIdleCallback.md)                                             |
 | 한혜선 | [CSS Flex](https://github.com/frontend-article-study/frontend-article-study-2/blob/main/hyeseon/CSS%20Flex/index.md)                                                              |
 
+#### 24/07/24
+
+| 발표자 | 발표 내용                                                                                                                                                                           |
+| ------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 김진솔 | [타입스크립트의 컴파일러 코드 let,const → var 변경](https://github.com/frontend-article-study/frontend-article-study-2/blob/main/jinsoul/JavaScript/01-Var-Vs-Let/01-Var-Vs-Let.md) |
+| 한혜선 | [자바스크립트 요청 취소](https://github.com/frontend-article-study/frontend-article-study-2/blob/main/hyeseon/JavaScript%20요청%20취소%2C%20프로미스%20결과%20폐기.md/index.md)     |
+
 <!--
 표 템플릿
 | 발표자 | 발표 내용 |
