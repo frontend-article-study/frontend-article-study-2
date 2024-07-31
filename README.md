@@ -257,6 +257,14 @@
 | 김진솔 | [타입스크립트의 컴파일러 코드 let,const → var 변경](https://github.com/frontend-article-study/frontend-article-study-2/blob/main/jinsoul/JavaScript/01-Var-Vs-Let/01-Var-Vs-Let.md) |
 | 한혜선 | [자바스크립트 요청 취소](https://github.com/frontend-article-study/frontend-article-study-2/blob/main/hyeseon/JavaScript%20요청%20취소%2C%20프로미스%20결과%20폐기.md/index.md)     |
 
+#### 24/07/31
+
+| 발표자 | 발표 내용                                                                                                                                                                                                                                                                                     |
+| ------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 김재환 | [\[Next14 Conf\] Performance in React and Next.js](https://github.com/frontend-article-study/frontend-article-study-2/blob/main/jaehwan/%5BNext14Conf%5D/%5BNext14%20Conf%5D%20Performance%20in%20React%20and%20Next.js.md)                                                                   |
+| 박병규 | [크로스 브라우징](https://github.com/frontend-article-study/frontend-article-study-2/blob/main/byeongkyu/Cross%20Browsing.md)                                                                                                                                                                 |
+| 한혜선 | [기능 주도 아키텍처(Feature Driven Architecture, FDA)](<https://github.com/frontend-article-study/frontend-article-study-2/blob/main/hyeseon/기능%20주도%20아키텍처(Feature%20Driven%20Architecture%2C%20FDA)%2C%20기능%20분할%20설계(Feature-Sliced%20Design%2C%20FSD)%20아키텍처/index.md>) |
+
 <!--
 표 템플릿
 | 발표자 | 발표 내용 |
