@@ -10,7 +10,7 @@ JavaScript는 단일 스레드로 동작하는 다는 것은 모두 알고 있�
 
 그러나 long task가 시작될 경우 브라우저는 해당 작업이 끝날 때까지 기다려야합니다.
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/19f8680d-c65a-4a78-88a7-bdce97cc1d0c/7050c447-3773-4873-8f61-be8680c759b6/1.png)
+![Untitled](./PerformanceInReactAndNext/1.png)
 
 60프레임이상이면 사람의 눈이 자연스럽게 느낍니다. 그렇다면 자연스러운 렌더링의 한 프레임은 16.7ms입니다.
 
