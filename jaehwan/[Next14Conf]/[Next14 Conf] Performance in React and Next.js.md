@@ -60,7 +60,7 @@ function SearchCities() {
     (아마 기존에는 검색 버튼을 통해 해결할 것이다.)
     
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/19f8680d-c65a-4a78-88a7-bdce97cc1d0c/39757699-165d-434d-b095-d8dbcccc9f54/2.png)
+![Untitled](./PerformanceInReactAndNext.js/2.png)
 
 1. **Rendering**
     
@@ -83,7 +83,7 @@ function SearchCities() {
 - 해당 업데이트는 백그라운드에서 렌더링하지만 즉시 DOM에 커밋하지 않습니다.
 - 변경사항은 브라우저가 유휴상태이거나 중요한 작업이 없을 경우 적용됩니다.
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/19f8680d-c65a-4a78-88a7-bdce97cc1d0c/7cb49afb-fe94-4f2e-a4e7-35c4a53e8a3b/3.png)
+![Untitled](./PerformanceInReactAndNext.js/3.png)
 
 **useTransition을 사용한 상태관리**
 
@@ -119,7 +119,7 @@ function SearchCities() {
 - 두개의 상태변경 중 setSearchQuery에 startTransition을 적용하여 우선순위를 낮춥니다.
 - 결과 : text 변경의 우선순위가 높아져 searchQuery에 막히지 않고 이벤트가 실행됩니다.
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/19f8680d-c65a-4a78-88a7-bdce97cc1d0c/b789b396-3678-493d-941b-0e99392cf94d/4.png)
+![Untitled](./PerformanceInReactAndNext.js/4.png)
 
 출처 : https://www.youtube.com/watch?v=SqVLqvsiAYQ&t=473s
 
@@ -130,7 +130,7 @@ React18에서 도입된 React Server Component입니다. Server Component의 Ser
 - HTML, JS 번들 단계를 건너뜁니다.
 - 서버에서 전달된 RSC payload를 처리하여 트리를 재구성하는 클라이언트 측 렌더러만 필요하게 됩니다.
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/19f8680d-c65a-4a78-88a7-bdce97cc1d0c/472045e2-b1f5-4f70-86e1-f0741d76247f/5.png)
+![Untitled](./PerformanceInReactAndNext.js/5.png)
 
 <aside>
 💡 **React Server Component payload(RSC Payload)**
@@ -156,7 +156,7 @@ useTransition + Suspense
 3. Suspence는 예외로 두어져 데이터가 사용 가능해지는 것을 기다립니다.
 4. Suspence의 데이터가 사용가능해지면 Suspence의 컴포넌트가 fallback을 대체합니다.
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/19f8680d-c65a-4a78-88a7-bdce97cc1d0c/18d7baab-b390-479c-9460-a1a99def0c11/6.png)
+![Untitled](./PerformanceInReactAndNext.js/6.png)
 
  
 
@@ -179,7 +179,7 @@ useTransition : 브라우저가 유휴상태일 때 렌더링
 
 - 비 순차 : 로딩이 빠른 순서대로 로드됩니다.
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/19f8680d-c65a-4a78-88a7-bdce97cc1d0c/6074972f-d401-48b1-8e2d-cdb101b640e5/7.png)
+![Untitled](./PerformanceInReactAndNext.js/7.png)
 
 **In-Order Streaming**
 
@@ -187,13 +187,13 @@ useTransition : 브라우저가 유휴상태일 때 렌더링
     - 부모에서부터 순차적으로 렌더링됩니다.
     - 이는 PHP의 접근방식과 비슷합니다.
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/19f8680d-c65a-4a78-88a7-bdce97cc1d0c/16f344ed-25d3-4743-89ad-7bfdd9436949/8.png)
+![Untitled](./PerformanceInReactAndNext.js/8.png)
 
 Streaming Control은 결국 Suspence의 기능과 useTransition을 섞어서  데이터컨트롤을 한다는 것인데. Suspence와 useTransition의 동작을 이해하는 게 좀 더 필요할듯.
 
 ### In Memory Cache
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/19f8680d-c65a-4a78-88a7-bdce97cc1d0c/1dc87faa-6d9c-4653-b781-5a4666e9bc6b/9.png)
+![Untitled](./PerformanceInReactAndNext.js/9.png)
 
 - fetch API를 사용하여 API를 호출할 경우 In-Memory-Cache에 response data가 저장됩니다.
     - In-Memory-Cache에 response data를 저장하는 코드가 궁금.
@@ -204,13 +204,13 @@ Streaming Control은 결국 Suspence의 기능과 useTransition을 섞어서  �
 
 ### App Router
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/19f8680d-c65a-4a78-88a7-bdce97cc1d0c/73b9efbc-8c53-4dd0-b801-f108f7b3b850/10.png)
+![Untitled](./PerformanceInReactAndNext.js/10.png)
 
 App Router를 사용할 경우 재조정 과정 최적화를 자동으로 진행한다.
 
 - Link 태그 적극 사용.
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/19f8680d-c65a-4a78-88a7-bdce97cc1d0c/f1339131-0899-44e0-8e11-98fa01b6178f/11.png)
+![Untitled](./PerformanceInReactAndNext.js/11.png)
 
 - 이러한 결과는 transition이기 때문에 변경 사항을 DOM에 성능 저하 없이 적용할 수 있을 때까지 메모리에 저장됩니다.
 
