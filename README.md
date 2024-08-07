@@ -265,6 +265,13 @@
 | 박병규 | [크로스 브라우징](https://github.com/frontend-article-study/frontend-article-study-2/blob/main/byeongkyu/Cross%20Browsing.md)                                                                                                                                                                 |
 | 한혜선 | [기능 주도 아키텍처(Feature Driven Architecture, FDA)](<https://github.com/frontend-article-study/frontend-article-study-2/blob/main/hyeseon/기능%20주도%20아키텍처(Feature%20Driven%20Architecture%2C%20FDA)%2C%20기능%20분할%20설계(Feature-Sliced%20Design%2C%20FSD)%20아키텍처/index.md>) |
 
+#### 24/08/07
+
+| 발표자 | 발표 내용                                                                                                                         |
+| ------ | --------------------------------------------------------------------------------------------------------------------------------- |
+| 김진솔 | [ajax](https://github.com/frontend-article-study/frontend-article-study-2/blob/main/jinsoul/JavaScript/02-Ajax/assets/02-Ajax.md) |
+| 성지현 | [reactivity](https://github.com/frontend-article-study/frontend-article-study-2/blob/main/jihyun/reactivity/reactivity.md)        |
+
 <!--
 표 템플릿
 | 발표자 | 발표 내용 |
