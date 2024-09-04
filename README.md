@@ -292,6 +292,12 @@
 | 김진솔 | [Web Component](https://github.com/frontend-article-study/frontend-article-study-2/blob/main/jinsoul/JavaScript/03-WebCoponent/WebComponent.md) |
 | 박병규 | [Memory leak](https://github.com/frontend-article-study/frontend-article-study-2/blob/main/byeongkyu/SSR에서의%20memory%20leak.md)              |
 
+#### 24/09/04
+
+| 발표자 | 발표 내용                                                                                                            |
+| ------ | -------------------------------------------------------------------------------------------------------------------- |
+| 한혜선 | [EC2](https://github.com/frontend-article-study/frontend-article-study-2/blob/main/hyeseon/EC2%20%26%20ECS/index.md) |
+
 <!--
 표 템플릿
 | 발표자 | 발표 내용 |
