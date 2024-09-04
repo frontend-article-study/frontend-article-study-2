@@ -279,6 +279,13 @@
 | 김재환 | [결제에서 쿠키 의존도가 높은 경우 생기는 이슈](https://github.com/frontend-article-study/frontend-article-study-2/blob/main/jaehwan/high-dependency-cookie/결제에서%20쿠키%20의존도가%20높은%20경우%20생기는%20이슈.md) |
 | 성지현 | [discriminated union](https://github.com/frontend-article-study/frontend-article-study-2/blob/main/jihyun/discriminated-union/discriminated-union.md)                                                                   |
 
+#### 24/08/28
+
+| 발표자 | 발표 내용                                                                                                                                       |
+| ------ | ----------------------------------------------------------------------------------------------------------------------------------------------- |
+| 김진솔 | [Web Component](https://github.com/frontend-article-study/frontend-article-study-2/blob/main/jinsoul/JavaScript/03-WebCoponent/WebComponent.md) |
+| 박병규 | [Memory leak](https://github.com/frontend-article-study/frontend-article-study-2/blob/main/byeongkyu/SSR에서의%20memory%20leak.md)              |
+
 <!--
 표 템플릿
 | 발표자 | 발표 내용 |
