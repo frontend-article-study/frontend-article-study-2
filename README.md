@@ -298,6 +298,13 @@
 | ------ | -------------------------------------------------------------------------------------------------------------------- |
 | 한혜선 | [EC2](https://github.com/frontend-article-study/frontend-article-study-2/blob/main/hyeseon/EC2%20%26%20ECS/index.md) |
 
+#### 24/09/11
+
+| 발표자 | 발표 내용                                                                                                                                                                                      |
+| ------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 김재환 | [React Server Component 0부터 10까지 알아보자](https://github.com/frontend-article-study/frontend-article-study-2/blob/main/jaehwan/React%20Server%20Component%200부터%2010까지%20알아보자.md) |
+| 성지현 | [type-only imports](https://github.com/frontend-article-study/frontend-article-study-2/blob/main/jihyun/type-only-imports/Type-only%20import.md)                                               |
+
 <!--
 표 템플릿
 | 발표자 | 발표 내용 |
