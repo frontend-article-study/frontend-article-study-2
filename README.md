@@ -276,8 +276,8 @@
 | 성지현 | [reactivity](https://github.com/frontend-article-study/frontend-article-study-2/blob/main/jihyun/reactivity/reactivity.md)        |
 
 <hr>
-<hr>
-<hr>
+
+> 여기서부터 변경된 스터디 방식에 따라 매주 2명이 발표를 진행합니다.
 
 #### 24/08/21
 
@@ -312,6 +312,13 @@
 | ------ | -------------------------------------------------------------------------------------------------------------------------- |
 | 김진솔 | [zod](https://github.com/frontend-article-study/frontend-article-study-2/blob/main/jinsoul/Zod/Zod.md)                     |
 | 한혜선 | [createPortal](https://github.com/frontend-article-study/frontend-article-study-2/blob/main/hyeseon/createPortal/index.md) |
+
+#### 24/10/02
+
+| 발표자 | 발표 내용                                                                                                                               |
+| ------ | --------------------------------------------------------------------------------------------------------------------------------------- |
+| 박병규 | [PNG vs SVG in Next.js/React](https://github.com/frontend-article-study/frontend-article-study-2/blob/main/byeongkyu/PNG%20vs%20SVG.md) |
+| 임거정 | [React 서버 컴포넌트]()                                                                                                                 |
 
 <!--
 표 템플릿
