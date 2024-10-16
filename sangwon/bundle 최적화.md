@@ -1,7 +1,7 @@
 # Bundle 최적화
 ## Bundling
 - 여러 JS 파일과 리소스들을 1개 또는 여러 개의 번들 형태로 묶는 방식
-- 번들링을 통해 네트워크 요청를 줄이고, 코드를 압축하여 로딩 시간을 최적화할 수 있음 (번들 사이즈와 로딩 시간은 반비례)
+- 번들링을 통해 네트워크 요청를 줄이고, 코드를 압축하여 로딩 시간을 최적화할 수 있음 (번들 사이즈와 로딩 시간은 비례)
 - Webpack, rollup, vite, ...
 
 ![image](https://github.com/user-attachments/assets/e374c1f5-e86b-4f92-a5dd-387fbf396546)
