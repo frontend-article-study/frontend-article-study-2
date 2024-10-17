@@ -320,6 +320,20 @@
 | 박병규 | [PNG vs SVG in Next.js/React](https://github.com/frontend-article-study/frontend-article-study-2/blob/main/byeongkyu/PNG%20vs%20SVG.md) |
 | 임거정 | [React 서버 컴포넌트]()                                                                                                                 |
 
+#### 24/10/17
+
+| 발표자 | 발표 내용                                                                                                                               |
+| ------ | --------------------------------------------------------------------------------------------------------------------------------------- |
+| 고상원 | [Bundle 최적화](https://github.com/frontend-article-study/frontend-article-study-2/blob/main/sangwon/bundle%20최적화.md) |
+| 이가연 | [JWT (JSON Web Token)](https://github.com/frontend-article-study/frontend-article-study-2/blob/main/gayeon/jwt.md)                                                                                                                 |
+
+#### 24/10/24 (예정)
+
+| 발표자 | 발표 내용                                                                                                                               |
+| ------ | --------------------------------------------------------------------------------------------------------------------------------------- |
+| 김재환 |  |
+| 김진솔 |  |
+
 <!--
 표 템플릿
 | 발표자 | 발표 내용 |
@@ -327,7 +341,6 @@
 | 고상원 | []() |
 | 김재환 | []() |
 | 김진솔 | []() |
-| 박병규 | []() |
 | 성지현 | []() |
 | 이가연 | []() |
 | 임거정 | []() |
