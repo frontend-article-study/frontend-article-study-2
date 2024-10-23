@@ -320,19 +320,26 @@
 | 박병규 | [PNG vs SVG in Next.js/React](https://github.com/frontend-article-study/frontend-article-study-2/blob/main/byeongkyu/PNG%20vs%20SVG.md) |
 | 임거정 | [React 서버 컴포넌트]()                                                                                                                 |
 
-#### 24/10/17
+#### 24/10/16
 
 | 발표자 | 발표 내용                                                                                                                               |
 | ------ | --------------------------------------------------------------------------------------------------------------------------------------- |
 | 고상원 | [Bundle 최적화](https://github.com/frontend-article-study/frontend-article-study-2/blob/main/sangwon/bundle%20최적화.md) |
 | 이가연 | [JWT (JSON Web Token)](https://github.com/frontend-article-study/frontend-article-study-2/blob/main/gayeon/jwt.md)                                                                                                                 |
 
-#### 24/10/24 (예정)
+#### 24/10/23
 
 | 발표자 | 발표 내용                                                                                                                               |
 | ------ | --------------------------------------------------------------------------------------------------------------------------------------- |
-| 김재환 |  |
-| 김진솔 |  |
+| 김재환 | [E2E 테스트 도입기](https://github.com/frontend-article-study/frontend-article-study-2/blob/main/jaehwan/e2e도입기/e2eTest.md) |
+| 김진솔 | [GraphQL vs REST](https://github.com/frontend-article-study/frontend-article-study-2/blob/main/jinsoul/GraphQL/GraphQL.md) |
+
+#### 24/10/30 (예정)
+
+| 발표자 | 발표 내용                                                                                                                               |
+| ------ | --------------------------------------------------------------------------------------------------------------------------------------- |
+| 성지현 | []() |
+| 한혜선 | []() |
 
 <!--
 표 템플릿
