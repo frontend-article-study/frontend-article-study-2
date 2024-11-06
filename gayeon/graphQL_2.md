@@ -16,7 +16,7 @@
 | 호출          | 여러 엔드포인트 호출 (/users, /articles) | 단일 엔드포인트 (/graphql)             |
 | 데이터 요청   | 항상 동일한 데이터 구조 (오버패칭)       | 클라이언트가 원하는 데이터만 요청 가능 |
 | 데이터 조작   | CRUD (GET, POST, DELETE, UPDATE)         | query(조회), mutation(수정)            |
-| **에러 처리** | HTTP 상태 코드로 에러 구분               | `errors` 필드를 통해 에러 정보 제공    |
+| 에러 처리 | HTTP 상태 코드로 에러 구분               | `errors` 필드를 통해 에러 정보 제공    |
 
 <br>
 
@@ -119,7 +119,31 @@ const resolvers = {
 
 - 클라이언트 데이터 요청
 
-  : #### Apollo-client
+```jsx
+query {
+  user(id: 1) {
+	  id
+    name
+    email
+    friends {
+      name
+    }
+  }
+}
+```
+
+```jsx
+mutation {
+  createUser(user: {id: 3, name: "John", email: "john@test.com"}) {
+    id
+    name
+    email
+  }
+}
+
+```
+
+  #### Apollo-client
 
   React 애플리케이션에서 GraphQL API와 쉽게 상호작용 가능 (리액트에서 사용할 경우 Redux를 대체 가능)
 
@@ -167,29 +191,7 @@ const resolvers = {
   `;
   ```
 
-```jsx
-query {
-  user(id: 1) {
-	  id
-    name
-    email
-    friends {
-      name
-    }
-  }
-}
-```
 
-```jsx
-mutation {
-  createUser(user: {id: 3, name: "John", email: "john@test.com"}) {
-    id
-    name
-    email
-  }
-}
-
-```
 
 - 응답 데이터
 
