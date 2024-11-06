@@ -43,6 +43,32 @@ axios
 
 : 데이터 조회(Query), 수정(Mutation)
 
+- 클라이언트 데이터 요청
+
+```jsx
+query {
+  user(id: 1) {
+    id
+    name
+    email
+    friends {
+      name
+    }
+  }
+}
+```
+
+```jsx
+mutation {
+  createUser(user: {id: 3, name: "John", email: "john@test.com"}) {
+    id
+    name
+    email
+  }
+}
+
+```
+
 - 스키마/타입 정의
   : 어떤 데이터를 요청하고 어떤 방식으로 요청을 보낼 수 있는지 정의
 
@@ -117,31 +143,7 @@ const resolvers = {
 }
 ```
 
-- 클라이언트 데이터 요청
 
-```jsx
-query {
-  user(id: 1) {
-	  id
-    name
-    email
-    friends {
-      name
-    }
-  }
-}
-```
-
-```jsx
-mutation {
-  createUser(user: {id: 3, name: "John", email: "john@test.com"}) {
-    id
-    name
-    email
-  }
-}
-
-```
 
   #### Apollo-client
 
