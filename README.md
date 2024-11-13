@@ -322,38 +322,44 @@
 
 #### 24/10/16
 
-| 발표자 | 발표 내용                                                                                                                               |
-| ------ | --------------------------------------------------------------------------------------------------------------------------------------- |
+| 발표자 | 발표 내용                                                                                                                |
+| ------ | ------------------------------------------------------------------------------------------------------------------------ |
 | 고상원 | [Bundle 최적화](https://github.com/frontend-article-study/frontend-article-study-2/blob/main/sangwon/bundle%20최적화.md) |
-| 이가연 | [JWT (JSON Web Token)](https://github.com/frontend-article-study/frontend-article-study-2/blob/main/gayeon/jwt.md)                                                                                                                 |
+| 이가연 | [JWT (JSON Web Token)](https://github.com/frontend-article-study/frontend-article-study-2/blob/main/gayeon/jwt.md)       |
 
 #### 24/10/23
 
-| 발표자 | 발표 내용                                                                                                                               |
-| ------ | --------------------------------------------------------------------------------------------------------------------------------------- |
+| 발표자 | 발표 내용                                                                                                                      |
+| ------ | ------------------------------------------------------------------------------------------------------------------------------ |
 | 김재환 | [E2E 테스트 도입기](https://github.com/frontend-article-study/frontend-article-study-2/blob/main/jaehwan/e2e도입기/e2eTest.md) |
-| 김진솔 | [GraphQL vs REST](https://github.com/frontend-article-study/frontend-article-study-2/blob/main/jinsoul/GraphQL/GraphQL.md) |
+| 김진솔 | [GraphQL vs REST](https://github.com/frontend-article-study/frontend-article-study-2/blob/main/jinsoul/GraphQL/GraphQL.md)     |
 
 #### 24/10/30
 
-| 발표자 | 발표 내용                                                                                                                               |
-| ------ | --------------------------------------------------------------------------------------------------------------------------------------- |
+| 발표자 | 발표 내용                                                                                                                                                        |
+| ------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | 성지현 | [fireEvent vs. userEvent](https://github.com/frontend-article-study/frontend-article-study-2/blob/main/jihyun/fireevent-userevent/fireEvent%20vs%20userEvent.md) |
-| 한혜선 | [CDN(Content Delivery Network)](https://github.com/frontend-article-study/frontend-article-study-2/blob/main/hyeseon/CDN/index.md) |
+| 한혜선 | [CDN(Content Delivery Network)](https://github.com/frontend-article-study/frontend-article-study-2/blob/main/hyeseon/CDN/index.md)                               |
 
 #### 24/11/06
 
-| 발표자 | 발표 내용                                                                                                                               |
-| ------ | --------------------------------------------------------------------------------------------------------------------------------------- |
+| 발표자 | 발표 내용                                                                                                               |
+| ------ | ----------------------------------------------------------------------------------------------------------------------- |
 | 이가연 | [REST API vs GraphQL](https://github.com/frontend-article-study/frontend-article-study-2/blob/main/gayeon/graphQL_2.md) |
 
-#### 24/11/13 (예정)
+#### 24/11/13
 
-| 발표자 | 발표 내용                                                                                                                               |
-| ------ | --------------------------------------------------------------------------------------------------------------------------------------- |
-| 고상원 | []() |
-| 임거정 | []() |
+| 발표자 | 발표 내용                                                                                                                                |
+| ------ | ---------------------------------------------------------------------------------------------------------------------------------------- |
+| 고상원 | [swagger-typescript-api](https://github.com/frontend-article-study/frontend-article-study-2/blob/main/sangwon/swagger-typescript-api.md) |
+| 임거정 | [responsive image]()                                                                                                                     |
 
+#### 24/11/20 (예정)
+
+| 발표자 | 발표 내용 |
+| ------ | --------- |
+| 김재환 | []()      |
+| 김진솔 | []()      |
 
 <!--
 표 템플릿
