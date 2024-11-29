@@ -361,12 +361,20 @@
 | 김재환 | [수정사항에 기민하게 대처하는 프론트엔드개발](https://github.com/frontend-article-study/frontend-article-study-2/blob/main/jaehwan/%EC%88%98%EC%A0%95%EC%82%AC%ED%95%AD%EC%97%90%20%EA%B8%B0%EB%AF%BC%ED%95%98%EA%B2%8C%20%EB%8C%80%EC%B2%98%ED%95%98%EB%8A%94%20%ED%94%84%EB%A1%A0%ED%8A%B8%EC%97%94%EB%93%9C%EA%B0%9C%EB%B0%9C/content.md)      |
 | 김진솔 | [QueryOptions](https://github.com/frontend-article-study/frontend-article-study-2/blob/main/jinsoul/Tanstack-Query/QueryOptions.md)      |
 
-#### 24/11/27 (예정)
+#### 24/11/27
 
 | 발표자 | 발표 내용 |
 | ------ | --------- |
-| 성지현 | []()      |
-| 한혜선 | []()      |
+| 성지현 | [asChild](https://github.com/frontend-article-study/frontend-article-study-2/blob/main/jihyun/asChild/asChild.md)      |
+| 한혜선 | [리액트 렌더링 단계](https://github.com/frontend-article-study/frontend-article-study-2/blob/main/hyeseon/리액트%20렌더링%20단계/index.md)      |
+
+#### 24/12/4 (예정)
+
+| 발표자 | 발표 내용 |
+| ---- | ------- |
+| 고상원 | []()    |
+| 이가연 | []()    |
+| 임거정 | []()    |
 
 <!--
 표 템플릿
