@@ -368,13 +368,19 @@
 | 성지현 | [asChild](https://github.com/frontend-article-study/frontend-article-study-2/blob/main/jihyun/asChild/asChild.md)      |
 | 한혜선 | [리액트 렌더링 단계](https://github.com/frontend-article-study/frontend-article-study-2/blob/main/hyeseon/리액트%20렌더링%20단계/index.md)      |
 
-#### 24/12/4 (예정)
+#### 24/12/4
 
 | 발표자 | 발표 내용 |
 | ---- | ------- |
-| 고상원 | []()    |
-| 이가연 | []()    |
+| 고상원 | [코드리뷰](https://github.com/frontend-article-study/frontend-article-study-2/blob/main/sangwon/코드리뷰.md)    |
 | 임거정 | []()    |
+
+#### 24/12/11 (예정)
+
+| 발표자 | 발표 내용 |
+| ---- | ------- |
+| 김재환 | []()    |
+| 김진솔 | []()    |
 
 <!--
 표 템플릿
