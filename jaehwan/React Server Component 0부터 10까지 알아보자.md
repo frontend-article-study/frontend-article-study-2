@@ -1,4 +1,4 @@
-[블로그 링크 조회수 올려주세여..](https://velog.io/@jaehwan/React-Server-Component-0%EB%B6%80%ED%84%B0-10%EA%B9%8C%EC%A7%80-%EC%95%8C%EC%95%84%EB%B3%B4%EC%9E%90)
+[블로그 링크 조회수 올려주세여..](https://velog.io/@jaehwan/%EC%9D%B4%EA%B1%B8-%EB%AA%A8%EB%A5%B4%EA%B3%A0-AppRouter%EB%A5%BC-%EC%82%AC%EC%9A%A9%ED%95%9C%EB%8B%A4%EA%B3%A0-RSC)
 
 ## 서론
 
