@@ -212,4 +212,3 @@ export default function CatchAll() {
 [Next.js 14 Tutorial - 32 - Parallel Intercepting Routes](https://www.youtube.com/watch?v=mVOvx9eVHg0)
 [[Next.js] 동적 라우팅(Catch all routes)](https://velog.io/@fkszm3/Next.js-%EB%8F%99%EC%A0%81-%EB%9D%BC%EC%9A%B0%ED%8C%85Catch-all-routes)
 [next.js default.tsx, 인터셉팅 라우트](https://velog.io/@tkrhdrhkdduf/next.js-default.tsx-%EC%9D%B8%ED%84%B0%EC%85%89%ED%8C%85-%EB%9D%BC%EC%9A%B0%ED%8A%B8)
-
