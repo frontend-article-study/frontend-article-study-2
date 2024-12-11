@@ -375,12 +375,19 @@
 | 고상원 | [코드리뷰](https://github.com/frontend-article-study/frontend-article-study-2/blob/main/sangwon/코드리뷰.md)    |
 | 임거정 | []()    |
 
-#### 24/12/11 (예정)
+#### 24/12/11
 
 | 발표자 | 발표 내용 |
 | ---- | ------- |
-| 김재환 | []()    |
-| 김진솔 | []()    |
+| 김재환 | [JIT 컴파일러](https://github.com/frontend-article-study/frontend-article-study-2/blob/main/jaehwan/JIT%20%EC%BB%B4%ED%8C%8C%EC%9D%BC%EB%9F%AC/README.md)    |
+| 김진솔 | [React19](https://github.com/frontend-article-study/frontend-article-study-2/blob/main/jinsoul/React/React19/React19.md)    |
+
+#### 24/12/18(예정)
+
+| 발표자 | 발표 내용 |
+| ---- | ------- |
+| 성지현 | []() |
+| 한혜선 | []() |
 
 <!--
 표 템플릿
