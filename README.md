@@ -382,11 +382,19 @@
 | 김재환 | [JIT 컴파일러](https://github.com/frontend-article-study/frontend-article-study-2/blob/main/jaehwan/JIT%20%EC%BB%B4%ED%8C%8C%EC%9D%BC%EB%9F%AC/README.md)    |
 | 김진솔 | [React19](https://github.com/frontend-article-study/frontend-article-study-2/blob/main/jinsoul/React/React19/React19.md)    |
 
-#### 24/12/18(예정)
+#### 24/12/26
 
 | 발표자 | 발표 내용 |
 | ---- | ------- |
-| 성지현 | []() |
+| 성지현 | [Index Signature](https://github.com/frontend-article-study/frontend-article-study-2/blob/main/jihyun/index-signature/Index%20Signature.md) |
+
+#### 25/01/08 (예정)
+
+| 발표자 | 발표 내용 |
+| ---- | ------- |
+| 고상원 | []() |
+| 김재환 | []() |
+| 김진솔 | []() |
 | 한혜선 | []() |
 
 <!--
@@ -397,7 +405,5 @@
 | 김재환 | []() |
 | 김진솔 | []() |
 | 성지현 | []() |
-| 이가연 | []() |
-| 임거정 | []() |
 | 한혜선 | []() |
 -->
