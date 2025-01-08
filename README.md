@@ -388,14 +388,20 @@
 | ---- | ------- |
 | 성지현 | [Index Signature](https://github.com/frontend-article-study/frontend-article-study-2/blob/main/jihyun/index-signature/Index%20Signature.md) |
 
-#### 25/01/08 (예정)
+#### 25/01/08
 
 | 발표자 | 발표 내용 |
 | ---- | ------- |
-| 고상원 | []() |
-| 김재환 | []() |
+| 고상원 | [Emoji](https://github.com/frontend-article-study/frontend-article-study-2/blob/main/sangwon/%EC%9D%B4%EB%AA%A8%EC%A7%80(Emoji).md) |
+| 김재환 | [네트워크 측면 웹 성능 향상](https://github.com/frontend-article-study/frontend-article-study-2/blob/main/jaehwan/%EB%B8%8C%EB%9D%BC%EC%9A%B0%EC%A0%80%20%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%82%B9/%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC%20%EC%B8%A1%EB%A9%B4%20%EC%9B%B9%20%EC%84%B1%EB%8A%A5%20%ED%96%A5%EC%83%81.md) |
+| 한혜선 | [React Native New Architecture (v0.76)](https://github.com/frontend-article-study/frontend-article-study-2/blob/main/hyeseon/React%20Native%20New%20Architecture%20(v0.76)/index.md) |
+
+### 25/01/15 (예정?)
+
+| 발표자 | 발표 내용 |
+| ---- | ------- |
 | 김진솔 | []() |
-| 한혜선 | []() |
+
 
 <!--
 표 템플릿
