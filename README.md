@@ -410,6 +410,12 @@
 | 고상원 | [Rspack](https://github.com/frontend-article-study/frontend-article-study-2/blob/main/sangwon/Rspack.md) |
 | 한혜선 | [Concurrent Rendering - 동시성 렌더링](https://github.com/frontend-article-study/frontend-article-study-2/blob/main/hyeseon/Concurrent%20Rendering%20-%20%EB%8F%99%EC%8B%9C%EC%84%B1%20%EB%A0%8C%EB%8D%94%EB%A7%81/index.md) |
 
+### 25/02/05 (예정)
+
+| 발표자 | 발표 내용 |
+| ------ | --------- |
+| 김재환 | []()      |
+| 한혜선 | []()      |
 
 <!--
 표 템플릿
