@@ -18,7 +18,7 @@ React 18에서 도입된 API 중 startTransition, useTransition, useDeferredValu
 <br/>
 
 **<예시-검색 기능에서 긴급한 업데이트와 전환 업데이트 분리>**
-![alt text](<스크린샷 2025-01-19 오전 10.50.50.png>)
+![alt text](image-1.png)
 
 **<예시-동시성 렌더링을 사용하지 않았을 경우>**
 
@@ -60,7 +60,7 @@ export default SearchFilter;
 ```
 
 => 검색창에 입력 값이 늦게 입력 된다.
-![alt text](<화면 기록 2025-01-20 오후 10.24.59.gif>)
+![alt text](record-2.gif)
 
 <br/>
 
@@ -120,7 +120,7 @@ export default SearchFilter;
 
 => 검색창에 입력 값이 빠르게 반영 된다.
 
-![alt text](<화면 기록 2025-01-20 오후 10.27.05.gif>)
+![alt text](record-1.gif)
 
 <br/>
 

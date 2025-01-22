@@ -403,12 +403,12 @@
 | 김진솔 | [프론트엔드 TDD](https://github.com/frontend-article-study/frontend-article-study-2/blob/main/jinsoul/FrontendTDD/FrontendTDD.md) |
 | 성지현 | [Event bus](https://github.com/frontend-article-study/frontend-article-study-2/blob/main/jihyun/event-bus/Eventbus.md) |
 
-### 25/01/22 (예정)
+### 25/01/22
 
 | 발표자 | 발표 내용 |
 | ---- | ------- |
-| 고상원 | []() |
-| 한혜선 | []() |
+| 고상원 | [Rspack](https://github.com/frontend-article-study/frontend-article-study-2/blob/main/sangwon/Rspack.md) |
+| 한혜선 | [Concurrent Rendering - 동시성 렌더링](https://github.com/frontend-article-study/frontend-article-study-2/blob/main/hyeseon/Concurrent%20Rendering%20-%20%EB%8F%99%EC%8B%9C%EC%84%B1%20%EB%A0%8C%EB%8D%94%EB%A7%81/index.md) |
 
 
 <!--
