@@ -414,8 +414,8 @@
 
 | 발표자 | 발표 내용 |
 | ------ | --------- |
-| 김재환 | []()      |
-| 한혜선 | []()      |
+| 김재환 | [주니어 개발자와 시니어 개발자의 차이](https://github.com/frontend-article-study/frontend-article-study-2/tree/main/jaehwan/%EC%8B%9C%EB%8B%88%EC%96%B4%20%EA%B0%9C%EB%B0%9C%EC%9E%90%EC%99%80%20%EC%A3%BC%EB%8B%88%EC%96%B4%20%EA%B0%9C%EB%B0%9C%EC%9E%90%EC%9D%98%20%EC%B0%A8%EC%9D%B4)      |
+| 한혜선 | [ky](https://github.com/frontend-article-study/frontend-article-study-2/blob/main/hyeseon/ky/index.md)      |
 
 <!--
 표 템플릿
