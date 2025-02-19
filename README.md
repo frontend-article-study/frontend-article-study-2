@@ -410,20 +410,37 @@
 | 고상원 | [Rspack](https://github.com/frontend-article-study/frontend-article-study-2/blob/main/sangwon/Rspack.md) |
 | 한혜선 | [Concurrent Rendering - 동시성 렌더링](https://github.com/frontend-article-study/frontend-article-study-2/blob/main/hyeseon/Concurrent%20Rendering%20-%20%EB%8F%99%EC%8B%9C%EC%84%B1%20%EB%A0%8C%EB%8D%94%EB%A7%81/index.md) |
 
-### 25/02/05 (예정)
+### 25/02/05
 
 | 발표자 | 발표 내용 |
 | ------ | --------- |
 | 김재환 | [주니어 개발자와 시니어 개발자의 차이](https://github.com/frontend-article-study/frontend-article-study-2/tree/main/jaehwan/%EC%8B%9C%EB%8B%88%EC%96%B4%20%EA%B0%9C%EB%B0%9C%EC%9E%90%EC%99%80%20%EC%A3%BC%EB%8B%88%EC%96%B4%20%EA%B0%9C%EB%B0%9C%EC%9E%90%EC%9D%98%20%EC%B0%A8%EC%9D%B4)      |
 | 한혜선 | [ky](https://github.com/frontend-article-study/frontend-article-study-2/blob/main/hyeseon/ky/index.md)      |
 
-<!--
-표 템플릿
+### 25/02/19
+
+| 발표자 | 발표 내용 |
+| ------ | --------- |
+| 김진솔 | [TCP](https://github.com/frontend-article-study/frontend-article-study-2/blob/main/jinsoul/Network/TCP/TCP.md) |
+| 성지현 | [document fragment](https://github.com/frontend-article-study/frontend-article-study-2/blob/main/jihyun/document-fragment/document-fragment.md) |
+| 임지원 | [css framework](https://github.com/frontend-article-study/frontend-article-study-2/blob/main/jiwon/css-framework/css-framework.md) |
+
+### 25/02/26 (예정)
+
 | 발표자 | 발표 내용 |
 | ------ | --------- |
 | 고상원 | []() |
 | 김재환 | []() |
+| 한혜선 | []() |
+
+<!--
+표 템플릿
+| 발표자 | 발표 내용 |
+| ---- | ------- |
+| 고상원 | []() |
+| 김재환 | []() |
 | 김진솔 | []() |
 | 성지현 | []() |
+| 임지원 | []() |
 | 한혜선 | []() |
 -->
