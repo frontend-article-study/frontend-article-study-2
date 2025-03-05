@@ -200,10 +200,75 @@ import ky from "ky";
 
 const json = await ky("https://example.com", {
   retry: {
-    limit: 10, // 최대 3번 재시도
+    limit: 10, // 최대 10번 재시도
     methods: ["get"], // GET 요청에서 재시도
     statusCodes: [413], // 특정 상태 코드(예: 서버 오류)에서만 재시도
     backoffLimit: 3000, // 재시도 간격
   },
 }).json();
 ```
+
+## ky와 axios에러 처리 방식 차이
+
+### axios
+
+```jsx
+import axios from "axios";
+
+axios
+  .get("https://api.example.com/data")
+  .then((response) => {
+    console.log(response.data);
+  })
+  .catch((error) => {
+    if (error.response) {
+      // 서버가 2xx 범위를 벗어나는 상태 코드로 응답한 경우
+      console.error("Server responded with an error:", error.response.status);
+      console.error("Response data:", error.response.data);
+    } else if (error.request) {
+      // 요청이 전송되었지만 응답을 받지 못한 경우
+      console.error("No response received:", error.request);
+    } else {
+      // 요청 설정 중에 오류가 발생한 경우
+      console.error("Error setting up the request:", error.message);
+    }
+    console.error("Error config:", error.config);
+  });
+```
+
+axios의 에러 객체는 다음과 같은 속성을 포함합니다:
+
+- `error.response`: 서버 응답이 있는 경우 (상태 코드가 2xx 범위 밖)
+- `error.request`: 요청은 전송되었지만 응답이 없는 경우
+- `error.message`: 요청 설정 중 오류가 발생한 경우 에러 메세지
+- `error.config`: 요청 설정 정보
+
+### ky
+
+```jsx
+import ky from "ky";
+
+ky.get("https://api.example.com/data")
+  .json()
+  .then((data) => {
+    console.log(data);
+  })
+  .catch((error) => {
+    if (error instanceof ky.HTTPError) {
+      // HTTP 에러 (4xx, 5xx 상태 코드)
+      console.error("HTTP Error Response:", error.response);
+      error.response.text().then((text) => {
+        console.error("Error response text:", text);
+      });
+    } else {
+      // 네트워크 오류 등 다른 종류의 에러
+      console.error("An error occurred:", error.message);
+    }
+  });
+```
+
+ky의 에러 처리 특징:
+
+- `HTTPError` 인스턴스를 통해 HTTP 에러를 처리합니다.
+- `error.response`를 통해 응답 객체에 접근할 수 있습니다.
+- 응답 본문은 비동기적으로 처리해야 합니다 (예: `error.response.text()` 또는 `error.response.json()`).
