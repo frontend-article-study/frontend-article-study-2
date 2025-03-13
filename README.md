@@ -432,12 +432,20 @@
 | 고상원 | [Evan King: 신입에서 Meta 스태프 엔지니어(IC6)까지 3년만에 성장한 비결](https://github.com/frontend-article-study/frontend-article-study-2/blob/main/sangwon/Evan%20King%3A%20신입에서%20Meta%20스태프%20엔지니어(IC6)까지%203년%20만에%20성장한%20비결.md) |
 | 김재환 | [과거 V8엔진의 JIT-Compiler](https://github.com/frontend-article-study/frontend-article-study-2/blob/main/jaehwan/과거%20V8엔진의%20JIT-Compiler/README.md) |
 
-### 25/03/05 (예정)
+### 25/03/12
 
 | 발표자 | 발표 내용 |
 | ---- | ------- |
-| 성지현 | []() |
-| 한혜선 | []() |
+| 김진솔 | [UDP](https://github.com/frontend-article-study/frontend-article-study-2/blob/main/jinsoul/Network/UDP/UDP.md) |
+| 성지현 | [typescript 활용](https://github.com/frontend-article-study/frontend-article-study-2/blob/main/jihyun/typescript/typescript-활용.md) |
+| 한혜선 | [Docker](https://github.com/frontend-article-study/frontend-article-study-2/blob/main/hyeseon/Docker/index.md) |
+
+### 25/03/19 예정
+
+| 발표자 | 발표 내용 |
+| ---- | ------- |
+| 고상원 | []() |
+| 김재환 | []() |
 
 <!--
 표 템플릿
@@ -447,6 +455,5 @@
 | 김재환 | []() |
 | 김진솔 | []() |
 | 성지현 | []() |
-| 임지원 | []() |
 | 한혜선 | []() |
 -->
