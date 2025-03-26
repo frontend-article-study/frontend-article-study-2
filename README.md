@@ -440,12 +440,20 @@
 | 성지현 | [typescript 활용](https://github.com/frontend-article-study/frontend-article-study-2/blob/main/jihyun/typescript/typescript-활용.md) |
 | 한혜선 | [Docker](https://github.com/frontend-article-study/frontend-article-study-2/blob/main/hyeseon/Docker/index.md) |
 
-### 25/03/19 예정
+### 25/03/26
 
 | 발표자 | 발표 내용 |
 | ---- | ------- |
-| 고상원 | []() |
-| 김재환 | []() |
+| 고상원 | [Ant%20Design%20v5%20Custom%20Theme](https://github.com/frontend-article-study/frontend-article-study-2/blob/main/sangwon/Ant%20Design%20v5%20Custom%20Theme.md) |
+| 김재환 | [SEO 파헤쳐보기 1 %3A Google 검색 동작 방식](https://github.com/frontend-article-study/frontend-article-study-2/blob/main/jaehwan/SEO/SEO 파헤쳐보기 1 %3A Google 검색 동작 방식.md) |
+
+### 25/04/2 예정
+
+| 발표자 | 발표 내용 |
+| ---- | ------- |
+| 김진솔 | []() |
+| 성지현 | []() |
+| 한혜선 | []() |
 
 <!--
 표 템플릿
