@@ -444,8 +444,8 @@
 
 | 발표자 | 발표 내용 |
 | ---- | ------- |
-| 고상원 | [Ant%20Design%20v5%20Custom%20Theme](https://github.com/frontend-article-study/frontend-article-study-2/blob/main/sangwon/Ant%20Design%20v5%20Custom%20Theme.md) |
-| 김재환 | [SEO 파헤쳐보기 1 %3A Google 검색 동작 방식](https://github.com/frontend-article-study/frontend-article-study-2/blob/main/jaehwan/SEO/SEO 파헤쳐보기 1 %3A Google 검색 동작 방식.md) |
+| 고상원 | [Ant Design v5 Custom Theme] (https://github.com/frontend-article-study/frontend-article-study-2/blob/main/sangwon/Ant%20Design%20v5%20Custom%20Theme.md) |
+| 김재환 | [SEO 파헤쳐보기 1 : Google 검색 동작 방식] (https://github.com/frontend-article-study/frontend-article-study-2/blob/main/jaehwan/SEO/SEO 파헤쳐보기 1 %3A Google 검색 동작 방식.md) |
 
 ### 25/04/2 예정
 
