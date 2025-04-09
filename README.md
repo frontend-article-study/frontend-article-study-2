@@ -382,22 +382,86 @@
 | 김재환 | [JIT 컴파일러](https://github.com/frontend-article-study/frontend-article-study-2/blob/main/jaehwan/JIT%20%EC%BB%B4%ED%8C%8C%EC%9D%BC%EB%9F%AC/README.md)    |
 | 김진솔 | [React19](https://github.com/frontend-article-study/frontend-article-study-2/blob/main/jinsoul/React/React19/React19.md)    |
 
-#### 24/12/18(예정)
+#### 24/12/26
 
 | 발표자 | 발표 내용 |
 | ---- | ------- |
+| 성지현 | [Index Signature](https://github.com/frontend-article-study/frontend-article-study-2/blob/main/jihyun/index-signature/Index%20Signature.md) |
+
+#### 25/01/08
+
+| 발표자 | 발표 내용 |
+| ---- | ------- |
+| 고상원 | [Emoji](https://github.com/frontend-article-study/frontend-article-study-2/blob/main/sangwon/%EC%9D%B4%EB%AA%A8%EC%A7%80(Emoji).md) |
+| 김재환 | [네트워크 측면 웹 성능 향상](https://github.com/frontend-article-study/frontend-article-study-2/blob/main/jaehwan/%EB%B8%8C%EB%9D%BC%EC%9A%B0%EC%A0%80%20%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%82%B9/%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC%20%EC%B8%A1%EB%A9%B4%20%EC%9B%B9%20%EC%84%B1%EB%8A%A5%20%ED%96%A5%EC%83%81.md) |
+| 한혜선 | [React Native New Architecture (v0.76)](https://github.com/frontend-article-study/frontend-article-study-2/blob/main/hyeseon/React%20Native%20New%20Architecture%20(v0.76)/index.md) |
+
+### 25/01/15
+
+| 발표자 | 발표 내용 |
+| ---- | ------- |
+| 김진솔 | [프론트엔드 TDD](https://github.com/frontend-article-study/frontend-article-study-2/blob/main/jinsoul/FrontendTDD/FrontendTDD.md) |
+| 성지현 | [Event bus](https://github.com/frontend-article-study/frontend-article-study-2/blob/main/jihyun/event-bus/Eventbus.md) |
+
+### 25/01/22
+
+| 발표자 | 발표 내용 |
+| ---- | ------- |
+| 고상원 | [Rspack](https://github.com/frontend-article-study/frontend-article-study-2/blob/main/sangwon/Rspack.md) |
+| 한혜선 | [Concurrent Rendering - 동시성 렌더링](https://github.com/frontend-article-study/frontend-article-study-2/blob/main/hyeseon/Concurrent%20Rendering%20-%20%EB%8F%99%EC%8B%9C%EC%84%B1%20%EB%A0%8C%EB%8D%94%EB%A7%81/index.md) |
+
+### 25/02/05
+
+| 발표자 | 발표 내용 |
+| ------ | --------- |
+| 김재환 | [주니어 개발자와 시니어 개발자의 차이](https://github.com/frontend-article-study/frontend-article-study-2/tree/main/jaehwan/%EC%8B%9C%EB%8B%88%EC%96%B4%20%EA%B0%9C%EB%B0%9C%EC%9E%90%EC%99%80%20%EC%A3%BC%EB%8B%88%EC%96%B4%20%EA%B0%9C%EB%B0%9C%EC%9E%90%EC%9D%98%20%EC%B0%A8%EC%9D%B4)      |
+| 한혜선 | [ky](https://github.com/frontend-article-study/frontend-article-study-2/blob/main/hyeseon/ky/index.md)      |
+
+### 25/02/19
+
+| 발표자 | 발표 내용 |
+| ------ | --------- |
+| 김진솔 | [TCP](https://github.com/frontend-article-study/frontend-article-study-2/blob/main/jinsoul/Network/TCP/TCP.md) |
+| 성지현 | [document fragment](https://github.com/frontend-article-study/frontend-article-study-2/blob/main/jihyun/document-fragment/document-fragment.md) |
+| 임지원 | [css framework](https://github.com/frontend-article-study/frontend-article-study-2/blob/main/jiwon/css-framework/css-framework.md) |
+
+### 25/02/26
+
+| 발표자 | 발표 내용 |
+| ---- | ------- |
+| 고상원 | [Evan King: 신입에서 Meta 스태프 엔지니어(IC6)까지 3년만에 성장한 비결](https://github.com/frontend-article-study/frontend-article-study-2/blob/main/sangwon/Evan%20King%3A%20신입에서%20Meta%20스태프%20엔지니어(IC6)까지%203년%20만에%20성장한%20비결.md) |
+| 김재환 | [과거 V8엔진의 JIT-Compiler](https://github.com/frontend-article-study/frontend-article-study-2/blob/main/jaehwan/과거%20V8엔진의%20JIT-Compiler/README.md) |
+
+### 25/03/12
+
+| 발표자 | 발표 내용 |
+| ---- | ------- |
+| 김진솔 | [UDP](https://github.com/frontend-article-study/frontend-article-study-2/blob/main/jinsoul/Network/UDP/UDP.md) |
+| 성지현 | [typescript 활용](https://github.com/frontend-article-study/frontend-article-study-2/blob/main/jihyun/typescript/typescript-활용.md) |
+| 한혜선 | [Docker](https://github.com/frontend-article-study/frontend-article-study-2/blob/main/hyeseon/Docker/index.md) |
+
+### 25/03/26
+
+| 발표자 | 발표 내용 |
+| ---- | ------- |
+| 고상원 | [Ant Design v5 Custom Theme](https://github.com/frontend-article-study/frontend-article-study-2/blob/main/sangwon/Ant%20Design%20v5%20Custom%20Theme.md) |
+| 김재환 | [SEO 파헤쳐보기 1 : Google 검색 동작 방식](https://github.com/frontend-article-study/frontend-article-study-2/blob/main/jaehwan/SEO/SEO%20%ED%8C%8C%ED%97%A4%EC%B3%90%EB%B3%B4%EA%B8%B0%201%20%3A%20Google%20%EA%B2%80%EC%83%89%20%EB%8F%99%EC%9E%91%20%EB%B0%A9%EC%8B%9D.md)) |
+
+### 25/04/2 예정
+
+| 발표자 | 발표 내용 |
+| ---- | ------- |
+| 김진솔 | []() |
 | 성지현 | []() |
 | 한혜선 | []() |
 
 <!--
 표 템플릿
 | 발표자 | 발표 내용 |
-| ------ | --------- |
+| ---- | ------- |
 | 고상원 | []() |
 | 김재환 | []() |
 | 김진솔 | []() |
 | 성지현 | []() |
-| 이가연 | []() |
-| 임거정 | []() |
 | 한혜선 | []() |
 -->
