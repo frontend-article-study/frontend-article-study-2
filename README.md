@@ -5,7 +5,7 @@
 ## 스터디원
 
 <a href="https://github.com/frontend-article-study/frontend-article-study-2/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=jhsung23/frontend-article-study-2" />
+  <img src="https://contrib.rocks/image?repo=frontend-article-study/frontend-article-study-2" />
 </a>
 
 ## 스터디 목적
@@ -41,7 +41,7 @@
 
 ## 스터디 진행 상황
 
-#### 23/12/27
+### 23/12/27
 
 | 발표자   | 발표 내용                                                                                                                                                                                                          |
 | -------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
@@ -52,7 +52,7 @@
 | 이현지   | [react-hook-form 알아보기](https://github.com/frontend-article-study/frontend-article-study-2/blob/main/hyeonzii/react-hook-form/react-hook-form_알아보기.md)                                                      |
 | 장효서   | [Strategy Pattern](https://github.com/frontend-article-study/frontend-article-study-2/blob/main/EJ/20231227/Strategy-pattern.md)                                                                                   |
 
-#### 24/01/03
+### 24/01/03
 
 | 발표자   | 발표 내용                                                                                                                                                                                                             |
 | -------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -62,7 +62,7 @@
 | 이현지   | [CORS 에러](https://github.com/frontend-article-study/frontend-article-study-2/blob/main/hyeonzii/cors-error/cors에러발생시.md)                                                                                       |
 | 장효서   | [Observer Pattern](https://github.com/frontend-article-study/frontend-article-study-2/blob/main/EJ/20240103/Observer-pattern.md)                                                                                      |
 
-#### 24/01/10
+### 24/01/10
 
 | 발표자   | 발표 내용                                                                                                                                                                           |
 | -------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -71,7 +71,7 @@
 | 이현지   | [리액트 컴포넌트 잘 만들어보자](https://github.com/frontend-article-study/frontend-article-study-2/blob/main/hyeonzii/react-component/리액트%20컴포넌트%20잘%20만들어보자.md)       |
 | 장효서   | [Decorator Pattern](https://github.com/frontend-article-study/frontend-article-study-2/blob/main/EJ/20240110/Decorator-pattern.md)                                                  |
 
-#### 24/01/17
+### 24/01/17
 
 | 발표자 | 발표 내용                                                                                                                                                                                 |
 | ------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -81,7 +81,7 @@
 | 이현지 | [Tanstack Query](https://github.com/frontend-article-study/frontend-article-study-2/blob/main/hyeonzii/tanstack-query/tanstack-query%20알아보자!%20.md)                                   |
 | 장효서 | [Factory Pattern](https://github.com/frontend-article-study/frontend-article-study-2/blob/main/EJ/20240117/Factory-pattern.md)                                                            |
 
-#### 24/01/24
+### 24/01/24
 
 | 발표자   | 발표 내용                                                                                                                                     |
 | -------- | --------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -89,7 +89,7 @@
 | 사공지은 | [React 최적화 - useMemo](https://github.com/frontend-article-study/frontend-article-study-2/blob/main/jieun/React%20최적화%20-%20useMemo.md)  |
 | 성지현   | [flux 패턴](https://github.com/frontend-article-study/frontend-article-study-2/blob/main/jihyun/flux/Flux%20패턴%20잘%20설명해%20보자!.md)    |
 
-#### 24/01/31
+### 24/01/31
 
 | 발표자   | 발표 내용                                                                                                                                                                                   |
 | -------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -100,7 +100,7 @@
 | 이현지   | [프론트엔드 테스트 방법 (MSW http, HttpResponse)](<https://github.com/frontend-article-study/frontend-article-study-2/blob/main/hyeonzii/frontend-test/프론트엔드%20테스트%20방법(MSW).md>) |
 | 장효서   | [Singleton Pattern](https://github.com/frontend-article-study/frontend-article-study-2/blob/main/EJ/20240124/Singleton-pattern.md)                                                          |
 
-#### 24/02/14
+### 24/02/14
 
 | 발표자   | 발표 내용                                                                                                                      |
 | -------- | ------------------------------------------------------------------------------------------------------------------------------ |
@@ -108,14 +108,14 @@
 | 성지현   | Context API의 리렌더링 이슈                                                                                                    |
 | 이현지   | persist                                                                                                                        |
 
-#### 24/02/21
+### 24/02/21
 
 | 발표자   | 발표 내용                                                                                                                                                                               |
 | -------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | 김진솔   | [React의 동등 비교](https://github.com/frontend-article-study/frontend-article-study-2/blob/main/jinsoul/React-Deep-Dive-Book/1.React-Equality-Comparison/React-Equality-Comparison.md) |
 | 사공지은 | 이미지 최적화                                                                                                                                                                           |
 
-#### 24/02/28
+### 24/02/28
 
 | 발표자 | 발표 내용                                                                                                                                                                         |
 | ------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -123,14 +123,14 @@
 | 성지현 | [검색 엔진 최적화를 위한 sitemap과 robots 알아보기](https://github.com/frontend-article-study/frontend-article-study-2/blob/main/jihyun/sitemap-and-robots/sitemap-and-robots.md) |
 | 이현지 | [Next와 스타일링 기법](https://github.com/frontend-article-study/frontend-article-study-2/blob/main/hyeonzii/next-styling/넥스트와스타일링기법.md)                                |
 
-#### 24/03/06
+### 24/03/06
 
 | 발표자   | 발표 내용                                                                                                                                          |
 | -------- | -------------------------------------------------------------------------------------------------------------------------------------------------- |
 | 사공지은 |                                                                                                                                                    |
 | 성지현   | [clonedeep vs immer](https://github.com/frontend-article-study/frontend-article-study-2/blob/main/jihyun/clonedeep-vs-immer/clonedeep-vs-immer.md) |
 
-#### 24/03/13
+### 24/03/13
 
 | 발표자 | 발표 내용                                                                                                                                                                                                                                                   |
 | ------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -138,14 +138,14 @@
 | 성지현 | [Next.js로 SSG 구현하기](https://github.com/frontend-article-study/frontend-article-study-2/blob/main/jihyun/ssg/ssg.md)                                                                                                                                    |
 | 이현지 | [Next parallel/intercepting routes 로 모달창 만들기](https://github.com/frontend-article-study/frontend-article-study-2/blob/main/hyeonzii/modal-with-pararell-intersecting-routing/Next%20parallel%20/%20intercepting%20routes%20로%20모달창%20만들기!.md) |
 
-#### 24/03/20
+### 24/03/20
 
 | 발표자 | 발표 내용                                                                                                                                                                       |
 | ------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | 성지현 | [React-Query를 사용하여 optimistic update 구현하기](https://github.com/frontend-article-study/frontend-article-study-2/blob/main/jihyun/optimistic-update/optimistic-update.md) |
 | 이현지 | [use 훑어보기](https://github.com/frontend-article-study/frontend-article-study-2/blob/main/hyeonzii/use/use%20훑어보기!.md)                                                    |
 
-#### 24/03/27
+### 24/03/27
 
 | 발표자 | 발표 내용                                                                                                                                                                                      |
 | ------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -154,7 +154,7 @@
 | 성지현 | [barrel 패턴](https://github.com/frontend-article-study/frontend-article-study-2/blob/main/jihyun/barrel-pattern/barrel-pattern.md)                                                            |
 | 황창민 | [yarn berry](https://github.com/frontend-article-study/frontend-article-study-2/blob/main/changmin/yarn%20berry%20%EB%8F%84%EC%9E%85%EA%B8%B0.md)                                              |
 
-#### 24/04/03
+### 24/04/03
 
 | 발표자 | 발표 내용                                                                                                                                                                        |
 | ------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -164,7 +164,7 @@
 | 성지현 | [Immer는 어떻게 불변성을 유지하는걸까?](https://github.com/frontend-article-study/frontend-article-study-2/blob/main/jihyun/immer/Immer는%20어떻게%20불변성을%20유지하는걸까.md) |
 | 이현지 | [함수](https://github.com/frontend-article-study/frontend-article-study-2/blob/main/hyeonzii/function/함수.md)                                                                   |
 
-#### 24/04/17
+### 24/04/17
 
 | 발표자 | 발표 내용                                                                                                                                     |
 | ------ | --------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -172,14 +172,14 @@
 | 성지현 | [glob](https://github.com/frontend-article-study/frontend-article-study-2/blob/main/jihyun/glob/Glob%20패턴.md)                               |
 | 황창민 | React Compiler & React 19                                                                                                                     |
 
-#### 24/04/24
+### 24/04/24
 
 | 발표자 | 발표 내용                                                                                                                                                                           |
 | ------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | 김재환 | [React와 Vue의 비교](https://github.com/frontend-article-study/frontend-article-study-2/blob/main/jaehwan/React와%20vue의%20비교.md)                                                |
 | 성지현 | [소프트웨어의 버전을 표기하는 방법 - 시맨틱 버저닝](https://github.com/frontend-article-study/frontend-article-study-2/blob/main/jihyun/semantic-versioning/semantic-versioning.md) |
 
-#### 24/05/08
+### 24/05/08
 
 | 발표자 | 발표 내용                                                                                                                                                                 |
 | ------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -187,7 +187,7 @@
 | 성지현 | [런타임과 제로 런타임 CSS](https://github.com/frontend-article-study/frontend-article-study-2/blob/main/jihyun/runtime-and-zero-runtime/runtime-and-zero-runtime.md)      |
 | 이현지 | [리액트 상태관리 라이브러리](https://github.com/frontend-article-study/frontend-article-study-2/blob/main/hyeonzii/react-state-library/리액트%20상태관리%20라이브러리.md) |
 
-#### 24/05/22
+### 24/05/22
 
 | 발표자 | 발표 내용                                                                                                                                                                                                                                             |
 | ------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -195,14 +195,14 @@
 | 김재환 | [실행 컨텍스트의 용어 변경으로 인한 문제 (전편)](<https://github.com/frontend-article-study/frontend-article-study-2/blob/main/jaehwan/실행%20컨텍스트의%20용어%20변경으로%20인한%20문제/실행%20컨텍스트의%20용어%20변경으로%20인한%20문제(전편).md>) |
 | 성지현 | [코어 웹 바이탈](https://github.com/frontend-article-study/frontend-article-study-2/blob/main/jihyun/core-web-vitals/core-web-vitals.md)                                                                                                              |
 
-#### 24/05/29
+### 24/05/29
 
 | 발표자 | 발표 내용                                                                                                                                       |
 | ------ | ----------------------------------------------------------------------------------------------------------------------------------------------- |
 | 김진솔 | [타입스크립트 제네릭](https://github.com/frontend-article-study/frontend-article-study-2/blob/main/jinsoul/TypeScript/02-Generic/02-Generic.md) |
 | 성지현 | [옵저버 패턴](https://github.com/frontend-article-study/frontend-article-study-2/blob/main/jihyun/observer-pattern/Observer-pattern.md)         |
 
-#### 24/06/05
+### 24/06/05
 
 | 발표자 | 발표 내용                                                                                                                                                                      |
 | ------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
@@ -210,7 +210,7 @@
 | 성지현 | [리액트 디자인 패턴](https://github.com/frontend-article-study/frontend-article-study-2/blob/main/jihyun/react-design-pattern/react-design-pattern.md)                         |
 | 이현지 | [TanStack Router 공식문서 보기](https://github.com/frontend-article-study/frontend-article-study-2/blob/main/hyeonzii/tanstack-router/TanStack%20Router!%20공식문서%20보기.md) |
 
-#### 24/06/12
+### 24/06/12
 
 | 발표자 | 발표 내용                                                                                                                                                         |
 | ------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -220,7 +220,7 @@
 | 성지현 | [FOUT/FOIT와 폰트 최적화](https://github.com/frontend-article-study/frontend-article-study-2/blob/main/jihyun/font-optimization/FOUT%20FOIT와%20폰트%20최적화.md) |
 | 한혜선 | [React 19 기능 요약](https://github.com/frontend-article-study/frontend-article-study-2/blob/main/hyeseon/react%20v19%20기능%20요약.md)                           |
 
-#### 24/06/26
+### 24/06/26
 
 | 발표자 | 발표 내용                                                                                                            |
 | ------ | -------------------------------------------------------------------------------------------------------------------- |
@@ -228,7 +228,7 @@
 | 성지현 | [INP](https://github.com/frontend-article-study/frontend-article-study-2/blob/main/jihyun/inp/inp.md)                |
 | 이현지 | [이벤트 객체](https://github.com/frontend-article-study/frontend-article-study-2/blob/main/hyeonzii/event/이벤트.md) |
 
-#### 24/07/03
+### 24/07/03
 
 | 발표자 | 발표 내용                                                                                                                                                                                                                                                        |
 | ------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -238,13 +238,13 @@
 | 이현지 | [Promise와 async await](https://github.com/frontend-article-study/frontend-article-study-2/blob/main/hyeonzii/promise-async-await/Promise와%20async%20await.md)                                                                                                  |
 | 한혜선 | [React Suspense](https://github.com/frontend-article-study/frontend-article-study-2/blob/main/hyeseon/react%20Suspense.md)                                                                                                                                       |
 
-#### 24/07/10
+### 24/07/10
 
 | 발표자 | 발표 내용                                                                                                                                                                         |
 | ------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | 성지현 | [requestAnimationFrame (2)](https://github.com/frontend-article-study/frontend-article-study-2/blob/main/jihyun/raf/requestAnimationFrame.md#requestanimationframe이-등장한-이유) |
 
-#### 24/07/17
+### 24/07/17
 
 | 발표자 | 발표 내용                                                                                                                                                                         |
 | ------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -253,14 +253,14 @@
 | 성지현 | [requestIdleCallback](https://github.com/frontend-article-study/frontend-article-study-2/blob/main/jihyun/ric/requestIdleCallback.md)                                             |
 | 한혜선 | [CSS Flex](https://github.com/frontend-article-study/frontend-article-study-2/blob/main/hyeseon/CSS%20Flex/index.md)                                                              |
 
-#### 24/07/24
+### 24/07/24
 
 | 발표자 | 발표 내용                                                                                                                                                                           |
 | ------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | 김진솔 | [타입스크립트의 컴파일러 코드 let,const → var 변경](https://github.com/frontend-article-study/frontend-article-study-2/blob/main/jinsoul/JavaScript/01-Var-Vs-Let/01-Var-Vs-Let.md) |
 | 한혜선 | [자바스크립트 요청 취소](https://github.com/frontend-article-study/frontend-article-study-2/blob/main/hyeseon/JavaScript%20요청%20취소%2C%20프로미스%20결과%20폐기.md/index.md)     |
 
-#### 24/07/31
+### 24/07/31
 
 | 발표자 | 발표 내용                                                                                                                                                                                                                                                                                     |
 | ------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -268,7 +268,7 @@
 | 박병규 | [크로스 브라우징](https://github.com/frontend-article-study/frontend-article-study-2/blob/main/byeongkyu/Cross%20Browsing.md)                                                                                                                                                                 |
 | 한혜선 | [기능 주도 아키텍처(Feature Driven Architecture, FDA)](<https://github.com/frontend-article-study/frontend-article-study-2/blob/main/hyeseon/기능%20주도%20아키텍처(Feature%20Driven%20Architecture%2C%20FDA)%2C%20기능%20분할%20설계(Feature-Sliced%20Design%2C%20FSD)%20아키텍처/index.md>) |
 
-#### 24/08/07
+### 24/08/07
 
 | 발표자 | 발표 내용                                                                                                                         |
 | ------ | --------------------------------------------------------------------------------------------------------------------------------- |
@@ -279,116 +279,116 @@
 
 > 여기서부터 변경된 스터디 방식에 따라 매주 2명이 발표를 진행합니다.
 
-#### 24/08/21
+### 24/08/21
 
 | 발표자 | 발표 내용                                                                                                                                                                                                               |
 | ------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | 김재환 | [결제에서 쿠키 의존도가 높은 경우 생기는 이슈](https://github.com/frontend-article-study/frontend-article-study-2/blob/main/jaehwan/high-dependency-cookie/결제에서%20쿠키%20의존도가%20높은%20경우%20생기는%20이슈.md) |
 | 성지현 | [discriminated union](https://github.com/frontend-article-study/frontend-article-study-2/blob/main/jihyun/discriminated-union/discriminated-union.md)                                                                   |
 
-#### 24/08/28
+### 24/08/28
 
 | 발표자 | 발표 내용                                                                                                                                       |
 | ------ | ----------------------------------------------------------------------------------------------------------------------------------------------- |
 | 김진솔 | [Web Component](https://github.com/frontend-article-study/frontend-article-study-2/blob/main/jinsoul/JavaScript/03-WebCoponent/WebComponent.md) |
 | 박병규 | [Memory leak](https://github.com/frontend-article-study/frontend-article-study-2/blob/main/byeongkyu/SSR에서의%20memory%20leak.md)              |
 
-#### 24/09/04
+### 24/09/04
 
 | 발표자 | 발표 내용                                                                                                            |
 | ------ | -------------------------------------------------------------------------------------------------------------------- |
 | 한혜선 | [EC2](https://github.com/frontend-article-study/frontend-article-study-2/blob/main/hyeseon/EC2%20%26%20ECS/index.md) |
 
-#### 24/09/11
+### 24/09/11
 
 | 발표자 | 발표 내용                                                                                                                                                                                      |
 | ------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | 김재환 | [React Server Component 0부터 10까지 알아보자](https://github.com/frontend-article-study/frontend-article-study-2/blob/main/jaehwan/React%20Server%20Component%200부터%2010까지%20알아보자.md) |
 | 성지현 | [type-only imports](https://github.com/frontend-article-study/frontend-article-study-2/blob/main/jihyun/type-only-imports/Type-only%20import.md)                                               |
 
-#### 24/09/25
+### 24/09/25
 
 | 발표자 | 발표 내용                                                                                                                  |
 | ------ | -------------------------------------------------------------------------------------------------------------------------- |
 | 김진솔 | [zod](https://github.com/frontend-article-study/frontend-article-study-2/blob/main/jinsoul/Zod/Zod.md)                     |
 | 한혜선 | [createPortal](https://github.com/frontend-article-study/frontend-article-study-2/blob/main/hyeseon/createPortal/index.md) |
 
-#### 24/10/02
+### 24/10/02
 
 | 발표자 | 발표 내용                                                                                                                               |
 | ------ | --------------------------------------------------------------------------------------------------------------------------------------- |
 | 박병규 | [PNG vs SVG in Next.js/React](https://github.com/frontend-article-study/frontend-article-study-2/blob/main/byeongkyu/PNG%20vs%20SVG.md) |
 | 임거정 | [React 서버 컴포넌트]()                                                                                                                 |
 
-#### 24/10/16
+### 24/10/16
 
 | 발표자 | 발표 내용                                                                                                                |
 | ------ | ------------------------------------------------------------------------------------------------------------------------ |
 | 고상원 | [Bundle 최적화](https://github.com/frontend-article-study/frontend-article-study-2/blob/main/sangwon/bundle%20최적화.md) |
 | 이가연 | [JWT (JSON Web Token)](https://github.com/frontend-article-study/frontend-article-study-2/blob/main/gayeon/jwt.md)       |
 
-#### 24/10/23
+### 24/10/23
 
 | 발표자 | 발표 내용                                                                                                                      |
 | ------ | ------------------------------------------------------------------------------------------------------------------------------ |
 | 김재환 | [E2E 테스트 도입기](https://github.com/frontend-article-study/frontend-article-study-2/blob/main/jaehwan/e2e도입기/e2eTest.md) |
 | 김진솔 | [GraphQL vs REST](https://github.com/frontend-article-study/frontend-article-study-2/blob/main/jinsoul/GraphQL/GraphQL.md)     |
 
-#### 24/10/30
+### 24/10/30
 
 | 발표자 | 발표 내용                                                                                                                                                        |
 | ------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | 성지현 | [fireEvent vs. userEvent](https://github.com/frontend-article-study/frontend-article-study-2/blob/main/jihyun/fireevent-userevent/fireEvent%20vs%20userEvent.md) |
 | 한혜선 | [CDN(Content Delivery Network)](https://github.com/frontend-article-study/frontend-article-study-2/blob/main/hyeseon/CDN/index.md)                               |
 
-#### 24/11/06
+### 24/11/06
 
 | 발표자 | 발표 내용                                                                                                               |
 | ------ | ----------------------------------------------------------------------------------------------------------------------- |
 | 이가연 | [REST API vs GraphQL](https://github.com/frontend-article-study/frontend-article-study-2/blob/main/gayeon/graphQL_2.md) |
 
-#### 24/11/13
+### 24/11/13
 
 | 발표자 | 발표 내용                                                                                                                                |
 | ------ | ---------------------------------------------------------------------------------------------------------------------------------------- |
 | 고상원 | [swagger-typescript-api](https://github.com/frontend-article-study/frontend-article-study-2/blob/main/sangwon/swagger-typescript-api.md) |
 | 임거정 | [responsive image]()                                                                                                                     |
 
-#### 24/11/20
+### 24/11/20
 
 | 발표자 | 발표 내용 |
 | ------ | --------- |
 | 김재환 | [수정사항에 기민하게 대처하는 프론트엔드개발](https://github.com/frontend-article-study/frontend-article-study-2/blob/main/jaehwan/%EC%88%98%EC%A0%95%EC%82%AC%ED%95%AD%EC%97%90%20%EA%B8%B0%EB%AF%BC%ED%95%98%EA%B2%8C%20%EB%8C%80%EC%B2%98%ED%95%98%EB%8A%94%20%ED%94%84%EB%A1%A0%ED%8A%B8%EC%97%94%EB%93%9C%EA%B0%9C%EB%B0%9C/content.md)      |
 | 김진솔 | [QueryOptions](https://github.com/frontend-article-study/frontend-article-study-2/blob/main/jinsoul/Tanstack-Query/QueryOptions.md)      |
 
-#### 24/11/27
+### 24/11/27
 
 | 발표자 | 발표 내용 |
 | ------ | --------- |
 | 성지현 | [asChild](https://github.com/frontend-article-study/frontend-article-study-2/blob/main/jihyun/asChild/asChild.md)      |
 | 한혜선 | [리액트 렌더링 단계](https://github.com/frontend-article-study/frontend-article-study-2/blob/main/hyeseon/리액트%20렌더링%20단계/index.md)      |
 
-#### 24/12/4
+### 24/12/4
 
 | 발표자 | 발표 내용 |
 | ---- | ------- |
 | 고상원 | [코드리뷰](https://github.com/frontend-article-study/frontend-article-study-2/blob/main/sangwon/코드리뷰.md)    |
 | 임거정 | []()    |
 
-#### 24/12/11
+### 24/12/11
 
 | 발표자 | 발표 내용 |
 | ---- | ------- |
 | 김재환 | [JIT 컴파일러](https://github.com/frontend-article-study/frontend-article-study-2/blob/main/jaehwan/JIT%20%EC%BB%B4%ED%8C%8C%EC%9D%BC%EB%9F%AC/README.md)    |
 | 김진솔 | [React19](https://github.com/frontend-article-study/frontend-article-study-2/blob/main/jinsoul/React/React19/React19.md)    |
 
-#### 24/12/26
+### 24/12/26
 
 | 발표자 | 발표 내용 |
 | ---- | ------- |
 | 성지현 | [Index Signature](https://github.com/frontend-article-study/frontend-article-study-2/blob/main/jihyun/index-signature/Index%20Signature.md) |
 
-#### 25/01/08
+### 25/01/08
 
 | 발표자 | 발표 내용 |
 | ---- | ------- |
@@ -447,10 +447,25 @@
 | 고상원 | [Ant Design v5 Custom Theme](https://github.com/frontend-article-study/frontend-article-study-2/blob/main/sangwon/Ant%20Design%20v5%20Custom%20Theme.md) |
 | 김재환 | [SEO 파헤쳐보기 1 : Google 검색 동작 방식](https://github.com/frontend-article-study/frontend-article-study-2/blob/main/jaehwan/SEO/SEO%20%ED%8C%8C%ED%97%A4%EC%B3%90%EB%B3%B4%EA%B8%B0%201%20%3A%20Google%20%EA%B2%80%EC%83%89%20%EB%8F%99%EC%9E%91%20%EB%B0%A9%EC%8B%9D.md)) |
 
-### 25/04/2 예정
+### 25/04/9 
 
 | 발표자 | 발표 내용 |
 | ---- | ------- |
+| 김진솔 | [VirtualDOM 만들기](https://github.com/frontend-article-study/frontend-article-study-2/blob/main/jinsoul/React/virtualDOM/virtualDOM.md) |
+| 성지현 | [clear removeQueries resetQueries 비교](https://github.com/frontend-article-study/frontend-article-study-2/blob/main/jihyun/reactquery/clear-vs-removeQueries-vs-resetQueries.md) |
+| 한혜선 | [웹접근성](https://github.com/frontend-article-study/frontend-article-study-2/blob/main/hyeseon/웹접근성/index.md) |
+
+### 25/04/16
+
+| 발표자 | 발표 내용 |
+| ---- | ------- |
+| 김재환 | []() |
+
+### 25/04/23 (예정)
+
+| 발표자 | 발표 내용 |
+| ---- | ------- |
+| 고상원 | []() |
 | 김진솔 | []() |
 | 성지현 | []() |
 | 한혜선 | []() |
