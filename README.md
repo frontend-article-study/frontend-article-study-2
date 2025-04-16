@@ -459,7 +459,7 @@
 
 | 발표자 | 발표 내용 |
 | ---- | ------- |
-| 김재환 | []() |
+| 김재환 | [SEO 파헤쳐보기 2 : 실무에 도움되는 요소](https://github.com/frontend-article-study/frontend-article-study-2/blob/main/jaehwan/SEO/SEO%20%ED%8C%8C%ED%97%A4%EC%B3%90%EB%B3%B4%EA%B8%B0%202%20%3A%20%EC%8B%A4%EB%AC%B4%EC%97%90%20%EB%8F%84%EC%9B%80%EB%90%98%EB%8A%94%20%EC%9A%94%EC%86%8C.md) |
 
 ### 25/04/23 (예정)
 
