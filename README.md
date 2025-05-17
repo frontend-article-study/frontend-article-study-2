@@ -475,7 +475,7 @@
 | 발표자 | 발표 내용 |
 | ---- | ------- |
 | 고상원 | []() |
-| 김재환 | [센트리 제대로 사용해보기](jaehwan/센트리 제대로 사용해보기/README.md)](https://github.com/frontend-article-study/frontend-article-study-2/blob/21b45aaaa31969153c1ca1640d6a685bc8bf602e/jaehwan/%EC%84%BC%ED%8A%B8%EB%A6%AC%20%EC%A0%9C%EB%8C%80%EB%A1%9C%20%EC%82%AC%EC%9A%A9%ED%95%B4%EB%B3%B4%EA%B8%B0/README.md) |
+| 김재환 | [센트리 제대로 사용해보기](https://github.com/frontend-article-study/frontend-article-study-2/blob/21b45aaaa31969153c1ca1640d6a685bc8bf602e/jaehwan/%EC%84%BC%ED%8A%B8%EB%A6%AC%20%EC%A0%9C%EB%8C%80%EB%A1%9C%20%EC%82%AC%EC%9A%A9%ED%95%B4%EB%B3%B4%EA%B8%B0/README.md) |
 
 
 <!--
