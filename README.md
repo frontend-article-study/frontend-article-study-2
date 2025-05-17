@@ -474,7 +474,7 @@
 
 | 발표자 | 발표 내용 |
 | ---- | ------- |
-| 고상원 | [](https://github.com/frontend-article-study/frontend-article-study-2/blob/36fa51ce38e3c5ecfc52ae5319f8611fb75f7813/sangwon/Github%20Copilot%20Agent%20mode%20%26%20MCP.md) |
+| 고상원 | [Github Copilot Agent mode & MCP.md](https://github.com/frontend-article-study/frontend-article-study-2/blob/36fa51ce38e3c5ecfc52ae5319f8611fb75f7813/sangwon/Github%20Copilot%20Agent%20mode%20%26%20MCP.md) |
 | 김재환 | [센트리 제대로 사용해보기](https://github.com/frontend-article-study/frontend-article-study-2/blob/21b45aaaa31969153c1ca1640d6a685bc8bf602e/jaehwan/%EC%84%BC%ED%8A%B8%EB%A6%AC%20%EC%A0%9C%EB%8C%80%EB%A1%9C%20%EC%82%AC%EC%9A%A9%ED%95%B4%EB%B3%B4%EA%B8%B0/README.md) |
 
 
