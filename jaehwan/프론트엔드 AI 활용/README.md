@@ -1,6 +1,7 @@
 # AI 활용(Cursor, Stagewise, CodeRabbit)
 
 ## CodeRabbit
+- 코드리뷰 AI!
 
 ### .coderabbit.yaml 설정
 
@@ -145,8 +146,26 @@ pnpm i -D @stagewise/toolbar
 import dynamic from 'next/dynamic'
 
 const StagewiseToolbarClient = dynamic(() => import('./_components/StagewiseToolbarClient'), {
-  ssr: false,
+	ssr: false,
 })
+
+
+export default function RootLayout({
+	children,
+}: Readonly<{
+	children: React.ReactNode
+}>) {
+	return (
+		<html lang="en">
+			<body id="__next">
+				{process.env.NODE_ENV === 'development' && <StagewiseToolbarWrapper />}
+				 ...
+			</body>
+		</html>
+	)
+
+
+
 ```
 
 ### StagewiseToolbarClient 구성
