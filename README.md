@@ -500,7 +500,7 @@
 | 발표자 | 발표 내용 |
 | ---- | ------- |
 | 고상원 | []() |
-| 성지현 | [Streaming SSR](https://github.com/frontend-article-study/frontend-article-study-2/blob/main/hyeseon/SSR%20sreaming/index.md) |
+| 성지현 | []() |
 
 ### 25/06/18 (예정)
 
