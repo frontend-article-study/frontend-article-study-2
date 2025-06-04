@@ -480,22 +480,52 @@
 
 | 발표자 | 발표 내용       |
 | ------ | --------------- |
-| 성지현 | [RefCallback]() |
+| 성지현 | [RefCallback](https://github.com/frontend-article-study/frontend-article-study-2/blob/main/jihyun/ref-callback/refcallback.md) |
 
-### 25/05/28 (예정)
+### 25/05/28
 
 | 발표자 | 발표 내용 |
 | ------ | --------- |
-| 김진솔 | []()      |
-| 한혜선 | []()      |
+| 김진솔 | [FSD](https://github.com/frontend-article-study/frontend-article-study-2/blob/main/jinsoul/FSD/FSD.md)      |
+
+### 25/06/04
+
+| 발표자 | 발표 내용 |
+| ------ | --------- |
+| 김재환 | [프론트엔드 AI 활용](https://github.com/frontend-article-study/frontend-article-study-2/tree/main/jaehwan/프론트엔드%20AI%20활용) |
+| 한혜선 | [Streaming SSR](https://github.com/frontend-article-study/frontend-article-study-2/blob/main/hyeseon/SSR%20sreaming/index.md) |
+
+### 25/06/11 (예정)
+
+| 발표자 | 발표 내용 |
+| ---- | ------- |
+| 고상원 | []() |
+| 성지현 | [Streaming SSR](https://github.com/frontend-article-study/frontend-article-study-2/blob/main/hyeseon/SSR%20sreaming/index.md) |
+
+### 25/06/18 (예정)
+
+| 발표자 | 발표 내용 |
+| ---- | ------- |
+| 김진솔 | []() |
+| ??? | []() |
+
+### 25/06/25 (예정)
+
+| 발표자 | 발표 내용 |
+| ---- | ------- |
+| 김세희 | []() |
+| ??? | []() |
 
 <!--
 표 템플릿
 | 발표자 | 발표 내용 |
 | ------ | --------- |
 | 고상원 | []() |
+| 김세희 | []() |
 | 김재환 | []() |
 | 김진솔 | []() |
+| 문진석 | []() |
 | 성지현 | []() |
 | 한혜선 | []() |
+| 황병현 | []() |
 -->
