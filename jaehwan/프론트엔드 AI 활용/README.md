@@ -113,12 +113,20 @@ knowledge_base:
   learnings:
     scope: auto
 ```
+<div>
+  <img src="./coderabbit1.png" width=400 />
+  <img src="./coderabbit2.png" width=400 />
+  <img src="./coderabbit3.png"  width=400 />
+</div>
 
 ## Stagewise + Cursor
+
+https://github.com/stagewise-io/stagewise?utm_source=substack&utm_medium=email
 
 ### 장점
 - UI상 정확한 지점에 명령 가능
 - 스타일 명령이 정확히 동작 (Cursor 단독 사용 시 엉뚱한 지점 수정 문제 해결)
+
 
 ### 설치 방법
 ```bash
@@ -166,3 +174,4 @@ export default function StagewiseToolbarWrapper() {
   return null
 }
 ```
+<img src="./stagewise.png" />
