@@ -495,26 +495,52 @@
 | 김재환 | [프론트엔드 AI 활용](https://github.com/frontend-article-study/frontend-article-study-2/tree/main/jaehwan/프론트엔드%20AI%20활용) |
 | 한혜선 | [Streaming SSR](https://github.com/frontend-article-study/frontend-article-study-2/blob/main/hyeseon/SSR%20sreaming/index.md) |
 
-### 25/06/11 (예정)
+### 25/06/11
 
 | 발표자 | 발표 내용 |
 | ---- | ------- |
-| 고상원 | []() |
-| 성지현 | []() |
+| 성지현 | [Temporal API]() |
 
-### 25/06/18 (예정)
+### 25/06/18
 
 | 발표자 | 발표 내용 |
 | ---- | ------- |
-| 김진솔 | []() |
-| ??? | []() |
+| 김진솔 | [TanstackDB](https://github.com/frontend-article-study/frontend-article-study-2/blob/main/jinsoul/TanstackDB/TanstackDB.md) |
+| 황병현 | [react server action](https://github.com/frontend-article-study/frontend-article-study-2/blob/main/byeonghyeon/react%20server%20action.md) |
 
 ### 25/06/25 (예정)
 
 | 발표자 | 발표 내용 |
 | ---- | ------- |
 | 김세희 | []() |
-| ??? | []() |
+| 문진석 | []() |
+
+### 25/07/02 (예정)
+
+| 발표자 | 발표 내용 |
+| ---- | ------- |
+| 김재환 | []() |
+| 한혜선 | []() |
+
+### 25/07/09 (예정)
+
+| 발표자 | 발표 내용 |
+| ---- | ------- |
+| 성지현 | []() |
+
+### 25/07/16 (예정)
+
+| 발표자 | 발표 내용 |
+| ---- | ------- |
+| 김진솔 | []() |
+| 황병현 | []() |
+
+### 25/07/23 (예정)
+
+| 발표자 | 발표 내용 |
+| ---- | ------- |
+| 김세희 | []() |
+| 한혜선 | []() |
 
 <!--
 표 템플릿
