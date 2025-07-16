@@ -508,39 +508,34 @@
 | 김진솔 | [TanstackDB](https://github.com/frontend-article-study/frontend-article-study-2/blob/main/jinsoul/TanstackDB/TanstackDB.md) |
 | 황병현 | [react server action](https://github.com/frontend-article-study/frontend-article-study-2/blob/main/byeonghyeon/react%20server%20action.md) |
 
-### 25/06/25 (예정)
+### 25/06/25
 
 | 발표자 | 발표 내용 |
 | ---- | ------- |
-| 김세희 | []() |
-| 문진석 | []() |
+| 김세희 | [리액트의 동작원리](https://github.com/frontend-article-study/frontend-article-study-2/blob/main/sehee/리액트의%20동작원리.md) |
+| 문진석 | [Visual Snapshot Testing with Storybook](https://github.com/frontend-article-study/frontend-article-study-2/blob/main/jinseok/Visual%20Snapshot%20Testing%20with%20Storybook/index.md) |
 
-### 25/07/02 (예정)
-
-| 발표자 | 발표 내용 |
-| ---- | ------- |
-| 김재환 | []() |
-| 한혜선 | []() |
-
-### 25/07/09 (예정)
+### 25/07/02
 
 | 발표자 | 발표 내용 |
 | ---- | ------- |
-| 성지현 | []() |
+| 김재환 | [Use Case](https://github.com/frontend-article-study/frontend-article-study-2/tree/main/jaehwan/UseCase) |
+| 한혜선 | [나의 일을 커리어로 연결하는 법](https://github.com/frontend-article-study/frontend-article-study-2/blob/main/hyeseon/나의%20일을%20커리어로%20연결하는%20법%20(구름%20commit)%20리뷰/index.md) |
 
-### 25/07/16 (예정)
+### 25/07/16
 
 | 발표자 | 발표 내용 |
 | ---- | ------- |
-| 김진솔 | []() |
-| 황병현 | []() |
+| 김진솔 | [queueMicrotask](https://github.com/frontend-article-study/frontend-article-study-2/blob/main/jinsoul/React/queueMicrotask/queueMicrotask.md) |
+| 성지현 | [MCP 쌩기초]() |
 
 ### 25/07/23 (예정)
 
 | 발표자 | 발표 내용 |
 | ---- | ------- |
 | 김세희 | []() |
-| 한혜선 | []() |
+| 문진석 | []() |
+| 황병현 | []() |
 
 <!--
 표 템플릿
