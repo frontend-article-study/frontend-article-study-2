@@ -499,7 +499,7 @@
 
 | 발표자 | 발표 내용 |
 | ---- | ------- |
-| 성지현 | [Temporal API]() |
+| 성지현 | [Temporal API](https://github.com/frontend-article-study/frontend-article-study-2/blob/main/jihyun/temporal/TemporalApi.md) |
 
 ### 25/06/18
 
@@ -527,15 +527,23 @@
 | 발표자 | 발표 내용 |
 | ---- | ------- |
 | 김진솔 | [queueMicrotask](https://github.com/frontend-article-study/frontend-article-study-2/blob/main/jinsoul/React/queueMicrotask/queueMicrotask.md) |
-| 성지현 | [MCP 쌩기초]() |
+| 성지현 | [MCP 쌩기초](https://github.com/frontend-article-study/frontend-article-study-2/blob/main/jihyun/mcp/MCP%20쌩기초.md) |
 
-### 25/07/23 (예정)
+### 25/07/23
 
 | 발표자 | 발표 내용 |
 | ---- | ------- |
-| 김세희 | []() |
+| 김세희 | [useEffect 안에서 setInterval 사용하기](https://github.com/frontend-article-study/frontend-article-study-2/blob/main/sehee/useEffect%20안에서%20setInterval%20사용하기.md) |
+| 황병현 | [deeplink](https://github.com/frontend-article-study/frontend-article-study-2/blob/main/byeonghyeon/deeplink.md) |
+
+### 25/07/30
+
+| 발표자 | 발표 내용 |
+| ---- | ------- |
+| 김재환 | [유익했던 컨퍼런스 내용](https://github.com/frontend-article-study/frontend-article-study-2/tree/main/jaehwan/유익했던%20컨퍼런스%20내용) |
 | 문진석 | []() |
-| 황병현 | []() |
+| 한혜선 | [로드밸런서](https://github.com/frontend-article-study/frontend-article-study-2/blob/main/hyeseon/로드밸런서%20(Load%20Balancer)/index.md) |
+
 
 <!--
 표 템플릿
