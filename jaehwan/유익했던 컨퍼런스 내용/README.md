@@ -110,8 +110,10 @@ HTTP3 + TLS 1.3 - 1way handshake + 요청
 - 클라우드 프론트 → ALB : 활성 연결 개수는 하나만 존재.
 - 결론 : ALB 활성 연결 개수 65% 감소.
 - 사례 : 부킹닷컴도 도입했다고함.
-    
-    ![IMG_3270.jpeg](attachment:4345d615-4042-4a4d-b913-6a910b2eac1b:IMG_3270.jpeg)
+
+
+![IMG_3270](https://github.com/user-attachments/assets/ff1eccdc-d02d-4c38-99af-2afa30ccc8b1)
+
     
 
 ### 중요한 클라우드 프론트 설정.
