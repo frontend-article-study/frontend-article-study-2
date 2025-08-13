@@ -544,6 +544,25 @@
 | 문진석 | []() |
 | 한혜선 | [로드밸런서](https://github.com/frontend-article-study/frontend-article-study-2/blob/main/hyeseon/로드밸런서%20(Load%20Balancer)/index.md) |
 
+### 25/08/13
+
+| 발표자 | 발표 내용 |
+| ---- | ------- |
+| 김진솔 | [함께자라기](https://github.com/frontend-article-study/frontend-article-study-2/commit/4857832f352b974a8a14be01b7f5224b3fb3105a) |
+
+### 25/08/20
+
+| 발표자 | 발표 내용 |
+| ---- | ------- |
+| 김세희 | []() |
+| 성지현 | []() |
+
+
+### 25/08/27
+
+| 발표자 | 발표 내용 |
+| ---- | ------- |
+| 황병현 | []() |
 
 <!--
 표 템플릿
