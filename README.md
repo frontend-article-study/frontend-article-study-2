@@ -554,7 +554,7 @@
 
 | 발표자 | 발표 내용 |
 | ---- | ------- |
-| 김세희 | []() |
+| 김세희 | [HTTP 캐싱](https://github.com/frontend-article-study/frontend-article-study-2/blob/main/sehee/HTTP%20%EC%BA%90%EC%8B%B1.md) |
 | 성지현 | []() |
 
 
