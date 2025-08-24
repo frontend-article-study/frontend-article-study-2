@@ -541,7 +541,7 @@
 | 발표자 | 발표 내용 |
 | ---- | ------- |
 | 김재환 | [유익했던 컨퍼런스 내용](https://github.com/frontend-article-study/frontend-article-study-2/tree/main/jaehwan/유익했던%20컨퍼런스%20내용) |
-| 문진석 | []() |
+| 문진석 | [Chrome Built-in AI](https://github.com/frontend-article-study/frontend-article-study-2/blob/main/jinseok/Chrome%20Built-in%20AI/index.md) |
 | 한혜선 | [로드밸런서](https://github.com/frontend-article-study/frontend-article-study-2/blob/main/hyeseon/로드밸런서%20(Load%20Balancer)/index.md) |
 
 ### 25/08/13
