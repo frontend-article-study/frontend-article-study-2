@@ -562,8 +562,16 @@
 
 | 발표자 | 발표 내용 |
 | ---- | ------- |
-| 문진석 | []() |
-| 황병현 | []() |
+| 문진석 | [오픈텔레메트리]() |
+| 황병현 | [webGL](https://github.com/frontend-article-study/frontend-article-study-2/blob/main/byeonghyeon/WebGL.md) |
+
+### 25/08/27
+
+| 발표자 | 발표 내용 |
+| ---- | ------- |
+| 김재환 | []() |
+| 한혜선 | []() |
+
 
 <!--
 표 템플릿
