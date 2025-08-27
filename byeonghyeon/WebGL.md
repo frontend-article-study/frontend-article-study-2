@@ -164,6 +164,16 @@ const ambientLight = new THREE.AmbientLight("white", 1);//색상, 강도
 ### Camera
 Camera 객체는 눈에 해당한다. Scene 객체를 촬영하여 어떻게 보여줄 것인가를 결정한다. 같은 Scene이라고 하더라도, 카메라의 위치 및 기타 설정값들을 통해서 다른 화면을 보여줄 수 있다.
 
+``` javascript
+const camera = new THREE.PerspectiveCamera(
+  75, //시야각
+  window.innerWidth / window.innerHeight,//종횡비
+  0.1, //near
+  1000 //far
+);
+camera.position.set(1, 1, 5);//x,y,z 위치
+```
+
 ### Scene
 Scene 객체는 무대를 나타낸다. 생성한 물체(Mesh)와 빛(Light) 그리고 카메라(Camera)를 추가 해준다.
 
@@ -175,15 +185,6 @@ scene.add(camera);
 ```
 
 
-``` javascript
-const camera = new THREE.PerspectiveCamera(
-  75, //시야각
-  window.innerWidth / window.innerHeight,//종횡비
-  0.1, //near
-  1000 //far
-);
-camera.position.set(1, 1, 5);//x,y,z 위치
-```
 
 
 ### Renderer
