@@ -565,13 +565,19 @@
 | 문진석 | [오픈텔레메트리]() |
 | 황병현 | [webGL](https://github.com/frontend-article-study/frontend-article-study-2/blob/main/byeonghyeon/WebGL.md) |
 
-### 25/08/27
+### 25/09/03
 
 | 발표자 | 발표 내용 |
 | ---- | ------- |
-| 김재환 | []() |
-| 한혜선 | []() |
+| 김재환 | [React의 이벤트 관리](https://github.com/frontend-article-study/frontend-article-study-2/blob/main/jaehwan/React의%20이벤트%20관리.md) |
+| 한혜선 | [AWS Cloudfront](https://github.com/frontend-article-study/frontend-article-study-2/blob/main/hyeseon/AWS%20CloudFront/index.md) |
 
+### 25/09/10
+
+| 발표자 | 발표 내용 |
+| ---- | ------- |
+| 김진솔 | []() |
+| 성지현 | []() |
 
 <!--
 표 템플릿
