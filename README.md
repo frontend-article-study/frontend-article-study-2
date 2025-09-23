@@ -562,7 +562,7 @@
 
 | 발표자 | 발표 내용 |
 | ---- | ------- |
-| 문진석 | [오픈텔레메트리]() |
+| 문진석 | [OpenTelemetry 알아보기](https://github.com/frontend-article-study/frontend-article-study-2/blob/main/jinseok/OpenTelemetry%20%EC%95%8C%EC%95%84%EB%B3%B4%EA%B8%B0/index.md) |
 | 황병현 | [webGL](https://github.com/frontend-article-study/frontend-article-study-2/blob/main/byeonghyeon/WebGL.md) |
 
 ### 25/09/03
