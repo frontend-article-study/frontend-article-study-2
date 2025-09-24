@@ -589,7 +589,7 @@
 
 | 발표자 | 발표 내용 |
 | ---- | --------- |
-| 문진석 | [패키지 공급망 공격](https://github.com/frontend-article-study/frontend-article-study-2/blob/main/jinseok/%ED%8C%A8%ED%82%A4%EC%A7%80%20%EA%B3%B5%EA%B8%89%EB%A7%9D%20%EA%B3%B5%EA%B2%A9/index.md) |
+| 문진석 | [패키지 공급망 공격](https://github.com/frontend-article-study/frontend-article-study-2/blob/main/jinseok/%ED%8C%A8%ED%82%A4%EC%A7%80%20%EA%B3%B5%EA%B8%89%EB%A7%9D%20%EA%B3%B5%EA%B2%A9/index.md) |
 
 
 
