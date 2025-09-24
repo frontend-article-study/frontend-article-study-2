@@ -576,8 +576,22 @@
 
 | 발표자 | 발표 내용 |
 | ---- | ------- |
-| 김진솔 | []() |
-| 성지현 | []() |
+| 김진솔 | [Canvas 흐림현상 해결하기](https://github.com/frontend-article-study/frontend-article-study-2/blob/main/jinsoul/Canvas/%EC%BA%94%EB%B2%84%EC%8A%A4%20%ED%9D%90%EB%A6%BC%ED%98%84%EC%83%81%20%ED%95%B4%EA%B2%B0%ED%95%98%EA%B8%B0.md) |
+| 성지현 | [node_modules](https://github.com/frontend-article-study/frontend-article-study-2/blob/main/jihyun/node-modules/node_modules.md) |
+
+### 25/09/17
+
+| 발표자 | 발표 내용 |
+| ---- | --------- |
+| 김세희 | [SVG filter로 웹에서 Liquid Glass 구현하기](https://github.com/frontend-article-study/frontend-article-study-2/blob/main/sehee/SVG%20filter%EB%A1%9C%20%EC%9B%B9%EC%97%90%EC%84%9C%20Liquid%20Glass%20%EA%B5%AC%ED%98%84%ED%95%98%EA%B8%B0.md) |
+
+### 25/09/24
+
+| 발표자 | 발표 내용 |
+| ---- | --------- |
+| 문진석 | [패키지 공급망 공격](https://github.com/frontend-article-study/frontend-article-study-2/blob/main/jinseok/%ED%8C%A8%ED%82%A4%EC%A7%80%20%EA%B3%B5%EA%B8%89%EB%A7%9D%20%EA%B3%B5%EA%B2%A9/index.md) |
+
+
 
 <!--
 표 템플릿
