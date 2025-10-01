@@ -478,120 +478,124 @@
 
 ### 25/05/21
 
-| 발표자 | 발표 내용       |
-| ------ | --------------- |
+| 발표자 | 발표 내용                                                                                                                      |
+| ------ | ------------------------------------------------------------------------------------------------------------------------------ |
 | 성지현 | [RefCallback](https://github.com/frontend-article-study/frontend-article-study-2/blob/main/jihyun/ref-callback/refcallback.md) |
 
 ### 25/05/28
 
-| 발표자 | 발표 내용 |
-| ------ | --------- |
-| 김진솔 | [FSD](https://github.com/frontend-article-study/frontend-article-study-2/blob/main/jinsoul/FSD/FSD.md)      |
+| 발표자 | 발표 내용                                                                                              |
+| ------ | ------------------------------------------------------------------------------------------------------ |
+| 김진솔 | [FSD](https://github.com/frontend-article-study/frontend-article-study-2/blob/main/jinsoul/FSD/FSD.md) |
 
 ### 25/06/04
 
-| 발표자 | 발표 내용 |
-| ------ | --------- |
+| 발표자 | 발표 내용                                                                                                                         |
+| ------ | --------------------------------------------------------------------------------------------------------------------------------- |
 | 김재환 | [프론트엔드 AI 활용](https://github.com/frontend-article-study/frontend-article-study-2/tree/main/jaehwan/프론트엔드%20AI%20활용) |
-| 한혜선 | [Streaming SSR](https://github.com/frontend-article-study/frontend-article-study-2/blob/main/hyeseon/SSR%20sreaming/index.md) |
+| 한혜선 | [Streaming SSR](https://github.com/frontend-article-study/frontend-article-study-2/blob/main/hyeseon/SSR%20sreaming/index.md)     |
 
 ### 25/06/11
 
-| 발표자 | 발표 내용 |
-| ---- | ------- |
+| 발표자 | 발표 내용                                                                                                                   |
+| ------ | --------------------------------------------------------------------------------------------------------------------------- |
 | 성지현 | [Temporal API](https://github.com/frontend-article-study/frontend-article-study-2/blob/main/jihyun/temporal/TemporalApi.md) |
 
 ### 25/06/18
 
-| 발표자 | 발표 내용 |
-| ---- | ------- |
-| 김진솔 | [TanstackDB](https://github.com/frontend-article-study/frontend-article-study-2/blob/main/jinsoul/TanstackDB/TanstackDB.md) |
+| 발표자 | 발표 내용                                                                                                                                  |
+| ------ | ------------------------------------------------------------------------------------------------------------------------------------------ |
+| 김진솔 | [TanstackDB](https://github.com/frontend-article-study/frontend-article-study-2/blob/main/jinsoul/TanstackDB/TanstackDB.md)                |
 | 황병현 | [react server action](https://github.com/frontend-article-study/frontend-article-study-2/blob/main/byeonghyeon/react%20server%20action.md) |
 
 ### 25/06/25
 
-| 발표자 | 발표 내용 |
-| ---- | ------- |
-| 김세희 | [리액트의 동작원리](https://github.com/frontend-article-study/frontend-article-study-2/blob/main/sehee/리액트의%20동작원리.md) |
+| 발표자 | 발표 내용                                                                                                                                                                              |
+| ------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 김세희 | [리액트의 동작원리](https://github.com/frontend-article-study/frontend-article-study-2/blob/main/sehee/리액트의%20동작원리.md)                                                         |
 | 문진석 | [Visual Snapshot Testing with Storybook](https://github.com/frontend-article-study/frontend-article-study-2/blob/main/jinseok/Visual%20Snapshot%20Testing%20with%20Storybook/index.md) |
 
 ### 25/07/02
 
-| 발표자 | 발표 내용 |
-| ---- | ------- |
-| 김재환 | [Use Case](https://github.com/frontend-article-study/frontend-article-study-2/tree/main/jaehwan/UseCase) |
-| 한혜선 | [나의 일을 커리어로 연결하는 법](https://github.com/frontend-article-study/frontend-article-study-2/blob/main/hyeseon/나의%20일을%20커리어로%20연결하는%20법%20(구름%20commit)%20리뷰/index.md) |
+| 발표자 | 발표 내용                                                                                                                                                                                         |
+| ------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 김재환 | [Use Case](https://github.com/frontend-article-study/frontend-article-study-2/tree/main/jaehwan/UseCase)                                                                                          |
+| 한혜선 | [나의 일을 커리어로 연결하는 법](<https://github.com/frontend-article-study/frontend-article-study-2/blob/main/hyeseon/나의%20일을%20커리어로%20연결하는%20법%20(구름%20commit)%20리뷰/index.md>) |
 
 ### 25/07/16
 
-| 발표자 | 발표 내용 |
-| ---- | ------- |
+| 발표자 | 발표 내용                                                                                                                                     |
+| ------ | --------------------------------------------------------------------------------------------------------------------------------------------- |
 | 김진솔 | [queueMicrotask](https://github.com/frontend-article-study/frontend-article-study-2/blob/main/jinsoul/React/queueMicrotask/queueMicrotask.md) |
-| 성지현 | [MCP 쌩기초](https://github.com/frontend-article-study/frontend-article-study-2/blob/main/jihyun/mcp/MCP%20쌩기초.md) |
+| 성지현 | [MCP 쌩기초](https://github.com/frontend-article-study/frontend-article-study-2/blob/main/jihyun/mcp/MCP%20쌩기초.md)                         |
 
 ### 25/07/23
 
-| 발표자 | 발표 내용 |
-| ---- | ------- |
+| 발표자 | 발표 내용                                                                                                                                                                  |
+| ------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | 김세희 | [useEffect 안에서 setInterval 사용하기](https://github.com/frontend-article-study/frontend-article-study-2/blob/main/sehee/useEffect%20안에서%20setInterval%20사용하기.md) |
-| 황병현 | [deeplink](https://github.com/frontend-article-study/frontend-article-study-2/blob/main/byeonghyeon/deeplink.md) |
+| 황병현 | [deeplink](https://github.com/frontend-article-study/frontend-article-study-2/blob/main/byeonghyeon/deeplink.md)                                                           |
 
 ### 25/07/30
 
-| 발표자 | 발표 내용 |
-| ---- | ------- |
-| 김재환 | [유익했던 컨퍼런스 내용](https://github.com/frontend-article-study/frontend-article-study-2/tree/main/jaehwan/유익했던%20컨퍼런스%20내용) |
-| 문진석 | [Chrome Built-in AI](https://github.com/frontend-article-study/frontend-article-study-2/blob/main/jinseok/Chrome%20Built-in%20AI/index.md) |
-| 한혜선 | [로드밸런서](https://github.com/frontend-article-study/frontend-article-study-2/blob/main/hyeseon/로드밸런서%20(Load%20Balancer)/index.md) |
+| 발표자 | 발표 내용                                                                                                                                    |
+| ------ | -------------------------------------------------------------------------------------------------------------------------------------------- |
+| 김재환 | [유익했던 컨퍼런스 내용](https://github.com/frontend-article-study/frontend-article-study-2/tree/main/jaehwan/유익했던%20컨퍼런스%20내용)    |
+| 문진석 | [Chrome Built-in AI](https://github.com/frontend-article-study/frontend-article-study-2/blob/main/jinseok/Chrome%20Built-in%20AI/index.md)   |
+| 한혜선 | [로드밸런서](<https://github.com/frontend-article-study/frontend-article-study-2/blob/main/hyeseon/로드밸런서%20(Load%20Balancer)/index.md>) |
 
 ### 25/08/13
 
-| 발표자 | 발표 내용 |
-| ---- | ------- |
+| 발표자 | 발표 내용                                                                                                                        |
+| ------ | -------------------------------------------------------------------------------------------------------------------------------- |
 | 김진솔 | [함께자라기](https://github.com/frontend-article-study/frontend-article-study-2/commit/4857832f352b974a8a14be01b7f5224b3fb3105a) |
 
 ### 25/08/20
 
-| 발표자 | 발표 내용 |
-| ---- | ------- |
-| 김세희 | [HTTP 캐싱](https://github.com/frontend-article-study/frontend-article-study-2/blob/main/sehee/HTTP%20%EC%BA%90%EC%8B%B1.md) |
+| 발표자 | 발표 내용                                                                                                                               |
+| ------ | --------------------------------------------------------------------------------------------------------------------------------------- |
+| 김세희 | [HTTP 캐싱](https://github.com/frontend-article-study/frontend-article-study-2/blob/main/sehee/HTTP%20%EC%BA%90%EC%8B%B1.md)            |
 | 성지현 | [스코프 호이스팅](https://github.com/frontend-article-study/frontend-article-study-2/blob/main/jihyun/scope-hoisting/scope-hoisting.md) |
-
 
 ### 25/08/27
 
-| 발표자 | 발표 내용 |
-| ---- | ------- |
+| 발표자 | 발표 내용                                                                                                                                                                    |
+| ------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | 문진석 | [OpenTelemetry 알아보기](https://github.com/frontend-article-study/frontend-article-study-2/blob/main/jinseok/OpenTelemetry%20%EC%95%8C%EC%95%84%EB%B3%B4%EA%B8%B0/index.md) |
-| 황병현 | [webGL](https://github.com/frontend-article-study/frontend-article-study-2/blob/main/byeonghyeon/WebGL.md) |
+| 황병현 | [webGL](https://github.com/frontend-article-study/frontend-article-study-2/blob/main/byeonghyeon/WebGL.md)                                                                   |
 
 ### 25/09/03
 
-| 발표자 | 발표 내용 |
-| ---- | ------- |
+| 발표자 | 발표 내용                                                                                                                              |
+| ------ | -------------------------------------------------------------------------------------------------------------------------------------- |
 | 김재환 | [React의 이벤트 관리](https://github.com/frontend-article-study/frontend-article-study-2/blob/main/jaehwan/React의%20이벤트%20관리.md) |
-| 한혜선 | [AWS Cloudfront](https://github.com/frontend-article-study/frontend-article-study-2/blob/main/hyeseon/AWS%20CloudFront/index.md) |
+| 한혜선 | [AWS Cloudfront](https://github.com/frontend-article-study/frontend-article-study-2/blob/main/hyeseon/AWS%20CloudFront/index.md)       |
 
 ### 25/09/10
 
-| 발표자 | 발표 내용 |
-| ---- | ------- |
+| 발표자 | 발표 내용                                                                                                                                                                                                                            |
+| ------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | 김진솔 | [Canvas 흐림현상 해결하기](https://github.com/frontend-article-study/frontend-article-study-2/blob/main/jinsoul/Canvas/%EC%BA%94%EB%B2%84%EC%8A%A4%20%ED%9D%90%EB%A6%BC%ED%98%84%EC%83%81%20%ED%95%B4%EA%B2%B0%ED%95%98%EA%B8%B0.md) |
-| 성지현 | [node_modules](https://github.com/frontend-article-study/frontend-article-study-2/blob/main/jihyun/node-modules/node_modules.md) |
+| 성지현 | [node_modules](https://github.com/frontend-article-study/frontend-article-study-2/blob/main/jihyun/node-modules/node_modules.md)                                                                                                     |
 
 ### 25/09/17
 
-| 발표자 | 발표 내용 |
-| ---- | --------- |
+| 발표자 | 발표 내용                                                                                                                                                                                                                                      |
+| ------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | 김세희 | [SVG filter로 웹에서 Liquid Glass 구현하기](https://github.com/frontend-article-study/frontend-article-study-2/blob/main/sehee/SVG%20filter%EB%A1%9C%20%EC%9B%B9%EC%97%90%EC%84%9C%20Liquid%20Glass%20%EA%B5%AC%ED%98%84%ED%95%98%EA%B8%B0.md) |
 
 ### 25/09/24
 
-| 발표자 | 발표 내용 |
-| ---- | --------- |
+| 발표자 | 발표 내용                                                                                                                                                                                          |
+| ------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | 문진석 | [패키지 공급망 공격](https://github.com/frontend-article-study/frontend-article-study-2/blob/main/jinseok/%ED%8C%A8%ED%82%A4%EC%A7%80%20%EA%B3%B5%EA%B8%89%EB%A7%9D%20%EA%B3%B5%EA%B2%A9/index.md) |
 
+### 25/10/01
 
+| 발표자 | 발표 내용                                                                                                                                                                                                                                  |
+| ------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| 김재환 | [React 이벤트 분석](https://github.com/frontend-article-study/frontend-article-study-2/blob/main/jaehwan/React%EC%9D%B4%EB%B2%A4%ED%8A%B8%EB%B6%84%EC%84%9D/JS%20-%3E%20React%20-%3E%20Event%20%EC%8B%AC%EC%B8%B5%20%EB%B6%84%EC%84%9D.md) |
+| 한혜선 | [Nexus](https://github.com/frontend-article-study/frontend-article-study-2/blob/main/hyeseon/Nexus/index.md)                                                                                                                               |
 
 <!--
 표 템플릿
