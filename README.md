@@ -597,6 +597,19 @@
 | 김재환 | [React 이벤트 분석](https://github.com/frontend-article-study/frontend-article-study-2/blob/main/jaehwan/React%EC%9D%B4%EB%B2%A4%ED%8A%B8%EB%B6%84%EC%84%9D/JS%20-%3E%20React%20-%3E%20Event%20%EC%8B%AC%EC%B8%B5%20%EB%B6%84%EC%84%9D.md) |
 | 한혜선 | [Nexus](https://github.com/frontend-article-study/frontend-article-study-2/blob/main/hyeseon/Nexus/index.md)                                                                                                                               |
 
+### 25/10/15
+
+| 발표자 | 발표 내용                                                                                                                                                                                                                                  |
+| ------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| 김진솔 | [Web Worker](https://github.com/frontend-article-study/frontend-article-study-2/blob/main/jinsoul/WebWorker/WebWorker.md) |
+| 성지현 | 외주 후기        
+
+### 25/10/22
+
+| 발표자 | 발표 내용                                                                                                                                                                                                                                  |
+| ------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| 김세희 | [리액트에서의 렌더링 패턴](https://github.com/frontend-article-study/frontend-article-study-2/blob/main/sehee/%EB%A6%AC%EC%95%A1%ED%8A%B8%EC%97%90%EC%84%9C%EC%9D%98%20%EB%A0%8C%EB%8D%94%EB%A7%81%20%ED%8C%A8%ED%84%B4.md) |      
+
 <!--
 표 템플릿
 | 발표자 | 발표 내용 |
