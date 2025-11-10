@@ -620,7 +620,7 @@
 
 | 발표자 | 발표 내용 |
 | ------ | --------- |
-| 문진석 | []()      |
+| 김재환 | [상속과 프로토타입](https://github.com/frontend-article-study/frontend-article-study-2/blob/main/jaehwan/%EC%83%81%EC%86%8D%EA%B3%BC%20%ED%94%84%EB%A1%9C%ED%86%A0%ED%83%80%EC%9E%85.md)      |
 | 성지현 | []()      |
 
 <!--
