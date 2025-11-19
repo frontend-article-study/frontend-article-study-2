@@ -627,7 +627,7 @@
 
 | 발표자 | 발표 내용 |
 | ------ | --------- |
-| 김세희 | []() |
+| 김세희 | [React Hooks의 내부 동작 원리](https://github.com/frontend-article-study/frontend-article-study-2/blob/main/sehee/React%20Hooks%EC%9D%98%20%EB%82%B4%EB%B6%80%20%EB%8F%99%EC%9E%91%20%EC%9B%90%EB%A6%AC.md) |
 | 김진솔 | [GPGPU](https://github.com/frontend-article-study/frontend-article-study-2/blob/main/jinsoul/GPGPU/GPGPU.md) |
 | 문진석 | [밑바닥부터 시작하는 웹 브라우저](https://github.com/frontend-article-study/frontend-article-study-2/blob/main/jinseok/밑바닥부터%20시작하는%20웹%20브라우저/index.md) |
 
