@@ -621,13 +621,20 @@
 | 발표자 | 발표 내용 |
 | ------ | --------- |
 | 김재환 | [상속과 프로토타입](https://github.com/frontend-article-study/frontend-article-study-2/blob/main/jaehwan/%EC%83%81%EC%86%8D%EA%B3%BC%20%ED%94%84%EB%A1%9C%ED%86%A0%ED%83%80%EC%9E%85.md)      |
-| 성지현 | []()      |
+| 성지현 | [Activity, useEffectEvent](https://github.com/frontend-article-study/frontend-article-study-2/blob/main/jihyun/react19-2-feature/Activity%2C%20useEffectEvent.md)      |
+
+### 25/11/19
+
+| 발표자 | 발표 내용 |
+| ------ | --------- |
+| 김세희 | []() |
+| 김진솔 | [GPGPU](https://github.com/frontend-article-study/frontend-article-study-2/blob/main/jinsoul/GPGPU/GPGPU.md) |
+| 문진석 | [밑바닥부터 시작하는 웹 브라우저](https://github.com/frontend-article-study/frontend-article-study-2/blob/main/jinseok/밑바닥부터%20시작하는%20웹%20브라우저/index.md) |
 
 <!--
 표 템플릿
 | 발표자 | 발표 내용 |
 | ------ | --------- |
-| 고상원 | []() |
 | 김세희 | []() |
 | 김재환 | []() |
 | 김진솔 | []() |
