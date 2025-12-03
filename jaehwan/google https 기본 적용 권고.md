@@ -1,5 +1,7 @@
 # HTTPS 기본 적용
 
+https://security.googleblog.com/2025/10/https-by-default.html?utm_source=substack&utm_medium=email
+
 ---
 
 지금으로부터 1년 후, 2026년 10월 Chrome 154 출시와 함께, 우리는 Chrome의 기본 설정을 변경하여 "항상 보안 연결 사용(Always Use Secure Connections)"을 활성화할 것입니다. 이는 Chrome이 HTTPS가 없는 공개 사이트에 처음 접속하기 전에 사용자의 허락을 요청한다는 것을 의미합니다.
