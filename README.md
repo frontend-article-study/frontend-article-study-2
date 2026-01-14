@@ -618,18 +618,40 @@
 
 ### 25/11/05
 
-| 발표자 | 발표 내용 |
-| ------ | --------- |
-| 김재환 | [상속과 프로토타입](https://github.com/frontend-article-study/frontend-article-study-2/blob/main/jaehwan/%EC%83%81%EC%86%8D%EA%B3%BC%20%ED%94%84%EB%A1%9C%ED%86%A0%ED%83%80%EC%9E%85.md)      |
-| 성지현 | [Activity, useEffectEvent](https://github.com/frontend-article-study/frontend-article-study-2/blob/main/jihyun/react19-2-feature/Activity%2C%20useEffectEvent.md)      |
+| 발표자 | 발표 내용                                                                                                                                                                                |
+| ------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 김재환 | [상속과 프로토타입](https://github.com/frontend-article-study/frontend-article-study-2/blob/main/jaehwan/%EC%83%81%EC%86%8D%EA%B3%BC%20%ED%94%84%EB%A1%9C%ED%86%A0%ED%83%80%EC%9E%85.md) |
+| 성지현 | [Activity, useEffectEvent](https://github.com/frontend-article-study/frontend-article-study-2/blob/main/jihyun/react19-2-feature/Activity%2C%20useEffectEvent.md)                        |
 
 ### 25/11/19
 
+| 발표자 | 발표 내용                                                                                                                                                                                                   |
+| ------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 김세희 | [React Hooks의 내부 동작 원리](https://github.com/frontend-article-study/frontend-article-study-2/blob/main/sehee/React%20Hooks%EC%9D%98%20%EB%82%B4%EB%B6%80%20%EB%8F%99%EC%9E%91%20%EC%9B%90%EB%A6%AC.md) |
+| 김진솔 | [GPGPU](https://github.com/frontend-article-study/frontend-article-study-2/blob/main/jinsoul/GPGPU/GPGPU.md)                                                                                                |
+| 문진석 | [밑바닥부터 시작하는 웹 브라우저](https://github.com/frontend-article-study/frontend-article-study-2/blob/main/jinseok/밑바닥부터%20시작하는%20웹%20브라우저/index.md)                                      |
+
+### 25/11/26
+
+### 25/12/03
+
+### 25/12/10
+
+### 25/12/17
+
+### 26/01/07
+
+| 발표자 | 발표 내용                                   |
+| ------ | ------------------------------------------- |
+| 성지현 | [어떤 버그든 고치는 방법]()                 |
+| 문진석 | [Everything I Know About Good API Design]() |
+
+### 26/01/14
+
 | 발표자 | 발표 내용 |
 | ------ | --------- |
-| 김세희 | [React Hooks의 내부 동작 원리](https://github.com/frontend-article-study/frontend-article-study-2/blob/main/sehee/React%20Hooks%EC%9D%98%20%EB%82%B4%EB%B6%80%20%EB%8F%99%EC%9E%91%20%EC%9B%90%EB%A6%AC.md) |
-| 김진솔 | [GPGPU](https://github.com/frontend-article-study/frontend-article-study-2/blob/main/jinsoul/GPGPU/GPGPU.md) |
-| 문진석 | [밑바닥부터 시작하는 웹 브라우저](https://github.com/frontend-article-study/frontend-article-study-2/blob/main/jinseok/밑바닥부터%20시작하는%20웹%20브라우저/index.md) |
+| 김재환 | []()      |
+| 한혜선 | []()      |
 
 <!--
 표 템플릿
@@ -641,5 +663,4 @@
 | 문진석 | []() |
 | 성지현 | []() |
 | 한혜선 | []() |
-| 황병현 | []() |
 -->
