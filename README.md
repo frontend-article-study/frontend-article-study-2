@@ -631,27 +631,38 @@
 | 김진솔 | [GPGPU](https://github.com/frontend-article-study/frontend-article-study-2/blob/main/jinsoul/GPGPU/GPGPU.md)                                                                                                |
 | 문진석 | [밑바닥부터 시작하는 웹 브라우저](https://github.com/frontend-article-study/frontend-article-study-2/blob/main/jinseok/밑바닥부터%20시작하는%20웹%20브라우저/index.md)                                      |
 
-### 25/11/26
 
 ### 25/12/03
+| 발표자 | 발표 내용 |
+| ------ | --------- |
+| 김재환 | [google https 기본 적용 권고](https://github.com/frontend-article-study/frontend-article-study-2/blob/main/jaehwan/google%20https%20%EA%B8%B0%EB%B3%B8%20%EC%A0%81%EC%9A%A9%20%EA%B6%8C%EA%B3%A0.md)      |
+| 한혜선 | [어드민 스튜디오-우아콘](https://github.com/frontend-article-study/frontend-article-study-2/blob/main/hyeseon/%EC%96%B4%EB%93%9C%EB%AF%BC%20%EC%8A%A4%ED%8A%9C%EB%94%94%EC%98%A4(Admin%20Studio)%20-2025%20%EC%9A%B0%EC%95%84%EC%BD%98/index.md)      |
 
 ### 25/12/10
+| 발표자 | 발표 내용                                   |
+| ------ | ------------------------------------------- |
+| 김진솔 | [react 웹 취약점](https://github.com/frontend-article-study/frontend-article-study-2/blob/main/jinsoul/React/%EC%9B%B9%EC%B7%A8%EC%95%BD%EC%A0%90/%EC%9B%B9%EC%B7%A8%EC%95%BD%EC%A0%90.md)                 |
+
 
 ### 25/12/17
+| 발표자 | 발표 내용                                   |
+| ------ | ------------------------------------------- |
+| 김세희 | [클린 아키텍처 완독 후기](https://github.com/frontend-article-study/frontend-article-study-2/blob/main/sehee/%ED%81%B4%EB%A6%B0%20%EC%95%84%ED%82%A4%ED%85%8D%EC%B2%98%20%EC%99%84%EB%8F%85%20%ED%9B%84%EA%B8%B0.md)                 |
+
 
 ### 26/01/07
 
 | 발표자 | 발표 내용                                   |
 | ------ | ------------------------------------------- |
-| 성지현 | [어떤 버그든 고치는 방법]()                 |
-| 문진석 | [Everything I Know About Good API Design]() |
+| 성지현 | [어떤 버그든 고치는 방법](https://github.com/frontend-article-study/frontend-article-study-2/blob/main/jihyun/bug/%EC%96%B4%EB%96%A4%EB%B2%84%EA%B7%B8%EB%93%A0%EA%B3%A0%EC%B9%98%EB%8A%94%EB%B0%A9%EB%B2%95.md)                 |
+| 문진석 | [Everything I Know About Good API Design](https://github.com/frontend-article-study/frontend-article-study-2/blob/main/jinseok/Everything%20I%20Know%20About%20Good%20API%20Design/index.md) |
 
-### 26/01/14
+### 26/01/21
 
 | 발표자 | 발표 내용 |
 | ------ | --------- |
 | 김재환 | []()      |
-| 한혜선 | []()      |
+| 한혜선 | [번들러](https://github.com/frontend-article-study/frontend-article-study-2/blob/main/hyeseon/Bundler/index.md)      |
 
 <!--
 표 템플릿
