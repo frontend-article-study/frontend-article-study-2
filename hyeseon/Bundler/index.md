@@ -172,7 +172,7 @@ window.utils.sum();
 
 ## ESBuild
 
-- Webpack이나 Rollup은 JavaScript기반으로 번들링합니다. 따라서 JavaScript 가 가질수 밖에 없는 성능상의 한계가 있었습니다. ESBuild는 내부적으로 Go로 작성되었고 JS 기반 번들러보다 10배에서 100배까지 빠른 퍼포먼스를 보여줍니다.
+- Webpack이나 Rollup은 JavaScript기반으로 번들링합니다. 따라서 JavaScript 가 가질수 밖에 없는 성능상의 한계(싱글스레드, 객체 기반 AST 처리등)가 있었습니다. ESBuild는 내부적으로 Go로 작성되었고 JS 기반 번들러보다 10배에서 100배까지 빠른 퍼포먼스를 보여줍니다.
 - 자체 JavaScript 파서를 사용합니다.
 
 ## Vite
