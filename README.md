@@ -664,6 +664,12 @@
 | 김재환 | []()      |
 | 한혜선 | [번들러](https://github.com/frontend-article-study/frontend-article-study-2/blob/main/hyeseon/Bundler/index.md)      |
 
+### 26/01/28
+
+| 발표자 | 발표 내용 |
+| ------ | --------- |
+| 김진솔 | [URL은 상태다.](https://github.com/frontend-article-study/frontend-article-study-2/commit/d1797c38f341d258aa255a656671c492b6fa51bd)      |
+
 <!--
 표 템플릿
 | 발표자 | 발표 내용 |
