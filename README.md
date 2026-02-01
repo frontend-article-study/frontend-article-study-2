@@ -661,7 +661,7 @@
 
 | 발표자 | 발표 내용 |
 | ------ | --------- |
-| 김재환 | []()      |
+| 김재환 | [2025회고]()      |
 | 한혜선 | [번들러](https://github.com/frontend-article-study/frontend-article-study-2/blob/main/hyeseon/Bundler/index.md)      |
 
 ### 26/01/28
