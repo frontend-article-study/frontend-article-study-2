@@ -670,6 +670,12 @@
 | ------ | --------- |
 | 김진솔 | [URL은 상태다.](https://github.com/frontend-article-study/frontend-article-study-2/commit/d1797c38f341d258aa255a656671c492b6fa51bd)      |
 
+### 26/02/04
+
+| 발표자 | 발표 내용 |
+| ------ | --------- |
+| 김세희 | [스펙 주도 개발](https://github.com/frontend-article-study/frontend-article-study-2/blob/main/sehee/%EC%8A%A4%ED%8E%99%20%EC%A3%BC%EB%8F%84%20%EA%B0%9C%EB%B0%9C.md)      |
+
 <!--
 표 템플릿
 | 발표자 | 발표 내용 |
