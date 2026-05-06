@@ -713,7 +713,7 @@
 
 | 발표자 | 발표 내용                                                                                                                |
 | ------ | ------------------------------------------------------------------------------------------------------------------------ |
-| 김세희 | [CSS의 색상 시스템](https://github.com/frontend-article-study/frontend-article-study-2/blob/main/sehee/CSS%EC%9D%98%20%EC%83%89%EC%83%81%20%EC%8B%9C%EC%8A%A4%ED%85%9C.md)                                                                                                                     |
+| 김세희 | [ESLint vs Biome](https://github.com/frontend-article-study/frontend-article-study-2/blob/main/sehee/ESLint%20vs%20Biome.md)                                                                                                                     |
 | 한혜선 |  |
 
 <!--
