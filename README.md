@@ -716,6 +716,15 @@
 | 김세희 | [ESLint vs Biome](https://github.com/frontend-article-study/frontend-article-study-2/blob/main/sehee/ESLint%20vs%20Biome.md)                                                                                                                     |
 | 한혜선 |  |
 
+### 26/05/13
+
+| 발표자 | 발표 내용                                                                                                                |
+| ------ | ------------------------------------------------------------------------------------------------------------------------ |
+| 김재환 | [점검페이지가 업데이트 되지 않는 문제](https://github.com/frontend-article-study/frontend-article-study-2/blob/main/jaehwan/%EC%A0%90%EA%B2%80%ED%8E%98%EC%9D%B4%EC%A7%80%EA%B0%80%20%EC%82%AC%EB%A6%AC%EC%A7%80%EC%A7%80%20%EC%95%8A%EB%8A%94%20%EB%AC%B8%EC%A0%9C.md)                                        
+| 문진석 |  |
+
+
+
 <!--
 표 템플릿
 | 발표자 | 발표 내용 |
