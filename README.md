@@ -666,8 +666,8 @@
 
 ### 26/01/28
 
-| 발표자 | 발표 내용                                                                                                                           |
-| ------ | ----------------------------------------------------------------------------------------------------------------------------------- |
+| 발표자 | 발표 내용                                                                                                                                |
+| ------ | ---------------------------------------------------------------------------------------------------------------------------------------- |
 | 김진솔 | [URL은 상태다.](https://github.com/frontend-article-study/frontend-article-study-2/blob/main/jinsoul/Articles/Your-URL-Is-Your-State.md) |
 
 ### 26/02/04
@@ -678,52 +678,50 @@
 
 ### 26/02/25
 
-| 발표자 | 발표 내용                                                                                                                                                            |
-| ------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 발표자 | 발표 내용                                                                                                                                                                                                                                                                                                             |
+| ------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | 문진석 | [우리는 왜 어떤 코드를 읽기 쉽다고 느낄까](https://github.com/frontend-article-study/frontend-article-study-2/blob/main/jinseok/%EC%9A%B0%EB%A6%AC%EB%8A%94%20%EC%99%9C%20%EC%96%B4%EB%96%A4%20%EC%BD%94%EB%93%9C%EB%A5%BC%20%EC%9D%BD%EA%B8%B0%20%EC%89%BD%EB%8B%A4%EA%B3%A0%20%EB%8A%90%EB%82%84%EA%B9%8C/index.md) |
 
 ### 26/03/11
 
-| 발표자 | 발표 내용                                                                                                                                                            |
-| ------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 발표자 | 발표 내용                                                                                                                                                                                                                                                                                                                          |
+| ------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | 김진솔 | [쏙쏙 들어오는 함수형 코딩](https://github.com/frontend-article-study/frontend-article-study-2/blob/main/jinsoul/Books/%EC%8F%99%EC%8F%99%EB%93%A4%EC%96%B4%EC%98%A4%EB%8A%94%ED%95%A8%EC%88%98%ED%98%95%EC%BD%94%EB%94%A9/%EC%8F%99%EC%8F%99%EB%93%A4%EC%96%B4%EC%98%A4%EB%8A%94%ED%95%A8%EC%88%98%ED%98%95%EC%BD%94%EB%94%A9.md) |
-| 김세희 | [Vercel skills로 알아보는 리액트 렌더링 최적화 기법](https://github.com/frontend-article-study/frontend-article-study-2/blob/main/sehee/Vercel%20skills%EB%A1%9C%20%EC%95%8C%EC%95%84%EB%B3%B4%EB%8A%94%20%EB%A6%AC%EC%95%A1%ED%8A%B8%20%EB%A0%8C%EB%8D%94%EB%A7%81%20%EC%B5%9C%EC%A0%81%ED%99%94%20%EA%B8%B0%EB%B2%95.md) |
+| 김세희 | [Vercel skills로 알아보는 리액트 렌더링 최적화 기법](https://github.com/frontend-article-study/frontend-article-study-2/blob/main/sehee/Vercel%20skills%EB%A1%9C%20%EC%95%8C%EC%95%84%EB%B3%B4%EB%8A%94%20%EB%A6%AC%EC%95%A1%ED%8A%B8%20%EB%A0%8C%EB%8D%94%EB%A7%81%20%EC%B5%9C%EC%A0%81%ED%99%94%20%EA%B8%B0%EB%B2%95.md)         |
 
 ### 26/04/01
 
-| 발표자 | 발표 내용                                                                                                                |
-| ------ | ------------------------------------------------------------------------------------------------------------------------ |
-| 김세희 | [CSS의 색상 시스템](https://github.com/frontend-article-study/frontend-article-study-2/blob/main/sehee/CSS%EC%9D%98%20%EC%83%89%EC%83%81%20%EC%8B%9C%EC%8A%A4%ED%85%9C.md)                                                                                                                     |
-| 한혜선 | [커링(Currying)](https://github.com/frontend-article-study/frontend-article-study-2/blob/main/hyeseon/Currying/index.md) |
+| 발표자 | 발표 내용                                                                                                                                                                  |
+| ------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 김세희 | [CSS의 색상 시스템](https://github.com/frontend-article-study/frontend-article-study-2/blob/main/sehee/CSS%EC%9D%98%20%EC%83%89%EC%83%81%20%EC%8B%9C%EC%8A%A4%ED%85%9C.md) |
+| 한혜선 | [커링(Currying)](https://github.com/frontend-article-study/frontend-article-study-2/blob/main/hyeseon/Currying/index.md)                                                   |
 
 ### 26/04/08
 
-| 발표자 | 발표 내용                                                                                                                |
-| ------ | ------------------------------------------------------------------------------------------------------------------------ |
-| 김재환 | [2026 AI 근황](https://github.com/frontend-article-study/frontend-article-study-2/blob/8519a989c495b408004ab1957048fce740ff5ead/jaehwan/2026AI%EA%B7%BC%ED%99%A9.md)                                                                                                                     |
+| 발표자 | 발표 내용                                                                                                                                                            |
+| ------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 김재환 | [2026 AI 근황](https://github.com/frontend-article-study/frontend-article-study-2/blob/8519a989c495b408004ab1957048fce740ff5ead/jaehwan/2026AI%EA%B7%BC%ED%99%A9.md) |
 
 ### 26/04/22
 
-| 발표자 | 발표 내용                                                                                                                |
-| ------ | ------------------------------------------------------------------------------------------------------------------------ |
-| 김진솔 | [Pretext](https://github.com/frontend-article-study/frontend-article-study-2/blob/cd0c43f293400309e459b5dfba437f3f0507b4cf/jinsoul/Pretext/Pretext.md)                                                                                                                     |
+| 발표자 | 발표 내용                                                                                                                                                                                     |
+| ------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 김진솔 | [Pretext](https://github.com/frontend-article-study/frontend-article-study-2/blob/cd0c43f293400309e459b5dfba437f3f0507b4cf/jinsoul/Pretext/Pretext.md)                                        |
 | 남주영 | [굿바이 innerHTML, 헬로 setHTML](https://github.com/frontend-article-study/frontend-article-study-2/blob/46de9efec613fbc98f482c99633062ee94bd56ed/juyeong/goodbye-innerhtml-hello-sethtml.md) |
 
 ### 26/05/06
 
-| 발표자 | 발표 내용                                                                                                                |
-| ------ | ------------------------------------------------------------------------------------------------------------------------ |
-| 김세희 | [ESLint vs Biome](https://github.com/frontend-article-study/frontend-article-study-2/blob/main/sehee/ESLint%20vs%20Biome.md)                                                                                                                     |
-| 한혜선 |  |
+| 발표자 | 발표 내용                                                                                                                                                         |
+| ------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 김세희 | [ESLint vs Biome](https://github.com/frontend-article-study/frontend-article-study-2/blob/main/sehee/ESLint%20vs%20Biome.md)                                      |
+| 한혜선 | [ 가상화 (Virtualization)](<https://github.com/frontend-article-study/frontend-article-study-2/blob/main/hyeseon/%EA%B0%80%EC%83%81%ED%99%94(Virtualization).md>) |
 
 ### 26/05/13
 
-| 발표자 | 발표 내용                                                                                                                |
-| ------ | ------------------------------------------------------------------------------------------------------------------------ |
-| 김재환 | [점검페이지가 업데이트 되지 않는 문제](https://github.com/frontend-article-study/frontend-article-study-2/blob/main/jaehwan/%EC%A0%90%EA%B2%80%ED%8E%98%EC%9D%B4%EC%A7%80%EA%B0%80%20%EC%82%AC%EB%A6%AC%EC%A7%80%EC%A7%80%20%EC%95%8A%EB%8A%94%20%EB%AC%B8%EC%A0%9C.md)                                        
-| 문진석 |  |
-
-
+| 발표자 | 발표 내용                                                                                                                                                                                                                                                               |
+| ------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 김재환 | [점검페이지가 업데이트 되지 않는 문제](https://github.com/frontend-article-study/frontend-article-study-2/blob/main/jaehwan/%EC%A0%90%EA%B2%80%ED%8E%98%EC%9D%B4%EC%A7%80%EA%B0%80%20%EC%82%AC%EB%A6%AC%EC%A7%80%EC%A7%80%20%EC%95%8A%EB%8A%94%20%EB%AC%B8%EC%A0%9C.md) |
+| 문진석 |                                                                                                                                                                                                                                                                         |
 
 <!--
 표 템플릿
