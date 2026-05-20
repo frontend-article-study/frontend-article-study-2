@@ -702,6 +702,12 @@
 | ------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | 김재환 | [2026 AI 근황](https://github.com/frontend-article-study/frontend-article-study-2/blob/8519a989c495b408004ab1957048fce740ff5ead/jaehwan/2026AI%EA%B7%BC%ED%99%A9.md) |
 
+### 26/04/15
+
+| 발표자 | 발표 내용                                                                                                                                            |
+| ------ | ---------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 문진석 | [Harness Engineering](https://github.com/frontend-article-study/frontend-article-study-2/blob/main/jinseok/Harness%20Engineering/index.md)            |
+
 ### 26/04/22
 
 | 발표자 | 발표 내용                                                                                                                                                                                     |
@@ -721,7 +727,7 @@
 | 발표자 | 발표 내용                                                                                                                                                                                                                                                               |
 | ------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | 김재환 | [점검페이지가 업데이트 되지 않는 문제](https://github.com/frontend-article-study/frontend-article-study-2/blob/main/jaehwan/%EC%A0%90%EA%B2%80%ED%8E%98%EC%9D%B4%EC%A7%80%EA%B0%80%20%EC%82%AC%EB%A6%AC%EC%A7%80%EC%A7%80%20%EC%95%8A%EB%8A%94%20%EB%AC%B8%EC%A0%9C.md) |
-| 문진석 | [Harness Engineering](https://github.com/frontend-article-study/frontend-article-study-2/blob/main/jinseok/Harness%20Engineering/index.md)                                                                                                                              |
+| 문진석 |                                                                                                                                                                                                                                                                         |
 
 ### 26/05/20
 
