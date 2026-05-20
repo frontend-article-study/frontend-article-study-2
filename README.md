@@ -721,7 +721,7 @@
 | 발표자 | 발표 내용                                                                                                                                                                                                                                                               |
 | ------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | 김재환 | [점검페이지가 업데이트 되지 않는 문제](https://github.com/frontend-article-study/frontend-article-study-2/blob/main/jaehwan/%EC%A0%90%EA%B2%80%ED%8E%98%EC%9D%B4%EC%A7%80%EA%B0%80%20%EC%82%AC%EB%A6%AC%EC%A7%80%EC%A7%80%20%EC%95%8A%EB%8A%94%20%EB%AC%B8%EC%A0%9C.md) |
-| 문진석 |                                                                                                                                                                                                                                                                         |
+| 문진석 | [Harness Engineering](https://github.com/frontend-article-study/frontend-article-study-2/blob/main/jinseok/Harness%20Engineering/index.md)                                                                                                                              |
 
 ### 26/05/20
 
@@ -729,7 +729,7 @@
 | ------ | --------- |
 | 김진솔 |           |
 | 남주영 |           |
-| 문진석 |           |
+| 문진석 | [AI 시대에도 소프트웨어 기본기가 중요한 이유](https://github.com/frontend-article-study/frontend-article-study-2/blob/main/jinseok/AI%20%EC%8B%9C%EB%8C%80%EC%97%90%EB%8F%84%20%EC%86%8C%ED%94%84%ED%8A%B8%EC%9B%A8%EC%96%B4%20%EA%B8%B0%EB%B3%B8%EA%B8%B0%EA%B0%80%20%EC%A4%91%EC%9A%94%ED%95%9C%20%EC%9D%B4%EC%9C%A0/index.md) |
 
 <!--
 표 템플릿
