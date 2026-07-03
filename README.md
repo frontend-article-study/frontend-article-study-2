@@ -754,7 +754,7 @@
 
 | 발표자 | 발표 내용 |
 | ------ | --------- |
-| 김진솔 | [AI 시대 프론트엔드 기본기](https://github.com/frontend-article-study/frontend-article-study-2/commit/09a5803a0ab450bb33992e2bddf4d1534a394afa) |
+| 김진솔 | [AI 시대, 프론트엔드 기본기는 왜 다시 중요해지는가](https://github.com/frontend-article-study/frontend-article-study-2/blob/main/jinsoul/Articles/AI%20%EC%8B%9C%EB%8C%80%2C%20%ED%94%84%EB%A1%A0%ED%8A%B8%EC%97%94%EB%93%9C%20%EA%B8%B0%EB%B3%B8%EA%B8%B0%EB%8A%94%20%EC%99%9C%20%EB%8B%A4%EC%8B%9C%20%EC%A4%91%EC%9A%94%ED%95%B4%EC%A7%80%EB%8A%94%EA%B0%80.md) |
 
 <!--
 표 템플릿
