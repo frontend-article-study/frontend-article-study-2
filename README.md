@@ -754,7 +754,7 @@
 
 | 발표자 | 발표 내용 |
 | ------ | --------- |
-| 김세희 | []() |
+| 김재환 | [프론트엔드 관점의 아키텍처-1](https://github.com/frontend-article-study/frontend-article-study-2/blob/main/jaehwan/%ED%94%84%EB%A1%A0%ED%8A%B8%EC%97%94%EB%93%9C%20%EA%B4%80%EC%A0%90%EC%97%90%EC%84%9C%EC%9D%98%20%EC%95%84%ED%82%A4%ED%85%8D%EC%B2%98-1.md) |
 
 ### 26/07/10
 
