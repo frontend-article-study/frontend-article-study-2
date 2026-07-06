@@ -750,6 +750,12 @@
 | 김세희 | [AI 에이전트를 위한 Playwright E2E 테스트 하네스 구축하기](https://github.com/frontend-article-study/frontend-article-study-2/blob/main/sehee/AI%20%EC%97%90%EC%9D%B4%EC%A0%84%ED%8A%B8%EB%A5%BC%20%EC%9C%84%ED%95%9C%20Playwright%20E2E%20%ED%85%8C%EC%8A%A4%ED%8A%B8%20%ED%95%98%EB%84%A4%EC%8A%A4%20%EA%B5%AC%EC%B6%95%ED%95%98%EA%B8%B0.md) |
 | 성지현 |           |
 
+### 26/06/24
+
+| 발표자 | 발표 내용 |
+| ------ | --------- |
+| 김세희 | []() |
+
 ### 26/07/10
 
 | 발표자 | 발표 내용 |
