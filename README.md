@@ -688,6 +688,7 @@
 | ------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | 김진솔 | [쏙쏙 들어오는 함수형 코딩](https://github.com/frontend-article-study/frontend-article-study-2/blob/main/jinsoul/Books/%EC%8F%99%EC%8F%99%EB%93%A4%EC%96%B4%EC%98%A4%EB%8A%94%ED%95%A8%EC%88%98%ED%98%95%EC%BD%94%EB%94%A9/%EC%8F%99%EC%8F%99%EB%93%A4%EC%96%B4%EC%98%A4%EB%8A%94%ED%95%A8%EC%88%98%ED%98%95%EC%BD%94%EB%94%A9.md) |
 | 김세희 | [Vercel skills로 알아보는 리액트 렌더링 최적화 기법](https://github.com/frontend-article-study/frontend-article-study-2/blob/main/sehee/Vercel%20skills%EB%A1%9C%20%EC%95%8C%EC%95%84%EB%B3%B4%EB%8A%94%20%EB%A6%AC%EC%95%A1%ED%8A%B8%20%EB%A0%8C%EB%8D%94%EB%A7%81%20%EC%B5%9C%EC%A0%81%ED%99%94%20%EA%B8%B0%EB%B2%95.md)         |
+| 성지현 | [n8n 소개](https://github.com/frontend-article-study/frontend-article-study-2/blob/main/jihyun/n8n/n8n_%EC%86%8C%EA%B0%9C.md)                                                                                                                                                                                                       |
 
 ### 26/04/01
 
@@ -747,7 +748,7 @@
 | 발표자 | 발표 내용                                                                                                                                                                                                                                                                                                                                       |
 | ------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | 김세희 | [AI 에이전트를 위한 Playwright E2E 테스트 하네스 구축하기](https://github.com/frontend-article-study/frontend-article-study-2/blob/main/sehee/AI%20%EC%97%90%EC%9D%B4%EC%A0%84%ED%8A%B8%EB%A5%BC%20%EC%9C%84%ED%95%9C%20Playwright%20E2E%20%ED%85%8C%EC%8A%A4%ED%8A%B8%20%ED%95%98%EB%84%A4%EC%8A%A4%20%EA%B5%AC%EC%B6%95%ED%95%98%EA%B8%B0.md) |
-| 성지현 |                                                                                                                                                                                                                                                                                                                                                 |
+| 성지현 | [branded type 그리고 queryOptions](https://github.com/frontend-article-study/frontend-article-study-2/blob/main/jihyun/branded-type-query-options/branded%20type%20%EA%B7%B8%EB%A6%AC%EA%B3%A0%20queryOptions.md)                                                                                                                                |
 
 ### 26/06/24
 
@@ -766,7 +767,7 @@
 | 발표자 | 발표 내용                                                                                                                                                                                                                                                                                                                                                         |
 | ------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | 김세희 | [검증하지 말고 파싱하세요 - 그렇게 하라고 이끌어 주지 않는 언어에서](https://github.com/frontend-article-study/frontend-article-study-2/blob/main/sehee/%EA%B2%80%EC%A6%9D%ED%95%98%EC%A7%80%20%EB%A7%90%EA%B3%A0%20%ED%8C%8C%EC%8B%B1%ED%95%98%EC%84%B8%EC%9A%94%20-%20%EA%B7%B8%EB%A0%87%EA%B2%8C%20%ED%95%98%EB%9D%BC%EA%B3%A0%20%EC%9D%B4%EB%81%8C%EC%96%B4%20%EC%A3%BC%EC%A7%80%20%EC%95%8A%EB%8A%94%20%EC%96%B8%EC%96%B4%EC%97%90%EC%84%9C.md) |
-| 성지현 | []()                                                                                                                                                               |
+| 성지현 | [Fable 가이드](https://github.com/frontend-article-study/frontend-article-study-2/blob/main/jihyun/fable/Fable%20%EA%B0%80%EC%9D%B4%EB%93%9C.md)                                                                                                                                                                                                                                                                                    |
 
 
 ### 26/07/22
@@ -787,6 +788,7 @@
 | 발표자 | 발표 내용                                                                                                                                                                                                                                                                                                                                 |
 | ------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | 김세희 | [AWS Route 53의 유령 호스팅 이슈](https://github.com/frontend-article-study/frontend-article-study-2/blob/main/sehee/AWS%20Route%2053%EC%9D%98%20%EC%9C%A0%EB%A0%B9%20%ED%98%B8%EC%8A%A4%ED%8C%85%20%EC%9D%B4%EC%8A%88.md) |
+| 성지현 | [이해가 새로운 병목이다](https://github.com/frontend-article-study/frontend-article-study-2/blob/main/jihyun/understanding-is-the-new-bottleneck/Understanding%20is%20the%20new%20bottleneck.md)                            |
 
 
 <!--
