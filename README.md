@@ -790,6 +790,12 @@
 | 김세희 | [AWS Route 53의 유령 호스팅 이슈](https://github.com/frontend-article-study/frontend-article-study-2/blob/main/sehee/AWS%20Route%2053%EC%9D%98%20%EC%9C%A0%EB%A0%B9%20%ED%98%B8%EC%8A%A4%ED%8C%85%20%EC%9D%B4%EC%8A%88.md) |
 | 성지현 | [이해가 새로운 병목이다](https://github.com/frontend-article-study/frontend-article-study-2/blob/main/jihyun/understanding-is-the-new-bottleneck/Understanding%20is%20the%20new%20bottleneck.md)                            |
 
+| 발표자 | 발표 내용 |
+| ------ | --------- |
+| 김재환 | [객체지향의 사실과 오해 후기](https://arc.net/l/quote/xbzglaqp) |
+
+
+
 
 <!--
 표 템플릿
