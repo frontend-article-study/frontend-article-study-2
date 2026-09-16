@@ -802,6 +802,13 @@
 | 김진솔 | [얼굴 인식 기술](https://github.com/jinsoul75/frontend-article-study-2/blob/main/jinsoul/Face-Recognition/face-recognition-technology.md)                                |
 | 한혜선 | [React Native New Architecture](https://github.com/frontend-article-study/frontend-article-study-2/blob/main/hyeseon/React%20Native%20New%20Architecture/index.md) |
 
+### 26/09/16
+
+| 발표자 | 발표 내용                                                                                                                                                          |
+| ------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| 김세희 | [Logging Sucks: 로그는 거짓말을 한다 (Wide Events)](https://github.com/frontend-article-study/frontend-article-study-2/blob/main/sehee/Logging%20Sucks%3A%20%EB%A1%9C%EA%B7%B8%EB%8A%94%20%EA%B1%B0%EC%A7%93%EB%A7%90%EC%9D%84%20%ED%95%9C%EB%8B%A4%20(Wide%20Events).md)                                |
+
+
 <!--
 표 템플릿
 | 발표자 | 발표 내용 |
