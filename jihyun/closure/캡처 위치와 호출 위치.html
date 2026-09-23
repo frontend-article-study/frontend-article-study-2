@@ -1,0 +1,819 @@
+<!doctype html><html><head><meta charset=utf8><meta name=viewport content="width=device-width,initial-scale=1,viewport-fit=cover"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}html{scroll-padding-top:env(safe-area-inset-top,0px)}body{margin:0;padding:0;font:14px -apple-system,BlinkMacSystemFont,sans-serif;background:#faf9f5;color:#141413}img{max-width:100%}[hidden]:not([hidden=until-found i]){display:none!important}</style></head><body>
+<title>캡처 위치와 호출 위치</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,400;0,500;0,600;1,400&family=IBM+Plex+Sans+KR:wght@400;500;600;700&display=swap">
+
+<style>
+  :root {
+    --ground: #F2F4F5;
+    --surface: #FFFFFF;
+    --surface-2: #E9EDEE;
+    --ink: #14191C;
+    --ink-2: #5C6771;
+    --ink-3: #8A959D;
+    --rule: #DCE1E4;
+    --rule-strong: #C3CBCF;
+    --capture: #0F766E;
+    --capture-soft: rgba(15, 118, 110, 0.10);
+    --call: #B45309;
+    --call-soft: rgba(180, 83, 9, 0.10);
+    --shadow: 0 1px 2px rgba(20, 25, 28, .05), 0 8px 24px -16px rgba(20, 25, 28, .28);
+
+    --font-sans: 'IBM Plex Sans KR', 'Apple SD Gothic Neo', -apple-system, BlinkMacSystemFont, 'Malgun Gothic', sans-serif;
+    --font-mono: 'IBM Plex Mono', 'IBM Plex Sans KR', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+  }
+
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --ground: #0F1417;
+      --surface: #161C20;
+      --surface-2: #1D252A;
+      --ink: #E3E9EC;
+      --ink-2: #95A2AA;
+      --ink-3: #6E7C85;
+      --rule: #252E33;
+      --rule-strong: #37434A;
+      --capture: #3FBFAE;
+      --capture-soft: rgba(63, 191, 174, 0.12);
+      --call: #E39A3E;
+      --call-soft: rgba(227, 154, 62, 0.12);
+      --shadow: 0 1px 2px rgba(0, 0, 0, .4), 0 8px 24px -16px rgba(0, 0, 0, .7);
+    }
+  }
+
+  :root[data-theme="dark"] {
+    --ground: #0F1417;
+    --surface: #161C20;
+    --surface-2: #1D252A;
+    --ink: #E3E9EC;
+    --ink-2: #95A2AA;
+    --ink-3: #6E7C85;
+    --rule: #252E33;
+    --rule-strong: #37434A;
+    --capture: #3FBFAE;
+    --capture-soft: rgba(63, 191, 174, 0.12);
+    --call: #E39A3E;
+    --call-soft: rgba(227, 154, 62, 0.12);
+    --shadow: 0 1px 2px rgba(0, 0, 0, .4), 0 8px 24px -16px rgba(0, 0, 0, .7);
+  }
+
+  * { box-sizing: border-box; }
+
+  body {
+    background: var(--ground);
+    color: var(--ink);
+    font-family: var(--font-sans);
+    font-size: 16px;
+    line-height: 1.7;
+    -webkit-font-smoothing: antialiased;
+    word-break: keep-all;
+  }
+
+  .shell {
+    max-width: 1180px;
+    margin: 0 auto;
+    padding: 56px 24px 96px;
+    display: grid;
+    gap: 40px;
+    grid-template-columns: minmax(0, 1fr);
+    align-items: start;
+  }
+
+  @media (min-width: 1120px) {
+    .shell { grid-template-columns: minmax(0, 1fr) 208px; gap: 64px; }
+    .doc { grid-column: 1; grid-row: 1; }
+    .toc { grid-column: 2; grid-row: 1; position: sticky; top: 40px; }
+  }
+
+  .doc { max-width: 800px; }
+
+  /* ---------- table of contents ---------- */
+  .toc {
+    font-family: var(--font-mono);
+    font-size: 12px;
+    line-height: 1.6;
+    border-top: 2px solid var(--ink);
+    padding-top: 14px;
+  }
+  .toc h2 {
+    font-size: 11px;
+    letter-spacing: .14em;
+    text-transform: uppercase;
+    color: var(--ink-2);
+    margin: 0 0 12px;
+    font-weight: 500;
+  }
+  .toc ol { list-style: none; margin: 0; padding: 0; display: grid; gap: 9px; }
+  .toc a {
+    color: var(--ink-2);
+    text-decoration: none;
+    display: grid;
+    grid-template-columns: 22px 1fr;
+    gap: 4px;
+  }
+  .toc a:hover { color: var(--capture); }
+  .toc a:focus-visible { outline: 2px solid var(--capture); outline-offset: 3px; border-radius: 2px; }
+  .toc .n { color: var(--ink-3); }
+
+  /* ---------- header ---------- */
+  .eyebrow {
+    font-family: var(--font-mono);
+    font-size: 11.5px;
+    letter-spacing: .16em;
+    text-transform: uppercase;
+    color: var(--ink-2);
+    margin: 0 0 20px;
+  }
+  h1 {
+    font-size: clamp(34px, 6vw, 52px);
+    line-height: 1.15;
+    letter-spacing: -.02em;
+    font-weight: 700;
+    margin: 0;
+    text-wrap: balance;
+  }
+  .lead {
+    font-size: 17.5px;
+    color: var(--ink-2);
+    max-width: 58ch;
+    margin: 20px 0 0;
+    line-height: 1.65;
+  }
+  .keyline { height: 2px; background: var(--ink); margin: 34px 0 0; }
+
+  .thesis {
+    background: var(--surface);
+    border: 1px solid var(--rule);
+    border-left: 3px solid var(--capture);
+    border-radius: 3px;
+    padding: 20px 24px;
+    margin: 30px 0 0;
+    box-shadow: var(--shadow);
+  }
+  .thesis .tag {
+    font-family: var(--font-mono);
+    font-size: 11px;
+    letter-spacing: .14em;
+    text-transform: uppercase;
+    color: var(--capture);
+    display: block;
+    margin-bottom: 8px;
+  }
+  .thesis p { margin: 0; font-size: 17px; line-height: 1.65; }
+
+  /* ---------- sections ---------- */
+  .prose { margin-top: 60px; }
+  section { margin-bottom: 60px; }
+  section:last-of-type { margin-bottom: 0; }
+  section > *:not(.exhibit) { max-width: 66ch; }
+  section > h2 { max-width: 40ch; }
+
+  h2 {
+    font-size: 25px;
+    line-height: 1.35;
+    font-weight: 600;
+    letter-spacing: -.01em;
+    margin: 0 0 4px;
+    text-wrap: balance;
+    scroll-margin-top: 32px;
+  }
+  h2 .num {
+    font-family: var(--font-mono);
+    font-size: 13px;
+    font-weight: 500;
+    color: var(--ink-3);
+    display: block;
+    letter-spacing: .1em;
+    margin-bottom: 10px;
+  }
+  h3 {
+    font-family: var(--font-mono);
+    font-size: 12px;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+    font-weight: 500;
+    color: var(--ink-2);
+    margin: 32px 0 0;
+  }
+  h3 code { font-size: 1em; text-transform: none; letter-spacing: 0; }
+  p { margin: 14px 0 0; }
+  strong { font-weight: 600; }
+
+  /* ---------- bullets ---------- */
+  section ul { list-style: none; padding: 0; margin: 16px 0 0; display: grid; gap: 11px; }
+  section ul li { position: relative; padding-left: 22px; }
+  section ul li::before {
+    content: "";
+    position: absolute;
+    left: 0; top: .82em;
+    width: 11px; height: 1.5px;
+    background: var(--rule-strong);
+  }
+  section ul li b { font-weight: 600; color: var(--ink); }
+  section ul ul { margin: 9px 0 0; gap: 7px; }
+  section ul ul li { padding-left: 18px; font-size: 15px; color: var(--ink-2); }
+  section ul ul li::before { width: 6px; background: var(--rule); }
+
+  li.hi::before { background: var(--capture); height: 2px; }
+  li.hi b { color: var(--capture); }
+  li.no::before { background: var(--call); height: 2px; }
+  li.no b { color: var(--call); }
+
+  .note {
+    font-size: 15px;
+    color: var(--ink-2);
+    border-left: 2px solid var(--rule-strong);
+    padding-left: 18px;
+    margin-top: 22px;
+  }
+  .note b { color: var(--ink); font-weight: 600; }
+
+  code {
+    font-family: var(--font-mono);
+    font-size: .88em;
+    background: var(--surface-2);
+    padding: .12em .34em;
+    border-radius: 3px;
+  }
+
+  /* ---------- exhibits ---------- */
+  .exhibit { margin-top: 24px; }
+
+  .code {
+    background: var(--surface);
+    border: 1px solid var(--rule);
+    border-radius: 4px;
+    overflow: hidden;
+    box-shadow: var(--shadow);
+  }
+  .code .src {
+    font-family: var(--font-mono);
+    font-size: 11px;
+    letter-spacing: .06em;
+    color: var(--ink-2);
+    padding: 9px 16px;
+    border-bottom: 1px solid var(--rule);
+    background: var(--surface-2);
+    display: flex;
+    justify-content: space-between;
+    gap: 16px;
+    flex-wrap: wrap;
+  }
+  .code .src em { font-style: normal; color: var(--ink-3); }
+  .code pre {
+    margin: 0;
+    padding: 18px 16px;
+    overflow-x: auto;
+    font-family: var(--font-mono);
+    font-size: 13px;
+    line-height: 1.72;
+    tab-size: 2;
+  }
+  .code pre code { background: none; padding: 0; font-size: inherit; }
+
+  .c   { color: var(--ink-3); font-style: italic; }
+  .cap { color: var(--capture); font-weight: 500; }
+  .cal { color: var(--call); font-weight: 500; }
+
+  .out {
+    background: var(--surface-2);
+    border: 1px solid var(--rule);
+    border-radius: 4px;
+    padding: 16px;
+    font-family: var(--font-mono);
+    font-size: 12.5px;
+    line-height: 1.85;
+    overflow-x: auto;
+    white-space: pre;
+  }
+
+  figure { margin: 0; }
+  figure svg { display: block; width: 100%; max-width: 100%; height: auto; color: var(--ink-2); }
+  .figframe {
+    background: var(--surface);
+    border: 1px solid var(--rule);
+    border-radius: 4px;
+    padding: 20px 18px 12px;
+    box-shadow: var(--shadow);
+    overflow-x: auto;
+  }
+  figcaption {
+    font-size: 13.5px;
+    color: var(--ink-2);
+    margin-top: 13px;
+    line-height: 1.6;
+    max-width: 62ch;
+  }
+  figcaption b { color: var(--ink); font-weight: 600; }
+
+  .svg-ink   { fill: var(--ink); }
+  .svg-ink2  { fill: var(--ink-2); }
+  .svg-ink3  { fill: var(--ink-3); }
+  .svg-cap   { fill: var(--capture); }
+  .svg-cal   { fill: var(--call); }
+  .mk-cap    { fill: var(--capture); }
+  .mk-ink    { fill: var(--ink-2); }
+  .box       { fill: none; stroke: var(--rule-strong); stroke-width: 1; }
+  .box-cap   { fill: var(--capture-soft); stroke: var(--capture); stroke-width: 1.5; }
+  .box-cal   { fill: var(--call-soft); stroke: var(--call); stroke-width: 1.5; }
+  .box-dest  { fill: none; stroke: var(--capture); stroke-width: 1.4; stroke-dasharray: 5 4; }
+  .slot      { fill: var(--surface-2); stroke: var(--rule); stroke-width: 1; }
+  .slot-hit  { fill: var(--capture-soft); stroke: var(--capture); stroke-width: 1.5; }
+  .slot-hit-b{ fill: none; stroke: var(--rule-strong); stroke-width: 1.5; stroke-dasharray: 4 3; }
+  .ln        { stroke: var(--ink-2); stroke-width: 1.4; fill: none; }
+  .ln-cap    { stroke: var(--capture); stroke-width: 1.4; fill: none; }
+  .ln-dash   { stroke: var(--capture); stroke-width: 1.4; fill: none; stroke-dasharray: 5 4; }
+  .mono      { font-family: var(--font-mono); }
+
+  /* ---------- table ---------- */
+  .tablewrap { overflow-x: auto; }
+  table { border-collapse: collapse; width: 100%; min-width: 520px; font-size: 14.5px; }
+  th, td { text-align: left; padding: 13px 16px; border-bottom: 1px solid var(--rule); vertical-align: top; }
+  thead th {
+    font-family: var(--font-mono);
+    font-size: 11px;
+    letter-spacing: .12em;
+    text-transform: uppercase;
+    color: var(--ink-2);
+    font-weight: 500;
+    border-bottom: 1.5px solid var(--rule-strong);
+  }
+  tbody th { font-weight: 600; white-space: nowrap; color: var(--ink); }
+  td.a { color: var(--ink); }
+
+
+  @media (prefers-reduced-motion: reduce) {
+    * { animation: none !important; transition: none !important; }
+  }
+</style>
+
+<div class="shell">
+
+  <nav class="toc" aria-label="목차">
+    <h2>목차</h2>
+    <ol>
+      <li><a href="#s1"><span class="n">§1</span><span>함수 + 태어난 환경</span></a></li>
+      <li><a href="#s2"><span class="n">§2</span><span>렉시컬 스코프</span></a></li>
+      <li><a href="#s3"><span class="n">§3</span><span>훅은 클로저 팩토리</span></a></li>
+      <li><a href="#s4"><span class="n">§4</span><span>함수는 내려가고 환경은 남는다</span></a></li>
+      <li><a href="#s5"><span class="n">§5</span><span>캡처된 스택의 차이</span></a></li>
+      <li><a href="#s6"><span class="n">§6</span><span>오판의 해부</span></a></li>
+      <li><a href="#s7"><span class="n">§7</span><span>stale closure와 구분</span></a></li>
+    </ol>
+  </nav>
+
+  <div class="doc">
+
+    <header>
+      <p class="eyebrow">프론트엔드 스터디 · 자바스크립트 클로저</p>
+      <h1>캡처 위치와 호출 위치</h1>
+      <p class="lead">
+        클로저를 “함수가 바깥 변수를 기억한다”로만 알면 놓치는 것이 있다.
+        react-router 상대경로 이동을 추적하다 한 번 틀린 결론을 냈던 사례를
+        최소 예제로 줄여서 정리했다.
+      </p>
+      <div class="keyline"></div>
+
+      <div class="thesis">
+        <span class="tag">한 줄 요약</span>
+        <p>
+          함수가 어떤 값을 보는지는 <strong>그 함수가 정의된 자리</strong>가 정한다.
+          어디로 넘겨져서 어디서 실행되든 바뀌지 않는다.
+        </p>
+      </div>
+    </header>
+
+    <div class="prose">
+
+      <!-- ============ 1 ============ -->
+      <section id="s1">
+        <h2><span class="num">§1</span>클로저 = 함수 + 그 함수가 태어난 환경</h2>
+
+        <div class="exhibit code">
+          <div class="src">makeCounter.js<em>클로저의 최소 형태</em></div>
+<pre><code>function makeCounter() {
+  let n = 0            <span class="c">// makeCounter의 지역 변수</span>
+  return () =&gt; ++n     <span class="c">// 이 함수가 n을 붙들고 밖으로 나간다</span>
+}
+
+const c = makeCounter()
+c() <span class="c">// 1</span>
+c() <span class="c">// 2</span></code></pre>
+        </div>
+
+        <ul>
+          <li><b>현상</b> — <code>makeCounter</code>는 이미 끝났는데 <code>n</code>은 살아 있다.</li>
+          <li><b>이유</b> — 반환된 함수가 자기가 정의된 렉시컬 환경에 대한 <strong>참조</strong>를 들고 나갔다.</li>
+          <li class="hi"><b>핵심</b> — 값을 <em>복사</em>해 가는 게 아니라 환경을 <em>붙들고</em> 간다. 그래서 <code>n</code>이 바뀌면 클로저가 보는 값도 같이 바뀐다.</li>
+        </ul>
+
+        <div class="exhibit code">
+          <div class="src">loop.js<em>“환경을 붙든다”가 드러나는 고전 예제</em></div>
+<pre><code><span class="c">// var: 함수 스코프 — 세 콜백이 "같은" 환경 하나를 공유한다</span>
+for (var i = 0; i &lt; 3; i++) setTimeout(() =&gt; console.log(i))
+<span class="c">// 3 3 3</span>
+
+<span class="c">// let: 반복마다 새 바인딩 — 콜백마다 "다른" 환경을 붙든다</span>
+for (let i = 0; i &lt; 3; i++) setTimeout(() =&gt; console.log(i))
+<span class="c">// 0 1 2</span></code></pre>
+        </div>
+
+        <p class="note">
+          두 코드의 차이는 콜백이 아니라 <b>콜백이 태어난 환경의 개수</b>다.
+          클로저 문제를 풀 때 함수 본문만 들여다보면 답이 안 나오는 이유.
+        </p>
+      </section>
+
+      <!-- ============ 2 ============ -->
+      <section id="s2">
+        <h2><span class="num">§2</span>렉시컬 스코프 — “정의 위치”가 정한다</h2>
+
+        <div class="exhibit code">
+          <div class="src">lexical.js<em>호출 위치는 스코프에 관여하지 않는다</em></div>
+<pre><code>const x = 'outer'
+function f() { return x }        <span class="c">// f의 스코프는 여기서 결정된다</span>
+
+function g() {
+  const x = 'inner'
+  return f()                     <span class="c">// 호출은 여기서 하지만</span>
+}
+
+g() <span class="c">// 'outer'  ← 'inner'가 아니다</span></code></pre>
+        </div>
+
+        <ul>
+          <li><b>규칙</b> — 함수가 보는 변수는 <strong>소스 코드에서 그 함수가 쓰인 자리</strong>로 결정된다.</li>
+          <li><b>불변</b> — 나중에 어디서 호출되든 바뀌지 않는다. 그래서 “정적(static) 스코프”라고도 한다.</li>
+          <li class="no"><b>대비</b> — <code>this</code>는 반대로 <strong>호출 위치</strong>가 정한다(동적).</li>
+        </ul>
+
+        <p class="note">
+          한 언어 안에 <b>정의 위치 규칙</b>(변수)과 <b>호출 위치 규칙</b>(<code>this</code>)이
+          공존하는 것이 혼란의 큰 원인이다. 헷갈릴 때 이 둘을 먼저 분리하자.
+        </p>
+      </section>
+
+      <!-- ============ 3 ============ -->
+      <section id="s3">
+        <h2><span class="num">§3</span>리액트 훅은 클로저 팩토리다</h2>
+
+        <ul>
+          <li>여기서부터가 본론. 실무에서 흔한 구조를 최소한으로 줄인 예제다.</li>
+          <li>결제 플로우가 splat 라우트 아래에 있고, 그 안에서 다시 <code>&lt;Routes&gt;</code>로 단계를 나눈다.</li>
+        </ul>
+
+        <div class="exhibit code">
+          <div class="src">routes.jsx<em>라우트 정의 — receipt는 payment의 형제다</em></div>
+<pre><code>&lt;Route path="/checkout" element={&lt;CheckoutLayout /&gt;}&gt;
+  &lt;Route path=<span class="cap">"payment/*"</span> element={&lt;PaymentFlow /&gt;} /&gt;   <span class="c">// splat 라우트</span>
+  &lt;Route path="receipt"  element={&lt;ReceiptPage /&gt;} /&gt;
+&lt;/Route&gt;</code></pre>
+        </div>
+
+        <div class="exhibit code">
+          <div class="src">PaymentFlow.jsx<em>navigate가 만들어지는 곳과 실행되는 곳</em></div>
+<pre><code>function PaymentFlow() {
+  const navigate = <span class="cap">useNavigate()</span>          <span class="cap">// ① 여기서 만들어진다 (컴포넌트 본문)</span>
+
+  return (
+    &lt;Routes&gt;
+      &lt;Route
+        path="done"
+        element={
+          &lt;PaymentDonePage
+            onNext={() =&gt; navigate(<span class="cal">'../receipt'</span>)}
+          /&gt;
+        }
+      /&gt;
+    &lt;/Routes&gt;
+  )
+}
+
+function PaymentDonePage({ onNext }) {
+  return &lt;button onClick={<span class="cal">onNext</span>}&gt;영수증 보기&lt;/button&gt;   <span class="cal">// ② 여기서 실행된다</span>
+}</code></pre>
+        </div>
+
+        <ul>
+          <li class="hi"><b>질문</b> — 현재 URL이 <code>/checkout/payment/done</code>일 때, <code>'../receipt'</code>의 <code>..</code>는 어디를 기준으로 한 걸음인가?</li>
+          <li>답은 <code>useNavigate</code>의 구현에 있다.</li>
+        </ul>
+
+        <div class="exhibit code">
+          <div class="src">react-router 7.18.0 · dist/development/chunk-4ZMWKKQ3.mjs<em>L5915–5963 · 요약 발췌</em></div>
+<pre><code>function useNavigateUnstable() {
+  let { matches } = React2.useContext(RouteContext);        <span class="cap">// ① 지금 이 위치의 matches를 읽고</span>
+  let routePathnamesJson = JSON.stringify(getResolveToMatches(matches));
+
+  let navigate = React2.useCallback((to, options = {}) =&gt; {
+    let path = resolveTo(
+      to,
+      <span class="cap">JSON.parse(routePathnamesJson)</span>,                    <span class="cap">// ② 클로저로 캡처해서 쓴다</span>
+      locationPathname,
+      options.relative === "path"
+    );
+    (!!options.replace ? navigator.replace : navigator.push)(path, ...);
+  }, [basename, navigator, routePathnamesJson, locationPathname]);
+
+  return navigate;   <span class="c">// ③ 이 함수는 트리 어디로 내려가든 ①의 값을 들고 다닌다</span>
+}</code></pre>
+        </div>
+
+        <ul>
+          <li><b>훅이 하는 일</b> — 함수를 하나 만들어 돌려준다.</li>
+          <li><b>그 함수의 정체</b> — <code>RouteContext</code>에서 읽은 <code>matches</code>를 캡처한 <strong>클로저</strong>.</li>
+          <li class="hi"><b>결과</b> — 훅을 호출한 그 자리의 라우트 정보가 함수 안에 굳어 들어간다.</li>
+        </ul>
+      </section>
+
+      <!-- ============ 4 ============ -->
+      <section id="s4">
+        <h2><span class="num">§4</span>함수는 내려가고, 환경은 남는다</h2>
+
+        <ul>
+          <li><b>① 캡처</b> — <code>useNavigate()</code>가 실행된 자리는 <code>PaymentFlow</code>의 <strong>컴포넌트 본문</strong>. 라우트로 보면 <code>payment/*</code> element 자리다.</li>
+          <li><b>② 호출</b> — 만들어진 <code>navigate</code>는 <code>onNext</code> prop에 담겨 <code>done</code> 페이지의 버튼으로 <strong>내려간다</strong>.</li>
+        </ul>
+
+        <figure class="exhibit">
+          <div class="figframe">
+            <svg viewBox="0 0 760 420" role="img" aria-label="checkout 라우트 안에서 useNavigate는 payment splat 라우트 자리에서 호출되고, 만들어진 navigate 함수는 onNext prop으로 done 페이지까지 내려가 실행되지만, 상대경로의 기준점은 캡처 위치에 남아 있어 checkout 레벨의 receipt 라우트로 도착한다">
+              <defs>
+                <marker id="a-ink" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+                  <polygon class="mk-ink" points="0,1 9,5 0,9"></polygon>
+                </marker>
+                <marker id="a-cap" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+                  <polygon class="mk-cap" points="0,1 9,5 0,9"></polygon>
+                </marker>
+              </defs>
+
+              <rect class="box" x="100" y="34" width="600" height="356" rx="3"></rect>
+              <text class="mono svg-ink2" x="112" y="55" font-size="12">/checkout</text>
+
+              <rect class="box-cap" x="122" y="66" width="556" height="196" rx="3"></rect>
+              <text class="mono svg-cap" x="134" y="87" font-size="12">payment/*  ·  PaymentFlow</text>
+              <text class="mono svg-cap" x="134" y="119" font-size="13" font-weight="500">① const navigate = useNavigate()</text>
+              <text class="mono svg-ink3" x="134" y="138" font-size="11.5">이 자리의 matches를 캡처</text>
+
+              <rect class="box-cal" x="156" y="152" width="506" height="92" rx="3"></rect>
+              <text class="mono svg-cal" x="168" y="173" font-size="12">done  ·  PaymentDonePage</text>
+              <text class="mono svg-cal" x="168" y="203" font-size="13" font-weight="500">② onNext() → navigate('../receipt')</text>
+              <text class="mono svg-ink3" x="168" y="222" font-size="11.5">호출은 여기, 기준점은 ①</text>
+
+              <rect class="box-dest" x="122" y="290" width="556" height="68" rx="3"></rect>
+              <text class="mono svg-cap" x="134" y="313" font-size="12">receipt  ·  ReceiptPage</text>
+              <text class="mono svg-ink3" x="134" y="337" font-size="11.5">도착 — /checkout/receipt</text>
+
+              <line class="ln" x1="612" y1="98" x2="612" y2="148" marker-end="url(#a-ink)"></line>
+              <text class="mono svg-ink2" x="602" y="122" font-size="11" text-anchor="end">onNext prop</text>
+
+              <path class="ln-dash" d="M 122 118 L 68 118 L 68 324 L 118 324" marker-end="url(#a-cap)"></path>
+              <text class="mono svg-cap" x="62" y="224" font-size="11" text-anchor="end">'..' ×1</text>
+            </svg>
+          </div>
+          <figcaption>
+            <b>함수는 트리 아래로 이동하지만, 캡처한 환경은 따라가지 않는다.</b>
+            그래서 <code>'..'</code> 한 걸음의 출발점은 버튼이 있는 <code>done</code>이 아니라
+            <code>useNavigate()</code>가 호출된 <code>payment/*</code> 자리이고,
+            결과는 형제 라우트 <code>receipt</code>에 도착한다.
+          </figcaption>
+        </figure>
+      </section>
+
+      <!-- ============ 5 ============ -->
+      <section id="s5">
+        <h2><span class="num">§5</span>캡처된 스택이 다르면 결과가 다르다</h2>
+
+        <ul>
+          <li><code>matches</code>는 <code>getResolveToMatches</code>를 거쳐 경로 스택으로 바뀐다.</li>
+          <li>여기에 함정이 하나 더 있다.</li>
+        </ul>
+
+        <div class="exhibit code">
+          <div class="src">react-router 7.18.0 · chunk-4ZMWKKQ3.mjs<em>L919–924</em></div>
+<pre><code>function getResolveToMatches(matches) {
+  let pathMatches = getPathContributingMatches(matches);
+  return pathMatches.map(
+    (match, idx) =&gt; idx === pathMatches.length - 1
+      ? <span class="cap">match.pathname</span>        <span class="c">// 마지막 칸만 pathname (splat 포함 전체 경로)</span>
+      : match.pathnameBase
+  );
+}</code></pre>
+        </div>
+
+        <ul>
+          <li><b>규칙</b> — 마지막 항목만 <code>pathnameBase</code>가 아니라 <code>pathname</code>을 쓴다.</li>
+          <li><b>영향</b> — <code>payment/*</code>는 splat 라우트라 <code>pathname</code>에 <code>done</code>까지 포함된다.</li>
+          <li class="hi"><b>결론</b> — 스택의 마지막 칸 하나에 두 세그먼트가 들어 있고, <code>..</code> 한 번이 둘 다 지운다.</li>
+        </ul>
+
+        <figure class="exhibit">
+          <div class="figframe">
+            <svg viewBox="0 0 760 420" role="img" aria-label="캡처 위치에 따라 달라지는 경로 스택 비교. A는 PaymentFlow 본문에서 캡처해 세 칸 스택이 되고 상대경로 두 점이 checkout으로 해석된다. B는 done element에서 캡처했다고 가정한 네 칸 스택으로 checkout 슬래시 payment로 해석되어 매칭되는 라우트가 없다">
+              <defs>
+                <marker id="b-cap" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+                  <polygon class="mk-cap" points="0,1 9,5 0,9"></polygon>
+                </marker>
+                <marker id="b-ink" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+                  <polygon class="mk-ink" points="0,1 9,5 0,9"></polygon>
+                </marker>
+              </defs>
+
+              <!-- Group A -->
+              <text class="mono svg-cap" x="40" y="20" font-size="12" font-weight="500">A — PaymentFlow 본문에서 캡처 · 실제 동작</text>
+
+              <rect class="slot" x="120" y="32" width="600" height="28" rx="2"></rect>
+              <text class="mono svg-ink3" x="106" y="50" font-size="11" text-anchor="end">[0]</text>
+              <text class="mono svg-ink2" x="134" y="51" font-size="12">/</text>
+
+              <rect class="slot-hit" x="120" y="66" width="600" height="28" rx="2"></rect>
+              <text class="mono svg-ink3" x="106" y="84" font-size="11" text-anchor="end">[1]</text>
+              <text class="mono svg-cap" x="134" y="85" font-size="12" font-weight="500">/checkout</text>
+              <text class="mono svg-cap" x="710" y="85" font-size="10.5" text-anchor="end">'..' 도착</text>
+
+              <rect class="slot" x="120" y="100" width="600" height="28" rx="2"></rect>
+              <text class="mono svg-ink3" x="106" y="118" font-size="11" text-anchor="end">[2]</text>
+              <text class="mono svg-ink" x="134" y="119" font-size="12">/checkout/payment/done</text>
+              <text class="mono svg-ink3" x="710" y="119" font-size="10.5" text-anchor="end">pathname · splat 포함 · 두 세그먼트</text>
+
+              <path class="ln-cap" d="M 112 114 L 72 114 L 72 80 L 112 80" marker-end="url(#b-cap)"></path>
+              <text class="mono svg-cap" x="64" y="101" font-size="11" text-anchor="end">'..' ×1</text>
+
+              <text class="mono svg-cap" x="134" y="154" font-size="12.5" font-weight="500">→ /checkout/receipt</text>
+              <text class="mono svg-ink3" x="134" y="172" font-size="11">ReceiptPage 마운트</text>
+
+              <line x1="40" y1="200" x2="720" y2="200" stroke="var(--rule)" stroke-width="1"></line>
+
+              <!-- Group B -->
+              <text class="mono svg-ink2" x="40" y="234" font-size="12" font-weight="500">B — done element에서 캡처했다면 · 가정</text>
+
+              <rect class="slot" x="120" y="246" width="600" height="28" rx="2"></rect>
+              <text class="mono svg-ink3" x="106" y="264" font-size="11" text-anchor="end">[0]</text>
+              <text class="mono svg-ink2" x="134" y="265" font-size="12">/</text>
+
+              <rect class="slot" x="120" y="280" width="600" height="28" rx="2"></rect>
+              <text class="mono svg-ink3" x="106" y="298" font-size="11" text-anchor="end">[1]</text>
+              <text class="mono svg-ink2" x="134" y="299" font-size="12">/checkout</text>
+
+              <rect class="slot-hit-b" x="120" y="314" width="600" height="28" rx="2"></rect>
+              <text class="mono svg-ink3" x="106" y="332" font-size="11" text-anchor="end">[2]</text>
+              <text class="mono svg-ink" x="134" y="333" font-size="12">/checkout/payment</text>
+              <text class="mono svg-ink3" x="710" y="333" font-size="10.5" text-anchor="end">pathnameBase · '..' 도착</text>
+
+              <rect class="slot" x="120" y="348" width="600" height="28" rx="2"></rect>
+              <text class="mono svg-ink3" x="106" y="366" font-size="11" text-anchor="end">[3]</text>
+              <text class="mono svg-ink" x="134" y="367" font-size="12">/checkout/payment/done</text>
+
+              <path class="ln" d="M 112 362 L 72 362 L 72 328 L 112 328" marker-end="url(#b-ink)"></path>
+              <text class="mono svg-ink2" x="64" y="349" font-size="11" text-anchor="end">'..' ×1</text>
+
+              <text class="mono svg-ink2" x="134" y="402" font-size="12.5">→ /checkout/payment/receipt   ✕ 매칭 라우트 없음</text>
+            </svg>
+          </div>
+          <figcaption>
+            <b>같은 <code>'../receipt'</code>, 같은 호출 지점, 다른 결과.</b>
+            차이는 오직 스택을 <em>어디서 캡처했는가</em>뿐이다.
+            A는 마지막 칸이 splat을 포함한 전체 경로라 <code>..</code> 한 번에 두 세그먼트가 사라지고,
+            B는 한 세그먼트만 사라진다.
+          </figcaption>
+        </figure>
+
+        <div class="exhibit out">A · PaymentFlow 본문에서 캡처   →  /checkout/receipt
+B · done element에서 캡처       →  /checkout/payment/receipt</div>
+
+        <h3>참고 — <code>relative: 'path'</code>는 다른 기준을 쓴다</h3>
+
+        <ul>
+          <li><b>동작</b> — 이 스택 계산을 아예 건너뛰고, 현재 URL에서 세그먼트를 하나 떼어낸다(<code>resolvePathname</code>).</li>
+          <li><b>장점</b> — 캡처 위치에 영향을 받지 않는다.</li>
+          <li class="no"><b>대가</b> — 의미가 달라진다. 라우트 계층이 아니라 <strong>URL 문자열</strong> 기준이다.</li>
+        </ul>
+
+        <div class="exhibit out">navigate('../receipt')                      → 캡처 위치에 따라 갈림 (위 결과)
+navigate('../receipt', { relative: 'path' }) → 항상 /checkout/payment/receipt</div>
+
+        <p class="note">
+          두 모드가 우연히 같은 답을 낼 때도 많아서 더 헷갈린다.
+          “상대경로가 왜 이렇게 풀리지?”를 볼 때는 <b>어느 모드인지</b>와
+          <b>어디서 캡처했는지</b>를 같이 확인해야 한다.
+        </p>
+      </section>
+
+      <!-- ============ 6 ============ -->
+      <section id="s6">
+        <h2><span class="num">§6</span>오판의 해부</h2>
+
+        <p>이 구조를 처음 분석했을 때 <strong>틀린 결론</strong>을 냈다가 뒤집혔다.</p>
+
+        <h3>틀린 추론</h3>
+        <ul>
+          <li class="no">“버튼이 <code>done</code> 안에 있으니 <code>..</code>의 기준점도 <code>done</code>이다.”</li>
+          <li>→ <code>/checkout/payment/receipt</code>인데 매칭 라우트가 없으니 빈 화면이 뜰 것이다.</li>
+          <li><b>무엇이 문제였나</b> — 호출 위치로 스코프를 추론했다. §2의 렉시컬 스코프 위반.</li>
+          <li><b>실제</b> — <code>/checkout/receipt</code>로 정상 이동하고 있었고 화면도 정상이었다.</li>
+        </ul>
+
+        <h3>왜 이 오판이 유독 그럴듯했나</h3>
+        <ul>
+          <li>검증한답시고 <code>done</code> element 안에서 <code>useResolvedPath('../receipt')</code>를 찍으면 <strong>진짜로 B의 값이 나온다</strong>.</li>
+          <li>그 훅은 <em>거기서 새로 캡처</em>하기 때문이다.</li>
+          <li class="no"><b>함정</b> — 실제로 실행되는 <code>navigate</code>는 그 클로저가 아니다. 확인하려고 찍어본 값이 오히려 오판을 굳혀줬다.</li>
+        </ul>
+
+        <h3>무엇이 결론을 뒤집었나</h3>
+        <ul>
+          <li>코드를 더 읽는 대신 <code>createMemoryRouter</code>로 같은 중첩 구조를 재현해 실행했다.</li>
+          <li>클릭 한 번으로 끝났다.</li>
+        </ul>
+
+        <div class="exhibit out">[클릭 후] pathname = /checkout/receipt
+[클릭 후] 렌더    = ReceiptPage</div>
+
+        <p class="note">
+          <b>교훈</b> — 클로저와 컨텍스트가 얽히면 코드를 읽어서 얻은 확신은 신뢰도가 낮다.
+          캡처 위치를 특정할 수 없으면 재현해서 실행하는 편이 빠르다.
+        </p>
+      </section>
+
+      <!-- ============ 7 ============ -->
+      <section id="s7">
+        <h2><span class="num">§7</span>stale closure와는 다른 문제다</h2>
+
+        <p>리액트에서 “클로저 버그”라고 하면 보통 stale closure를 떠올린다. 이 건은 그게 아니다.</p>
+
+        <h3>stale closure란</h3>
+        <ul>
+          <li><b>정의</b> — 함수가 <strong>예전 렌더의 값</strong>을 붙든 채 남아 있어, 화면은 갱신됐는데 그 함수만 옛날 값을 보는 상태.</li>
+          <li><b>발생 조건</b> — 함수를 한 번 만들어 어딘가에 등록해 두고(타이머·이벤트 리스너·구독), 값이 바뀌어도 다시 만들지 않을 때.</li>
+        </ul>
+
+        <div class="exhibit code">
+          <div class="src">staleClosure.jsx<em>가장 흔한 형태</em></div>
+<pre><code>function Counter() {
+  const [count, setCount] = useState(0)
+
+  useEffect(() =&gt; {
+    const id = setInterval(() =&gt; {
+      console.log(count)   <span class="c">// 언제나 0 — 첫 렌더의 count를 붙들고 있다</span>
+    }, 1000)
+    return () =&gt; clearInterval(id)
+  }, <span class="cal">[]</span>)                   <span class="cal">// ← deps가 비어 있어 effect가 다시 돌지 않는다</span>
+
+  return &lt;button onClick={() =&gt; setCount(count + 1)}&gt;{count}&lt;/button&gt;
+}</code></pre>
+        </div>
+
+        <ul>
+          <li>버튼을 눌러 <code>count</code>가 3이 돼도 콘솔에는 계속 <code>0</code>이 찍힌다.</li>
+          <li><b>원인</b> — <code>setInterval</code>에 넘긴 콜백은 <em>첫 렌더</em>에 만들어졌고, 그때의 <code>count</code>(=0) 환경을 붙들고 있다. deps가 비어 있으니 effect가 다시 돌지 않아 새 콜백으로 교체되지도 않는다.</li>
+          <li class="hi"><b>축</b> — 문제는 “어디서 만들어졌나”가 아니라 <strong>“언제 만들어졌나”</strong>다.</li>
+        </ul>
+
+        <h3>이번 사례는 왜 다른가</h3>
+        <ul>
+          <li><code>navigate</code>는 <code>useCallback</code> 의존성 배열에 <code>routePathnamesJson</code>이 들어 있어 값이 바뀌면 새로 만들어진다. <strong>값은 항상 최신이다.</strong></li>
+          <li class="hi">시간 축은 멀쩡하고, <strong>위치 축</strong>만 문제였다.</li>
+        </ul>
+
+        <div class="tablewrap exhibit">
+          <table>
+            <thead>
+              <tr><th></th><th>stale closure</th><th>이번 사례</th></tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th>축</th>
+                <td><strong>언제</strong> 캡처했나 · 시간</td>
+                <td class="a"><strong>어디서</strong> 캡처했나 · 위치</td>
+              </tr>
+              <tr>
+                <th>증상</th>
+                <td>값이 한 렌더 뒤처져 있다</td>
+                <td class="a">값은 최신인데 기준점이 다르다</td>
+              </tr>
+              <tr>
+                <th>전형적 원인</th>
+                <td>deps 누락, 리스너 등록 후 미갱신</td>
+                <td class="a">훅 호출 위치와 함수 실행 위치의 분리</td>
+              </tr>
+              <tr>
+                <th>해결 방향</th>
+                <td>deps 수정, ref로 최신값 참조</td>
+                <td class="a">훅을 원하는 위치로 이동<br>또는 기준점 명시(<code>relative: 'path'</code>, 절대경로)</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <p class="note">
+          진단 순서 — <b>“값이 이상하다”</b>면 시간 축, <b>“값은 맞는데 결과가 이상하다”</b>면 위치 축.
+        </p>
+      </section>
+
+    </div>
+
+  </div>
+</div>
+
+</body></html>
