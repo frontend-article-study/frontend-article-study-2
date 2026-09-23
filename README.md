@@ -808,6 +808,12 @@
 | ------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | 김세희 | [Logging Sucks: 로그는 거짓말을 한다 (Wide Events)](https://github.com/frontend-article-study/frontend-article-study-2/blob/main/sehee/Logging%20Sucks%3A%20%EB%A1%9C%EA%B7%B8%EB%8A%94%20%EA%B1%B0%EC%A7%93%EB%A7%90%EC%9D%84%20%ED%95%9C%EB%8B%A4%20(Wide%20Events).md)                                |
 
+### 26/09/23
+
+| 발표자 | 발표 내용 |
+| ------ | --------- |
+| 성지현 | [캡처 위치와 호출 위치](https://github.com/frontend-article-study/frontend-article-study-2/blob/main/jihyun/closure/%EC%BA%A1%EC%B2%98%20%EC%9C%84%EC%B9%98%EC%99%80%20%ED%98%B8%EC%B6%9C%20%EC%9C%84%EC%B9%98.html) |
+
 
 <!--
 표 템플릿
