@@ -819,7 +819,7 @@
 | 발표자 | 발표 내용                                                                                                                                     |
 | ------ | --------------------------------------------------------------------------------------------------------------------------------------------- |
 | 김진솔 | [jev](https://github.com/frontend-article-study/frontend-article-study-2/blob/main/jinsoul/Jev/jev.md)                                        |
-| 문진석 | []()                                                                                                                                          |
+| 문진석 | [React 19.3 살펴보기](https://github.com/frontend-article-study/frontend-article-study-2/blob/main/jinseok/React%2019.3%20%EC%82%B4%ED%8E%B4%EB%B3%B4%EA%B8%B0/index.md) |
 | 한혜선 | [Nextjs 최적화](https://github.com/frontend-article-study/frontend-article-study-2/blob/main/hyeseon/Nextjs%20%EC%B5%9C%EC%A0%81%ED%99%94.md) |
 
 <!--
