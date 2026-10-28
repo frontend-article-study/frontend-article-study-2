@@ -822,6 +822,12 @@
 | 문진석 | [React 19.3 살펴보기](https://github.com/frontend-article-study/frontend-article-study-2/blob/main/jinseok/React%2019.3%20%EC%82%B4%ED%8E%B4%EB%B3%B4%EA%B8%B0/index.md) |
 | 한혜선 | [Nextjs 최적화](https://github.com/frontend-article-study/frontend-article-study-2/blob/main/hyeseon/Nextjs%20%EC%B5%9C%EC%A0%81%ED%99%94.md) |
 
+### 26/10/28
+
+| 발표자 | 발표 내용 |
+| ------ | --------- |
+| 문진석 | [위험도별 코드 리뷰: 에이전트가 PR을 쏟아낼 때](https://github.com/frontend-article-study/frontend-article-study-2/blob/main/jinseok/%EC%9C%84%ED%97%98%EB%8F%84%EB%B3%84%20%EC%BD%94%EB%93%9C%20%EB%A6%AC%EB%B7%B0/index.md) |
+
 <!--
 표 템플릿
 | 발표자 | 발표 내용 |
