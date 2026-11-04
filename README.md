@@ -828,6 +828,12 @@
 | ------ | --------- |
 | 문진석 | [위험도별 코드 리뷰: 에이전트가 PR을 쏟아낼 때](https://github.com/frontend-article-study/frontend-article-study-2/blob/main/jinseok/%EC%9C%84%ED%97%98%EB%8F%84%EB%B3%84%20%EC%BD%94%EB%93%9C%20%EB%A6%AC%EB%B7%B0/index.md) |
 
+### 26/11/04
+
+| 발표자 | 발표 내용 |
+| ------ | --------- |
+| 김진솔 | [Building Accessibility into a Canvas-Based Product](https://github.com/frontend-article-study/frontend-article-study-2/blob/main/jinsoul/Articles/Building%20Accessibility%20into%20a%20Canvas-Based%20Product.md) |
+
 <!--
 표 템플릿
 | 발표자 | 발표 내용 |
