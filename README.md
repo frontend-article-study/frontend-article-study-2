@@ -835,12 +835,12 @@
 | 김진솔 | [Building Accessibility into a Canvas-Based Product](https://github.com/frontend-article-study/frontend-article-study-2/blob/main/jinsoul/Articles/Building%20Accessibility%20into%20a%20Canvas-Based%20Product.md) |
 
 
-
+### 26/11/18
 
 
 | 발표자 | 발표 내용 |
 | ------ | --------- |
-| 김세희 | []() |
+| 김세희 | [모던 브라우저는 어떻게 동작하는가 - 2~4. 파싱부터 렌더링까지](https://github.com/frontend-article-study/frontend-article-study-2/blob/main/sehee/%EB%AA%A8%EB%8D%98%20%EB%B8%8C%EB%9D%BC%EC%9A%B0%EC%A0%80%EB%8A%94%20%EC%96%B4%EB%96%BB%EA%B2%8C%20%EB%8F%99%EC%9E%91%ED%95%98%EB%8A%94%EA%B0%80%20-%202~4.%20%ED%8C%8C%EC%8B%B1%EB%B6%80%ED%84%B0%20%EB%A0%8C%EB%8D%94%EB%A7%81%EA%B9%8C%EC%A7%80.md) |
 | 김재환 | [버전 마이그레이션을 AI로 안전하게 할 수 있을까?](https://github.com/frontend-article-study/frontend-article-study-2/blob/main/jaehwan/Recoil_Jotai_20261021_%E1%84%87%E1%85%A1%E1%86%AF%E1%84%91%E1%85%AD%E1%84%87%E1%85%A9%E1%86%AB16%E1%84%8C%E1%85%A1%E1%86%BC_v59.pptx) |
 | 남주영 | []() |
 
