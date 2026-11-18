@@ -834,6 +834,16 @@
 | ------ | --------- |
 | 김진솔 | [Building Accessibility into a Canvas-Based Product](https://github.com/frontend-article-study/frontend-article-study-2/blob/main/jinsoul/Articles/Building%20Accessibility%20into%20a%20Canvas-Based%20Product.md) |
 
+
+
+
+
+| 발표자 | 발표 내용 |
+| ------ | --------- |
+| 김세희 | []() |
+| 김재환 | [버전 마이그레이션을 AI로 안전하게 할 수 있을까?](https://github.com/frontend-article-study/frontend-article-study-2/blob/main/jaehwan/Recoil_Jotai_20261021_%E1%84%87%E1%85%A1%E1%86%AF%E1%84%91%E1%85%AD%E1%84%87%E1%85%A9%E1%86%AB16%E1%84%8C%E1%85%A1%E1%86%BC_v59.pptx) |
+| 남주영 | []() |
+
 <!--
 표 템플릿
 | 발표자 | 발표 내용 |
